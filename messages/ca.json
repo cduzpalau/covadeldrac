@@ -1,0 +1,370 @@
+{
+  "common": {
+    "siteName": "La Cova del Drac",
+    "siteTagline": "Centre de Tecnificació i Alt Rendiment de Tir amb Arc",
+    "founderName": "Sergi Cebrian Pujol",
+    "founderTitle": "Arquer Professional & Entrenador d'Alt Rendiment",
+    "viewDetails": "Veure detalls",
+    "close": "Tancar",
+    "backToTop": "Tornar a dalt",
+    "selectLanguage": "Canviar d'idioma",
+    "explore": "Explorar",
+    "bookSession": "Reserva una sessió",
+    "badgeLive": "Instal·lacions homologades",
+    "languages": {
+      "ca": "Català",
+      "es": "Castellà",
+      "en": "Anglès"
+    }
+  },
+  "nav": {
+    "home": "Inici",
+    "about": "Sergi Cebrian",
+    "methodology": "Metodologia",
+    "facilities": "Instal·lacions",
+    "athletes": "Atletes & Fites",
+    "contact": "Contacte",
+    "cta": "Contactar"
+  },
+  "hero": {
+    "badge": "Centre Tècnic d'Alt Rendiment • Catalunya",
+    "titleLine1": "Precisió, Força i Concentració",
+    "titleLine2": "A La Cova del Drac",
+    "description": "L'espai d'entrenament tècnic i preparació esportiva dirigit per Sergi Cebrian Pujol. Formació integral des de la base fins a l'alta competició internacional en recorbat, politges i arc nu.",
+    "ctaPrimary": "Descobreix les Instal·lacions",
+    "ctaSecondary": "El Mètode Sergi Cebrian",
+    "stats": {
+      "experience": {
+        "value": "20+",
+        "label": "Anys de trajectòria"
+      },
+      "podiums": {
+        "value": "45+",
+        "label": "Podis i campionats"
+      },
+      "athletes": {
+        "value": "120+",
+        "label": "Arquers formats"
+      },
+      "lanes": {
+        "value": "18-70m",
+        "label": "Línies de tir oficials"
+      }
+    },
+    "features": [
+      "Anàlisi biomecànic en vídeo d'alta velocitat",
+      "Ajust mil·limètric de material i cordes pròpies",
+      "Preparació mental i gestió de competició"
+    ]
+  },
+  "about": {
+    "badge": "El Fundador & Director Tècnic",
+    "title": "Sergi Cebrian Pujol",
+    "subtitle": "Més de dues dècades de passió pel tir amb arc, portant arquers al màxim nivell competitiu.",
+    "bioLead": "Arquer en actiu i entrenador titulat per la Reial Federació Espanyola de Tir amb Arc (RFETA) i la Federació Catalana de Tir amb Arc (FCTA).",
+    "bioP1": "La Cova del Drac neix de la visió d'oferir un entorn professional d'entrenament que unifiqui la rigorositat biomecànica, la psicologia esportiva d'alt rendiment i la cura artesanal de l'equip de tir.",
+    "bioP2": "Al llarg de la seva carrera esportiva, en Sergi ha assolit múltiples podis autonòmics i estatals en disciplines d'arc nu, recorbat i bosc, combinant la seva faceta de competidor amb una vocació docent que ha impulsat joves talents a equips nacionals.",
+    "credentialsTitle": "Acreditacions & Especialitats",
+    "credentials": [
+      {
+        "title": "Entrenador Nacional Nivell II",
+        "issuer": "RFETA / CSD"
+      },
+      {
+        "title": "Tècnic Esportiu en Tir amb Arc",
+        "issuer": "Generalitat de Catalunya"
+      },
+      {
+        "title": "Especialista en Biomecànica & Tuned Archery",
+        "issuer": "High Performance Coaching"
+      },
+      {
+        "title": "Fabricant & Ajustador Artesanal de Cordes",
+        "issuer": "Master String Maker"
+      }
+    ],
+    "timelineTitle": "Trajectòria i Fites Destacades",
+    "timeline": [
+      {
+        "year": "2006",
+        "title": "Inici en la competició federada",
+        "description": "Primers campionats autonòmics i especialització en l'arc tradicional i nu."
+      },
+      {
+        "year": "2013",
+        "title": "Consolidació al podi estatal",
+        "description": "Medalles als Campionats d'Espanya i convocatòries de concentracions tècniques estatals."
+      },
+      {
+        "year": "2017",
+        "title": "Titulació oficial com a entrenador",
+        "description": "Comença la formació intensiva de joves promeses i esportistes d'elit a Catalunya."
+      },
+      {
+        "year": "2021",
+        "title": "Fundació de La Cova del Drac",
+        "description": "Creació del centre tècnic privat amb línies de tir climatitzades i taller d'alt rendiment."
+      },
+      {
+        "year": "2025",
+        "title": "Expansió de l'equip de competició",
+        "description": "Més de 15 medalles en campionats nacionals obtingudes pels arquers del centre en una sola temporada."
+      }
+    ],
+    "quote": "La fletxa mai menteix. Cada tir és un mirall de la teva ment, el teu ritme i la teva serenor interior.",
+    "quoteAuthor": "Sergi Cebrian Pujol"
+  },
+  "methodology": {
+    "badge": "Filosofia de Treball",
+    "title": "La Nostra Metodologia",
+    "subtitle": "Un enfocament holístic basat en la precisió mecànica, la fortalesa mental i la individualització de cada arquer.",
+    "pillarsTitle": "Els 4 Pilars Fonamentals",
+    "pillars": [
+      {
+        "id": "consistency",
+        "title": "Consistència",
+        "subtitle": "Repetició i Automatització",
+        "description": "Construïm una seqüència de tir sòlida i reproducible, eliminant moviments paràsits per tal que l'ancoratge i la solta siguin idèntics sota qualsevol condició."
+      },
+      {
+        "id": "focus",
+        "title": "Enfocament",
+        "subtitle": "Control Visual i Atencional",
+        "description": "Entrenem la fixació visual a la diana, el control respiratori i la capacitat d'abstreure's dels estímuls externs tant a la línia de tir com als minuts previs."
+      },
+      {
+        "id": "respect",
+        "title": "Respecte",
+        "subtitle": "Valors, Esportivitat i Seguretat",
+        "description": "Respecte cap al material, els companys, els rivals i els jutges. La seguretat és la base innegociable a totes les nostres instal·lacions."
+      },
+      {
+        "id": "selfAwareness",
+        "title": "Autoconeixement",
+        "subtitle": "Propiocepció i Gestió Emocional",
+        "description": "L'arquer aprèn a sentir la tensió muscular justa de l'esquena, gestionar els batecs en moments de màxima pressió i transformar la tensió competitiva en impuls."
+      }
+    ],
+    "blocksTitle": "Blocs d'Evolució Tècnica",
+    "blocks": [
+      {
+        "step": "01",
+        "title": "Biomecànica & Postura",
+        "description": "Alineació de l'estructura òssia, estabilitat del tren inferior, agafada i alineació d'espatlles segons la morfologia de l'arquer."
+      },
+      {
+        "step": "02",
+        "title": "Tàctica & Gestió del Rellotge",
+        "description": "Estratègia de sèries eliminatòries de fletxa a fletxa, lectura de ràfegues de vent i adaptació als temps reglamentaris de tir de 20 o 40 segons."
+      },
+      {
+        "step": "03",
+        "title": "Psicologia & Pressió Competitiva",
+        "description": "Rutines pre-tir, protocols d'ancoratge mental, visualització positiva i tècniques d'ancoratge emocional per respondre al desempat (shoot-off)."
+      },
+      {
+        "step": "04",
+        "title": "Ajust & Optimització de Material",
+        "description": "Paper tuning, walk-back tuning, selecció de calibre i 'spine' de fletxa, pes de punxes i fabricació de cordes d'alt rendiment personalitzades."
+      }
+    ]
+  },
+  "facilities": {
+    "badge": "Espais d'Entrenament",
+    "title": "Instal·lacions d'Alt Rendiment",
+    "subtitle": "Dissenyades específicament per a la màxima precisió esportiva, confort tècnic i seguretat a qualsevol distància.",
+    "lanesTitle": "Línies de Tir Homologades",
+    "lanes": [
+      {
+        "distance": "18 metres",
+        "title": "Galeria Indoor d'Alta Precisió",
+        "description": "Línia homologada per a campionats de sala. Il·luminació LED d'índex CRI 95 uniforme sense reflexos, aïllament tèrmic i cortina posterior de seguretat d'alta densitat.",
+        "specs": ["Climatització constant 21ºC", "6 parapets Danage & Foam d'alta densitat", "Càmeres de repeticions a peu de tir"]
+      },
+      {
+        "distance": "30 metres",
+        "title": "Línia Tècnica Intermèdia",
+        "description": "Ideal per a la transició de sala a aire lliure, regulació de visors, calibratge de vol de fletxa i entrenament d'arquers en formació.",
+        "specs": ["Ideal per a iniciació a l'aire lliure", "Dianes multicamp", "Miralls de correcció postural a la línia"]
+      },
+      {
+        "distance": "50 metres",
+        "title": "Línia de Politges i Arc Nu",
+        "description": "Línia oficial per a la distància internacional de l'arc de politges (Compound) i campionats d'aire lliure d'Arc Nu (Barebow).",
+        "specs": ["Banderes indicadores de vent", "Dianes de reducció de 80cm i 122cm", "Parapets reforçats per a altes velocitats (fps)"]
+      },
+      {
+        "distance": "70 metres",
+        "title": "Camp Olímpic Recorbat",
+        "description": "Distància olímpica oficial World Archery per a l'arc recorbat. Entrenament en condicions reals de vent, llum natural i competició.",
+        "specs": ["Marcatge oficial WA", "Dianes de 122cm homologades", "Plataforma elevada per a anàlisi de tir"]
+      }
+    ],
+    "zonesTitle": "Àrees Tècniques Complementàries",
+    "zones": [
+      {
+        "title": "Taller Professional de Cordes & Bow Tuning",
+        "description": "Banc d'estiratge de cordes personalitzades, màquina de mesurar flexió d'astils (spine tester), premsa d'arc de politges i paper tuning bay per a l'ajust mil·limètric de cada fletxa.",
+        "tag": "Material & Afinació"
+      },
+      {
+        "title": "Laboratori de Vídeo Biomecànic a 240 fps",
+        "description": "Captura multifocal amb càmeres d'alta velocitat per estudiar l'obertura, la netedat de la solta, l'acció del clicker i la vibració de les pales en el moment del tret.",
+        "tag": "Tecnologia & Dades"
+      },
+      {
+        "title": "Zona d'Escalfament & Activació Escapular",
+        "description": "Espai equipat amb bandes elàstiques de diferents resistències, arcs simuladors de tir, bancs d'estirament i material específic per a la prevenció de lesions d'espatlla.",
+        "tag": "Salut & Condició Física"
+      }
+    ],
+    "accessInfoTitle": "Accés i Horaris d'Entrenament",
+    "accessInfoText": "Entrenaments concertats individuals o en grups reduïts de màxim 4 arquers per garantir atenció 100% personalitzada. Accés amb clau intel·ligent per a arquers federats acreditats.",
+    "ctaText": "Vols reservar un dia de prova a les nostres línies?",
+    "ctaButton": "Sol·licitar visita tècnica"
+  },
+  "athletes": {
+    "badge": "L'Equip & Resultats",
+    "title": "Atletes & Fites Esportives",
+    "subtitle": "El reflex de la dedicació diària a la línia de tir: campions i arquers que creixen a La Cova del Drac.",
+    "filters": {
+      "all": "Totes les modalitats",
+      "recurve": "Arc Recorbat (Olímpic)",
+      "compound": "Arc de Politges (Compound)",
+      "barebow": "Arc Nu (Barebow)"
+    },
+    "table": {
+      "name": "Arquer/a",
+      "discipline": "Modalitat",
+      "category": "Categoria",
+      "achievements": "Palmarès & Fites Recents",
+      "personalBest": "Rècord Personal"
+    },
+    "roster": [
+      {
+        "name": "Marc Soler Vila",
+        "discipline": "Recurve",
+        "disciplineLabel": "Recorbat Olímpic",
+        "category": "Sènior Masculí",
+        "achievements": "Subcampió de Catalunya Sala 2024 • Or al Gran Premi de Tir amb Arc 2023",
+        "personalBest": "668 pts (70m)",
+        "badge": "Podi Nacional",
+        "bio": "Membre de l'equip des del 2022. Especialitzat en la solidesa d'ancoratge i tir sota pressió."
+      },
+      {
+        "name": "Ariadna Puig i Fonts",
+        "discipline": "Compound",
+        "disciplineLabel": "Arc de Politges",
+        "category": "Júnior Femení",
+        "achievements": "Campiona d'Espanya Júnior 2024 • Rècord Català de Sala a 18m",
+        "personalBest": "592 pts (18m)",
+        "badge": "Rècord Autonòmic",
+        "bio": "Puntal juvenil amb una precisió quirúrgica i futur als circuits internacionals."
+      },
+      {
+        "name": "Joan Carles Rovira",
+        "discipline": "Barebow",
+        "disciplineLabel": "Arc Nu",
+        "category": "Veterans (+50)",
+        "achievements": "Or al Campionat de Catalunya de Bosc 2024 • Bronze Estatal Arc Nu",
+        "personalBest": "534 pts (18m)",
+        "badge": "Campió de Catalunya",
+        "bio": "Mestre de la tècnica del 'string walking' i referent de constància i concentració al club."
+      },
+      {
+        "name": "Laia Masdeu i Riera",
+        "discipline": "Recurve",
+        "disciplineLabel": "Recorbat Olímpic",
+        "category": "Sub-21 Femení",
+        "achievements": "Bronze al Campionat d'Espanya Aire Lliure 2024 • Integrant de la Selecció Catalana",
+        "personalBest": "645 pts (70m)",
+        "badge": "Selecció Catalana",
+        "bio": "Jove promesa formada a La Cova del Drac des de les sessions d'iniciació técnica."
+      },
+      {
+        "name": "Pau Guitart Costa",
+        "discipline": "Compound",
+        "disciplineLabel": "Arc de Politges",
+        "category": "Sènior Masculí",
+        "achievements": "Campió de la Lliga Catalana de Sala 2023 • Top 8 Campionat d'Espanya 2024",
+        "personalBest": "704 pts (50m)",
+        "badge": "Top 8 Nacional",
+        "bio": "Enginyer de professió i perfeccionista de l'afinació mecànica de disparadors de pressió."
+      },
+      {
+        "name": "Clara Valls Vidal",
+        "discipline": "Barebow",
+        "disciplineLabel": "Arc Nu",
+        "category": "Sènior Femení",
+        "achievements": "Campiona de la Copa Catalana d'Arc Nu 2024 • 4a posició al rànquing estatal",
+        "personalBest": "518 pts (18m)",
+        "badge": "Copa Catalana",
+        "bio": "Trajectòria exemplar combinant esport d'alta intensitat amb una tècnica d'ancoratge exemplar."
+      }
+    ],
+    "gdprNoticeBrief": "Dades esportives i imatges publicades amb el consentiment exprés dels esportistes o els seus tutors legals segons la normativa vigent (RGPD / LOPDGDD)."
+  },
+  "contact": {
+    "badge": "Comença el Teu Entrenament",
+    "title": "Contacte & Reserva",
+    "subtitle": "Informa't sobre els nostres plans d'entrenament, sessions de perfeccionament i afinació de material a La Cova del Drac.",
+    "infoTitle": "Informació del Centre",
+    "addressTitle": "Ubicació",
+    "addressText": "Carrer del Tir, Nau 4 - Polígon Can Parera\n08400 Granollers (Vallès Oriental), Barcelona",
+    "emailTitle": "Correu electrònic",
+    "emailText": "info@covadeldrac.cat",
+    "phoneTitle": "Telèfon & WhatsApp",
+    "phoneText": "+34 654 98 73 21",
+    "hoursTitle": "Horaris d'atenció tècnica",
+    "hoursText": "Dilluns a Divendres: 10:00 - 13:30 i 16:30 - 21:00\nDissabtes: 09:00 - 14:00 (Competició o sessions intensives)",
+    "form": {
+      "title": "Envia'ns una Consulta",
+      "nameLabel": "Nom i Cognoms *",
+      "namePlaceholder": "ex. Jordi Martínez",
+      "emailLabel": "Correu Electrònic *",
+      "emailPlaceholder": "jordi@exemple.cat",
+      "phoneLabel": "Telèfon de Contacte",
+      "phonePlaceholder": "+34 600 000 000",
+      "disciplineLabel": "Modalitat d'interès *",
+      "disciplines": {
+        "recurve": "Arc Recorbat (Olímpic)",
+        "compound": "Arc de Politges (Compound)",
+        "barebow": "Arc Nu (Barebow)",
+        "traditional": "Arc Tradicional / Longbow",
+        "initiation": "Iniciació / Desconegut"
+      },
+      "levelLabel": "Nivell d'experiència *",
+      "levels": {
+        "beginner": "Iniciació (Cap o poca experiència)",
+        "intermediate": "Arquer federat amb equip propi",
+        "advanced": "Competició autonòmica o estatal",
+        "equipment": "Només consulta de taller / ajust d'arc"
+      },
+      "messageLabel": "El teu missatge o objectius esportius *",
+      "messagePlaceholder": "Explica'ns la teva experiència actual, les fites que vols assolir o el servei que necessites...",
+      "consentLabel": "He llegit i accepto la política de privadesa i el tractament de les meves dades personals segons el RGPD. En cas de menors d'edat, confirmo que disposo de la representació legal del menor.",
+      "submitButton": "Enviar Sol·licitud",
+      "submittingButton": "Enviant consulta...",
+      "successMessage": "Moltes gràcies! Hem rebut la teva consulta correctament. En Sergi o el nostre equip et respondrà en menys de 24 hores laborables.",
+      "errorMessage": "S'ha produït un error en enviar el formulari. Si us plau, revisa els camps obligatoris o contacta directament per WhatsApp."
+    },
+    "gdpr": {
+      "title": "Avís Legal & Protecció de Dades Personals (RGPD)",
+      "legalTextP1": "En compliment del Reglament (UE) 2016/679 del Parlament Europeu (RGPD) i la Llei Orgànica 3/2018 (LOPDGDD), us informem que el responsable del tractament de les vostres dades és Sergi Cebrian Pujol (La Cova del Drac). La finalitat de la recollida de dades a través d'aquest formulari és exclusivament la gestió de consultes, cites d'entrenament esportiu i assessorament tècnic.",
+      "legalTextP2": "Pel que fa a les dades esportives, marques i imatges publicades al web relatives als atletes membres del centre, totes elles compten amb el consentiment exprés i escrit dels interessats. En el cas dels esportistes menors de 14 anys, es disposa de l'autorització signada prèviament pels seus pares, mares o tutors legals, d'acord amb la protecció reforçada que estableix la legislació de protecció de la infància i l'esport.",
+      "legalTextP3": "Podeu exercir els vostres drets d'accés, rectificació, supressió, limitació i oposició mitjançant un correu electrònic adreçat a info@covadeldrac.cat acompanyat d'una còpia del vostre document d'identitat."
+    }
+  },
+  "footer": {
+    "brandDescription": "La Cova del Drac és el centre de referència en tecnificació de tir amb arc a Catalunya, fundat per Sergi Cebrian Pujol. Entrenament tècnic, anàlisi biomecànic i preparació d'alta precisió.",
+    "navigationTitle": "Navegació",
+    "facilitiesTitle": "Instal·lacions",
+    "legalTitle": "Informació Legal",
+    "privacyPolicy": "Política de Privadesa",
+    "legalNotice": "Avís Legal",
+    "cookiesPolicy": "Política de Cookies",
+    "gdprDisclaimer": "Centre adherit a les normatives de seguretat esportiva de la FCTA i RFETA.",
+    "allRightsReserved": "Tots els drets reservats.",
+    "designedFor": "Desenvolupat per a Sergi Cebrian Pujol • La Cova del Drac"
+  }
+}

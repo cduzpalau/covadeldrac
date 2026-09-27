@@ -1,0 +1,370 @@
+{
+  "common": {
+    "siteName": "La Cova del Drac",
+    "siteTagline": "Centro de Tecnificación y Alto Rendimiento de Tiro con Arco",
+    "founderName": "Sergi Cebrian Pujol",
+    "founderTitle": "Arquero Profesional & Entrenador de Alto Rendimiento",
+    "viewDetails": "Ver detalles",
+    "close": "Cerrar",
+    "backToTop": "Volver arriba",
+    "selectLanguage": "Cambiar idioma",
+    "explore": "Explorar",
+    "bookSession": "Reserva una sesión",
+    "badgeLive": "Instalaciones homologadas",
+    "languages": {
+      "ca": "Catalán",
+      "es": "Español",
+      "en": "Inglés"
+    }
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Sergi Cebrian",
+    "methodology": "Metodología",
+    "facilities": "Instalaciones",
+    "athletes": "Atletas & Logros",
+    "contact": "Contacto",
+    "cta": "Contactar"
+  },
+  "hero": {
+    "badge": "Centro Técnico de Alto Rendimiento • Cataluña",
+    "titleLine1": "Precisión, Fuerza y Concentración",
+    "titleLine2": "En La Cova del Drac",
+    "description": "El espacio de entrenamiento técnico y preparación deportiva dirigido por Sergi Cebrian Pujol. Formación integral desde la base hasta la alta competición internacional en recurvo, compuesto y arco desnudo.",
+    "ctaPrimary": "Descubre las Instalaciones",
+    "ctaSecondary": "El Método Sergi Cebrian",
+    "stats": {
+      "experience": {
+        "value": "20+",
+        "label": "Años de trayectoria"
+      },
+      "podiums": {
+        "value": "45+",
+        "label": "Podios y campeonatos"
+      },
+      "athletes": {
+        "value": "120+",
+        "label": "Arqueros formados"
+      },
+      "lanes": {
+        "value": "18-70m",
+        "label": "Líneas de tiro oficiales"
+      }
+    },
+    "features": [
+      "Análisis biomecánico en vídeo de alta velocidad",
+      "Ajuste milimétrico de material y cuerdas artesanales",
+      "Preparación mental y gestión de competición"
+    ]
+  },
+  "about": {
+    "badge": "El Fundador & Director Técnico",
+    "title": "Sergi Cebrian Pujol",
+    "subtitle": "Más de dos décadas de pasión por el tiro con arco, llevando a arqueros al máximo nivel competitivo.",
+    "bioLead": "Arquero en activo y entrenador titulado por la Real Federación Española de Tiro con Arco (RFETA) y la Federación Catalana de Tiro con Arco (FCTA).",
+    "bioP1": "La Cova del Drac nace de la visión de ofrecer un entorno profesional de entrenamiento que unifique el rigor biomecánico, la psicología deportiva de alto rendimiento y el cuidado artesanal del equipo de tiro.",
+    "bioP2": "A lo largo de su carrera deportiva, Sergi ha cosechado múltiples podios autonómicos y nacionales en disciplinas de arco desnudo, recurvo y bosque, combinando su faceta de competidor con una vocación docente que ha impulsado a jóvenes talentos a equipos nacionales.",
+    "credentialsTitle": "Acreditaciones & Especialidades",
+    "credentials": [
+      {
+        "title": "Entrenador Nacional Nivel II",
+        "issuer": "RFETA / CSD"
+      },
+      {
+        "title": "Técnico Deportivo en Tiro con Arco",
+        "issuer": "Generalitat de Catalunya"
+      },
+      {
+        "title": "Especialista en Biomecánica & Tuned Archery",
+        "issuer": "High Performance Coaching"
+      },
+      {
+        "title": "Fabricante & Ajustador Artesanal de Cuerdas",
+        "issuer": "Master String Maker"
+      }
+    ],
+    "timelineTitle": "Trayectoria y Logros Destacados",
+    "timeline": [
+      {
+        "year": "2006",
+        "title": "Inicio en la competición federada",
+        "description": "Primeros campeonatos autonómicos y especialización en arco tradicional y desnudo."
+      },
+      {
+        "year": "2013",
+        "title": "Consolidación en el podio nacional",
+        "description": "Medallas en los Campeonatos de España y convocatorias a concentraciones técnicas estatales."
+      },
+      {
+        "year": "2017",
+        "title": "Titulación oficial como entrenador",
+        "description": "Comienza la formación intensiva de jóvenes promesas y deportistas de élite en Cataluña."
+      },
+      {
+        "year": "2021",
+        "title": "Fundación de La Cova del Drac",
+        "description": "Creación del centro técnico privado con líneas de tiro climatizadas y taller de alto rendimiento."
+      },
+      {
+        "year": "2025",
+        "title": "Expansión del equipo de competición",
+        "description": "Más de 15 medallas en campeonatos nacionales obtenidas por arqueros del centro en una sola temporada."
+      }
+    ],
+    "quote": "La flecha nunca miente. Cada tiro es un espejo de tu mente, tu ritmo y tu serenidad interior.",
+    "quoteAuthor": "Sergi Cebrian Pujol"
+  },
+  "methodology": {
+    "badge": "Filosofía de Trabajo",
+    "title": "Nuestra Metodología",
+    "subtitle": "Un enfoque holístico basado en la precisión mecánica, la fortaleza mental y la individualización de cada arquero.",
+    "pillarsTitle": "Los 4 Pilares Fundamentales",
+    "pillars": [
+      {
+        "id": "consistency",
+        "title": "Consistencia",
+        "subtitle": "Repetición y Automatización",
+        "description": "Construimos una secuencia de tiro sólida y reproducible, eliminando movimientos parásitos para que el anclaje y la suelta sean idénticos bajo cualquier condición."
+      },
+      {
+        "id": "focus",
+        "title": "Enfoque",
+        "subtitle": "Control Visual y Atencional",
+        "description": "Entrenamos la fijación visual en la diana, el control respiratorio y la capacidad de abstraerse de estímulos externos tanto en la línea de tiro como en los minutos previos."
+      },
+      {
+        "id": "respect",
+        "title": "Respeto",
+        "subtitle": "Valores, Deportividad y Seguridad",
+        "description": "Respeto hacia el material, los compañeros, los rivales y los jueces. La seguridad es la base innegociable en todas nuestras instalaciones."
+      },
+      {
+        "id": "selfAwareness",
+        "title": "Autoconocimiento",
+        "subtitle": "Propiocepción y Gestión Emocional",
+        "description": "El arquero aprende a sentir la tensión muscular exacta de la espalda, gestionar las pulsaciones en momentos de máxima presión y convertir la tensión en impulso."
+      }
+    ],
+    "blocksTitle": "Bloques de Evolución Técnica",
+    "blocks": [
+      {
+        "step": "01",
+        "title": "Biomecánica & Postura",
+        "description": "Alineación de la estructura ósea, estabilidad del tren inferior, agarre y alineación escapular según la morfología del arquero."
+      },
+      {
+        "step": "02",
+        "title": "Táctica & Gestión del Reloj",
+        "description": "Estrategia de series eliminatorias flecha a flecha, lectura de rachas de viento y adaptación a los tiempos reglamentarios de tiro de 20 o 40 segundos."
+      },
+      {
+        "step": "03",
+        "title": "Psicología & Presión Competitiva",
+        "description": "Rutinas pre-tiro, protocolos de anclaje mental, visualización positiva y técnicas de anclaje emocional para responder al desempate (shoot-off)."
+      },
+      {
+        "step": "04",
+        "title": "Ajuste & Optimización de Material",
+        "description": "Paper tuning, walk-back tuning, selección de calibre y spine de flecha, peso de puntas y fabricación de cuerdas de alto rendimiento personalizadas."
+      }
+    ]
+  },
+  "facilities": {
+    "badge": "Espacios de Entrenamiento",
+    "title": "Instalaciones de Alto Rendimiento",
+    "subtitle": "Diseñadas específicamente para la máxima precisión deportiva, confort técnico y seguridad a cualquier distancia.",
+    "lanesTitle": "Líneas de Tiro Homologadas",
+    "lanes": [
+      {
+        "distance": "18 metros",
+        "title": "Galería Indoor de Alta Precisión",
+        "description": "Línea homologada para campeonatos de sala. Iluminación LED de índice CRI 95 uniforme sin reflejos, aislamiento térmico y cortina posterior de seguridad de alta densidad.",
+        "specs": ["Climatización constante 21ºC", "6 parapetos Danage & Foam de alta densidad", "Cámaras de repetición a pie de tiro"]
+      },
+      {
+        "distance": "30 metros",
+        "title": "Línea Técnica Intermedia",
+        "description": "Ideal para la transición de sala a aire libre, regulación de visores, calibración de vuelo de flecha y entrenamiento de arqueros en formación.",
+        "specs": ["Ideal para iniciación al aire libre", "Dianas multicampo", "Espejos de corrección postural en la línea"]
+      },
+      {
+        "distance": "50 metros",
+        "title": "Línea de Poleas y Arco Desnudo",
+        "description": "Línea oficial para la distancia internacional del arco de poleas (Compound) y campeonatos de aire libre de Arco Desnudo (Barebow).",
+        "specs": ["Banderas indicadoras de viento", "Dianas reducidas de 80cm y 122cm", "Parapetos reforzados para altas velocidades (fps)"]
+      },
+      {
+        "distance": "70 metros",
+        "title": "Campo Olímpico Recurvo",
+        "description": "Distancia olímpica oficial World Archery para el arco recurvo. Entrenamiento en condiciones reales de viento, luz natural y competición.",
+        "specs": ["Marcaje oficial WA", "Dianas de 122cm homologadas", "Plataforma elevada para análisis de tiro"]
+      }
+    ],
+    "zonesTitle": "Áreas Técnicas Complementarias",
+    "zones": [
+      {
+        "title": "Taller Profesional de Cuerdas & Bow Tuning",
+        "description": "Banco de estiramiento de cuerdas personalizadas, máquina de medición de flexión de astiles (spine tester), prensa de arco de poleas y paper tuning bay para ajuste milimétrico.",
+        "tag": "Material & Afinación"
+      },
+      {
+        "title": "Laboratorio de Vídeo Biomecánico a 240 fps",
+        "description": "Captura multifocal con cámaras de alta velocidad para estudiar la apertura, la limpieza de la suelta, la acción del clicker y la oscilación de las palas.",
+        "tag": "Tecnología & Datos"
+      },
+      {
+        "title": "Zona de Calentamiento & Activación Escapular",
+        "description": "Espacio equipado con bandas elásticas de diversas resistencias, arcos simuladores de tiro, bancos de estiramiento y material para la prevención de lesiones.",
+        "tag": "Salud & Condición Física"
+      }
+    ],
+    "accessInfoTitle": "Acceso y Horarios de Entrenamiento",
+    "accessInfoText": "Entrenamientos concertados individuales o en grupos reducidos de máximo 4 arqueros para garantizar atención 100% personalizada. Acceso con llave inteligente para arqueros federados acreditados.",
+    "ctaText": "¿Quieres reservar un día de prueba en nuestras líneas?",
+    "ctaButton": "Solicitar visita técnica"
+  },
+  "athletes": {
+    "badge": "El Equipo & Resultados",
+    "title": "Atletas & Logros Deportivos",
+    "subtitle": "El reflejo de la dedicación diaria en la línea de tiro: campeones y arqueros que crecen en La Cova del Drac.",
+    "filters": {
+      "all": "Todas las modalidades",
+      "recurve": "Arco Recurvo (Olímpico)",
+      "compound": "Arco de Poleas (Compound)",
+      "barebow": "Arco Desnudo (Barebow)"
+    },
+    "table": {
+      "name": "Arquero/a",
+      "discipline": "Modalidad",
+      "category": "Categoría",
+      "achievements": "Palmarés & Hitos Recientes",
+      "personalBest": "Récord Personal"
+    },
+    "roster": [
+      {
+        "name": "Marc Soler Vila",
+        "discipline": "Recurve",
+        "disciplineLabel": "Recurvo Olímpico",
+        "category": "Sénior Masculino",
+        "achievements": "Subcampeón de Cataluña Sala 2024 • Oro en el Gran Premio de Tiro con Arco 2023",
+        "personalBest": "668 pts (70m)",
+        "badge": "Podio Nacional",
+        "bio": "Miembro del equipo desde 2022. Especializado en solidez de anclaje y tiro bajo presión."
+      },
+      {
+        "name": "Ariadna Puig i Fonts",
+        "discipline": "Compound",
+        "disciplineLabel": "Arco de Poleas",
+        "category": "Júnior Femenino",
+        "achievements": "Campeona de España Júnior 2024 • Récord Catalán de Sala a 18m",
+        "personalBest": "592 pts (18m)",
+        "badge": "Récord Autonómico",
+        "bio": "Puntal juvenil con una precisión quirúrgica y futuro en circuitos internacionales."
+      },
+      {
+        "name": "Joan Carles Rovira",
+        "discipline": "Barebow",
+        "disciplineLabel": "Arco Desnudo",
+        "category": "Veteranos (+50)",
+        "achievements": "Oro en el Campeonato de Cataluña de Bosque 2024 • Bronce Nacional Arco Desnudo",
+        "personalBest": "534 pts (18m)",
+        "badge": "Campeón de Cataluña",
+        "bio": "Maestro de la técnica del 'string walking' y referente de constancia y concentración en el club."
+      },
+      {
+        "name": "Laia Masdeu i Riera",
+        "discipline": "Recurve",
+        "disciplineLabel": "Recurvo Olímpico",
+        "category": "Sub-21 Femenino",
+        "achievements": "Bronce en el Campeonato de España Aire Libre 2024 • Integrante de la Selección Catalana",
+        "personalBest": "645 pts (70m)",
+        "badge": "Selección Catalana",
+        "bio": "Joven promesa formada en La Cova del Drac desde las sesiones de iniciación técnica."
+      },
+      {
+        "name": "Pau Guitart Costa",
+        "discipline": "Compound",
+        "disciplineLabel": "Arco de Poleas",
+        "category": "Sénior Masculino",
+        "achievements": "Campeón de la Liga Catalana de Sala 2023 • Top 8 Campeonato de España 2024",
+        "personalBest": "704 pts (50m)",
+        "badge": "Top 8 Nacional",
+        "bio": "Ingeniero de profesión y perfeccionista de la afinación mecánica de disparadores de tensión."
+      },
+      {
+        "name": "Clara Valls Vidal",
+        "discipline": "Barebow",
+        "disciplineLabel": "Arco Desnudo",
+        "category": "Sénior Femenino",
+        "achievements": "Campeona de la Copa Catalana de Arco Desnudo 2024 • 4ª posición ranking estatal",
+        "personalBest": "518 pts (18m)",
+        "badge": "Copa Catalana",
+        "bio": "Trayectoria ejemplar combinando deporte de alta intensidad con una técnica de anclaje impecable."
+      }
+    ],
+    "gdprNoticeBrief": "Datos deportivos e imágenes publicadas con el consentimiento expreso de los deportistas o sus tutores legales según la normativa vigente (RGPD / LOPDGDD)."
+  },
+  "contact": {
+    "badge": "Comienza tu Entrenamiento",
+    "title": "Contacto & Reserva",
+    "subtitle": "Infórmate sobre nuestros planes de entrenamiento, sesiones de perfeccionamiento y afinación de material en La Cova del Drac.",
+    "infoTitle": "Información del Centro",
+    "addressTitle": "Ubicación",
+    "addressText": "Carrer del Tir, Nau 4 - Polígon Can Parera\n08400 Granollers (Vallès Oriental), Barcelona",
+    "emailTitle": "Correo electrónico",
+    "emailText": "info@covadeldrac.cat",
+    "phoneTitle": "Teléfono & WhatsApp",
+    "phoneText": "+34 654 98 73 21",
+    "hoursTitle": "Horarios de atención técnica",
+    "hoursText": "Lunes a Viernes: 10:00 - 13:30 y 16:30 - 21:00\nSábados: 09:00 - 14:00 (Competición o intensivos)",
+    "form": {
+      "title": "Envíanos una Consulta",
+      "nameLabel": "Nombre y Apellidos *",
+      "namePlaceholder": "ej. Jorge Martínez",
+      "emailLabel": "Correo Electrónico *",
+      "emailPlaceholder": "jorge@ejemplo.es",
+      "phoneLabel": "Teléfono de Contacto",
+      "phonePlaceholder": "+34 600 000 000",
+      "disciplineLabel": "Modalidad de interés *",
+      "disciplines": {
+        "recurve": "Arco Recurvo (Olímpico)",
+        "compound": "Arco de Poleas (Compound)",
+        "barebow": "Arco Desnudo (Barebow)",
+        "traditional": "Arco Tradicional / Longbow",
+        "initiation": "Iniciación / Por determinar"
+      },
+      "levelLabel": "Nivel de experiencia *",
+      "levels": {
+        "beginner": "Iniciación (Sin o con poca experiencia)",
+        "intermediate": "Arquero federado con equipo propio",
+        "advanced": "Competición autonómica o nacional",
+        "equipment": "Solo consulta de taller / ajuste de arco"
+      },
+      "messageLabel": "Tu mensaje u objetivos deportivos *",
+      "messagePlaceholder": "Cuéntanos tu experiencia actual, los objetivos que deseas alcanzar o el servicio que precisas...",
+      "consentLabel": "He leído y acepto la política de privacidad y el tratamiento de mis datos personales según el RGPD. En caso de menores de edad, confirmo que ostento la representación legal del menor.",
+      "submitButton": "Enviar Solicitud",
+      "submittingButton": "Enviando consulta...",
+      "successMessage": "¡Muchas gracias! Hemos recibido tu consulta correctamente. Sergi o nuestro equipo técnico te responderá en menos de 24 horas laborables.",
+      "errorMessage": "Se ha producido un error al enviar el formulario. Por favor, revisa los campos requeridos o contacta directamente por WhatsApp."
+    },
+    "gdpr": {
+      "title": "Aviso Legal & Protección de Datos Personales (RGPD)",
+      "legalTextP1": "En cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), le informamos de que el responsable del tratamiento de sus datos es Sergi Cebrian Pujol (La Cova del Drac). La finalidad de la recogida de datos a través de este formulario es exclusivamente la gestión de consultas, reservas de entrenamiento deportivo y asesoramiento técnico.",
+      "legalTextP2": "En relación con los datos deportivos, marcas y fotografías publicadas en la web relativas a los atletas miembros del centro, todas ellas cuentan con el consentimiento expreso y por escrito de los interesados. En el caso de deportistas menores de 14 años, se dispone de la autorización firmada previamente por sus padres, madres o tutores legales, conforme a la protección reforzada prevista en la legislación de protección a la infancia y al deporte.",
+      "legalTextP3": "Puede ejercer sus derechos de acceso, rectificación, supresión, limitación y oposición enviando un correo electrónico a info@covadeldrac.cat adjuntando copia de su documento de identidad."
+    }
+  },
+  "footer": {
+    "brandDescription": "La Cova del Drac es el centro de referencia en tecnificación de tiro con arco en Cataluña, fundado por Sergi Cebrian Pujol. Entrenamiento técnico, análisis biomecánico y preparación de alta precisión.",
+    "navigationTitle": "Navegación",
+    "facilitiesTitle": "Instalaciones",
+    "legalTitle": "Información Legal",
+    "privacyPolicy": "Política de Privacidad",
+    "legalNotice": "Aviso Legal",
+    "cookiesPolicy": "Política de Cookies",
+    "gdprDisclaimer": "Centro adherido a las normativas de seguridad deportiva de la FCTA y RFETA.",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "designedFor": "Desarrollado para Sergi Cebrian Pujol • La Cova del Drac"
+  }
+}

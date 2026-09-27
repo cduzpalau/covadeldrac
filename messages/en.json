@@ -1,0 +1,370 @@
+{
+  "common": {
+    "siteName": "La Cova del Drac",
+    "siteTagline": "High-Performance Archery Coaching & Training Center",
+    "founderName": "Sergi Cebrian Pujol",
+    "founderTitle": "Professional Archer & High-Performance Coach",
+    "viewDetails": "View details",
+    "close": "Close",
+    "backToTop": "Back to top",
+    "selectLanguage": "Select language",
+    "explore": "Explore",
+    "bookSession": "Book a session",
+    "badgeLive": "Official Competition Ranges",
+    "languages": {
+      "ca": "Catalan",
+      "es": "Spanish",
+      "en": "English"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Sergi Cebrian",
+    "methodology": "Methodology",
+    "facilities": "Facilities",
+    "athletes": "Athletes & Records",
+    "contact": "Contact",
+    "cta": "Contact Us"
+  },
+  "hero": {
+    "badge": "High-Performance Archery Center • Catalonia",
+    "titleLine1": "Precision, Form and Focus",
+    "titleLine2": "At La Cova del Drac",
+    "description": "The dedicated technical coaching facility led by Sergi Cebrian Pujol. Complete athletic development from foundational mechanics to international podium competition across Recurve, Compound, and Barebow.",
+    "ctaPrimary": "Explore Our Facilities",
+    "ctaSecondary": "The Coaching Method",
+    "stats": {
+      "experience": {
+        "value": "20+",
+        "label": "Years of experience"
+      },
+      "podiums": {
+        "value": "45+",
+        "label": "Championship podiums"
+      },
+      "athletes": {
+        "value": "120+",
+        "label": "Athletes coached"
+      },
+      "lanes": {
+        "value": "18-70m",
+        "label": "Official distance lanes"
+      }
+    },
+    "features": [
+      "High-speed 240 fps biomechanical video analysis",
+      "Custom string building & millimeter equipment tuning",
+      "Competitive mental toughness & matchplay strategy"
+    ]
+  },
+  "about": {
+    "badge": "Founder & Technical Director",
+    "title": "Sergi Cebrian Pujol",
+    "subtitle": "Over two decades of archery mastery, guiding dedicated athletes toward national and international success.",
+    "bioLead": "Active competitive archer and accredited coach certified by the Royal Spanish Archery Federation (RFETA) and the Catalan Archery Federation (FCTA).",
+    "bioP1": "La Cova del Drac was born from the ambition to provide a world-class training environment merging rigorous biomechanics, elite sports psychology, and specialized custom bow craftsmanship.",
+    "bioP2": "Throughout his career, Sergi has claimed multiple podiums in national and regional championships in barebow, recurve, and 3D field archery, pairing competition experience with a passionate coaching vocation that has led youth archers to national squad call-ups.",
+    "credentialsTitle": "Credentials & Accreditations",
+    "credentials": [
+      {
+        "title": "Level II National Archery Coach",
+        "issuer": "RFETA / Spanish Sports Council (CSD)"
+      },
+      {
+        "title": "Certified Sports Technician in Archery",
+        "issuer": "Generalitat de Catalunya"
+      },
+      {
+        "title": "Biomechanical & Tuned Archery Specialist",
+        "issuer": "High Performance Coaching"
+      },
+      {
+        "title": "Custom Master String Builder & Bowyer",
+        "issuer": "Craft Archery Workshop"
+      }
+    ],
+    "timelineTitle": "Milestones & Career Timeline",
+    "timeline": [
+      {
+        "year": "2006",
+        "title": "Debut in Federated Competition",
+        "description": "First regional tournaments and technical specialization in traditional and barebow."
+      },
+      {
+        "year": "2013",
+        "title": "National Championship Podiums",
+        "description": "Medals across Spanish National Championships and invitations to national training camps."
+      },
+      {
+        "year": "2017",
+        "title": "Official Coaching Certification",
+        "description": "Began intensive coaching of promising youth archers and elite competitors across Catalonia."
+      },
+      {
+        "year": "2021",
+        "title": "Founding of La Cova del Drac",
+        "description": "Establishment of the private training center with climate-controlled indoor lanes and a custom bow workshop."
+      },
+      {
+        "year": "2025",
+        "title": "Competition Team Expansion",
+        "description": "Over 15 national championship medals achieved by center-trained archers in a single competitive season."
+      }
+    ],
+    "quote": "The arrow never lies. Every single shot is an honest mirror of your mind, your rhythm, and your inner calm.",
+    "quoteAuthor": "Sergi Cebrian Pujol"
+  },
+  "methodology": {
+    "badge": "Training Philosophy",
+    "title": "Our Methodology",
+    "subtitle": "A holistic coaching philosophy rooted in biomechanical repeatability, mental resilience, and athlete personalization.",
+    "pillarsTitle": "The 4 Core Pillars",
+    "pillars": [
+      {
+        "id": "consistency",
+        "title": "Consistency",
+        "subtitle": "Repeatability & Muscle Memory",
+        "description": "We build an unshakeable, reproducible shot sequence, eliminating parasitic motion so anchor point and release remain identical under extreme pressure."
+      },
+      {
+        "id": "focus",
+        "title": "Focus",
+        "subtitle": "Visual & Attentional Control",
+        "description": "We train target lock, breath pacing, and the ability to silence external distractions whether on the shooting line or in the staging area."
+      },
+      {
+        "id": "respect",
+        "title": "Respect",
+        "subtitle": "Ethics, Sportsmanship & Safety",
+        "description": "Deep respect for equipment, squad mates, opponents, and match officials. Safety is the uncompromising baseline across all facilities."
+      },
+      {
+        "id": "selfAwareness",
+        "title": "Self-awareness",
+        "subtitle": "Proprioception & Heart Rate Regulation",
+        "description": "Archers learn to feel precise scapular loading, regulate heartbeat during crucial moments, and channel competition adrenaline into pinpoint execution."
+      }
+    ],
+    "blocksTitle": "Technical Progression Blocks",
+    "blocks": [
+      {
+        "step": "01",
+        "title": "Biomechanics & Skeletal Posture",
+        "description": "Bone alignment, lower-body grounding, bow hand pressure point, and shoulder geometry tailored to each archer's morphology."
+      },
+      {
+        "step": "02",
+        "title": "Match Tactics & Wind Clock Management",
+        "description": "Head-to-head elimination strategy, wind gust compensation, and pacing within the strict 20 or 40-second shot clocks."
+      },
+      {
+        "step": "03",
+        "title": "Mental Fortitude & Shoot-Off Pressure",
+        "description": "Pre-shot mental routines, positive target visualization, and emotional centering for high-stakes single-arrow shoot-offs."
+      },
+      {
+        "step": "04",
+        "title": "Equipment Tuning & Spine Optimization",
+        "description": "Paper tuning, walk-back tests, bare-shaft grouping, dynamic arrow spine balancing, and handcrafted high-performance bowstrings."
+      }
+    ]
+  },
+  "facilities": {
+    "badge": "Training Grounds",
+    "title": "High-Performance Facilities",
+    "subtitle": "Engineered specifically for elite precision, technical safety, and continuous athletic progression across all distances.",
+    "lanesTitle": "Official Shooting Lanes",
+    "lanes": [
+      {
+        "distance": "18 meters",
+        "title": "High-Precision Indoor Hall",
+        "description": "Official FITA indoor competition range. High-CRI 95 glare-free shadowless LED lighting, acoustic treatment, and reinforced Kevlar safety backstop.",
+        "specs": ["Regulated 21ºC climate control", "6 Danage & high-density foam target butts", "Instant replay monitors at the shooting line"]
+      },
+      {
+        "distance": "30 meters",
+        "title": "Technical Mid-Range Line",
+        "description": "Dedicated lane for indoor-to-outdoor transitions, sight calibration, arrow flight stability tests, and progressive archer development.",
+        "specs": ["Perfect for outdoor form development", "Multi-spot target configurations", "Postural feedback mirrors on the line"]
+      },
+      {
+        "distance": "50 meters",
+        "title": "Compound & Barebow Range",
+        "description": "Official World Archery distance range for Compound 50m matches and national outdoor Barebow competition training.",
+        "specs": ["Wind direction & velocity indicators", "80cm and 122cm tournament target butts", "High-speed arrow stopping backstops (up to 340 fps)"]
+      },
+      {
+        "distance": "70 meters",
+        "title": "Olympic Recurve Field",
+        "description": "The official Olympic distance for Recurve archery. Full outdoor simulation with wind management, elevation, and tournament line protocols.",
+        "specs": ["Official World Archery markings", "Certified 122cm tournament targets", "Elevated platform for coach perspective & filming"]
+      }
+    ],
+    "zonesTitle": "Technical Workshops & Specialized Zones",
+    "zones": [
+      {
+        "title": "Master Bow Workshop & String Building",
+        "description": "String stretching jig, digital arrow spine testers, heavy-duty compound bow press, and dedicated paper tuning chamber for micron-level setup.",
+        "tag": "Hardware & Tuning"
+      },
+      {
+        "title": "Biomechanical Video Lab at 240 fps",
+        "description": "Multi-angle ultra-high-speed cameras analyzing clicker expansion, finger release purity, stabilizer harmonics, and arrow clearing dynamics.",
+        "tag": "Video & Data Analytics"
+      },
+      {
+        "title": "Scapular Warm-Up & Physical Conditioning",
+        "description": "Training zone equipped with variable resistance bands, bow simulators, stretching benches, and rotator cuff injury prevention gear.",
+        "tag": "Health & Athletic Conditioning"
+      }
+    ],
+    "accessInfoTitle": "Training Access & Scheduling",
+    "accessInfoText": "By appointment only. Private 1-on-1 coaching or small groups capped at 4 archers to guarantee 100% individual oversight. Smart card entry for accredited federated members.",
+    "ctaText": "Ready to test your shooting on our lanes?",
+    "ctaButton": "Request a technical visit"
+  },
+  "athletes": {
+    "badge": "The Squad & Results",
+    "title": "Athletes & Competition Records",
+    "subtitle": "Proof of disciplined work on the shooting line: champions and dedicated archers training at La Cova del Drac.",
+    "filters": {
+      "all": "All Disciplines",
+      "recurve": "Olympic Recurve",
+      "compound": "Compound Bow",
+      "barebow": "Barebow"
+    },
+    "table": {
+      "name": "Archer",
+      "discipline": "Discipline",
+      "category": "Category",
+      "achievements": "Recent Honours & Titles",
+      "personalBest": "Personal Best"
+    },
+    "roster": [
+      {
+        "name": "Marc Soler Vila",
+        "discipline": "Recurve",
+        "disciplineLabel": "Olympic Recurve",
+        "category": "Senior Men",
+        "achievements": "Silver Medalist Catalan Indoor 2024 • Gold at Archery Grand Prix 2023",
+        "personalBest": "668 pts (70m)",
+        "badge": "National Podium",
+        "bio": "Team member since 2022. Renowned for rock-solid anchor positioning and pressure execution."
+      },
+      {
+        "name": "Ariadna Puig i Fonts",
+        "discipline": "Compound",
+        "disciplineLabel": "Compound Bow",
+        "category": "Junior Women",
+        "achievements": "Spanish Junior Champion 2024 • Catalan Indoor Record at 18m",
+        "personalBest": "592 pts (18m)",
+        "badge": "Regional Record",
+        "bio": "Youth prodigy possessing pinpoint accuracy and aiming for international World Cup circuits."
+      },
+      {
+        "name": "Joan Carles Rovira",
+        "discipline": "Barebow",
+        "disciplineLabel": "Barebow",
+        "category": "Masters (+50)",
+        "achievements": "Gold at Catalan 3D Field Championship 2024 • National Bronze Medalist",
+        "personalBest": "534 pts (18m)",
+        "badge": "Catalan Champion",
+        "bio": "Master of string walking technique and an inspirational figure of consistency and calm."
+      },
+      {
+        "name": "Laia Masdeu i Riera",
+        "discipline": "Recurve",
+        "disciplineLabel": "Olympic Recurve",
+        "category": "U-21 Women",
+        "achievements": "Bronze at Spanish Outdoor Championship 2024 • Catalan National Team Member",
+        "personalBest": "645 pts (70m)",
+        "badge": "National Team",
+        "bio": "Rising star developed at La Cova del Drac from the very first technical initiation classes."
+      },
+      {
+        "name": "Pau Guitart Costa",
+        "discipline": "Compound",
+        "disciplineLabel": "Compound Bow",
+        "category": "Senior Men",
+        "achievements": "Catalan Indoor League Winner 2023 • Top 8 Spanish National Championship 2024",
+        "personalBest": "704 pts (50m)",
+        "badge": "Top 8 National",
+        "bio": "Engineer by day and perfectionist in mechanical tension release aid tuning."
+      },
+      {
+        "name": "Clara Valls Vidal",
+        "discipline": "Barebow",
+        "disciplineLabel": "Barebow",
+        "category": "Senior Women",
+        "achievements": "Winner of the Catalan Barebow Cup 2024 • Ranked #4 Nationally",
+        "personalBest": "518 pts (18m)",
+        "badge": "Catalan Cup Winner",
+        "bio": "Exemplary athletic progression pairing intense conditioning with pristine release mechanics."
+      }
+    ],
+    "gdprNoticeBrief": "Sports achievements, records, and imagery are displayed with the explicit written consent of athletes or legal guardians in accordance with GDPR / LOPDGDD legislation."
+  },
+  "contact": {
+    "badge": "Start Your Progression",
+    "title": "Contact & Booking",
+    "subtitle": "Learn more about our coaching plans, private masterclasses, and custom equipment tuning at La Cova del Drac.",
+    "infoTitle": "Facility Information",
+    "addressTitle": "Location",
+    "addressText": "Carrer del Tir, Nau 4 - Polígon Can Parera\n08400 Granollers (Vallès Oriental), Barcelona, Spain",
+    "emailTitle": "Email address",
+    "emailText": "info@covadeldrac.cat",
+    "phoneTitle": "Phone & WhatsApp",
+    "phoneText": "+34 654 98 73 21",
+    "hoursTitle": "Technical coaching hours",
+    "hoursText": "Monday to Friday: 10:00 - 13:30 & 16:30 - 21:00\nSaturday: 09:00 - 14:00 (Competitions or intensive clinics)",
+    "form": {
+      "title": "Send Us an Inquiry",
+      "nameLabel": "Full Name *",
+      "namePlaceholder": "e.g. John Miller",
+      "emailLabel": "Email Address *",
+      "emailPlaceholder": "john@example.com",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "+34 600 000 000",
+      "disciplineLabel": "Archery Discipline of Interest *",
+      "disciplines": {
+        "recurve": "Olympic Recurve",
+        "compound": "Compound Bow",
+        "barebow": "Barebow",
+        "traditional": "Traditional Bow / Longbow",
+        "initiation": "Beginner / Undecided"
+      },
+      "levelLabel": "Experience Level *",
+      "levels": {
+        "beginner": "Beginner (Zero or little experience)",
+        "intermediate": "Federated archer with own gear",
+        "advanced": "Regional or national competitor",
+        "equipment": "Workshop inquiry / bow tuning only"
+      },
+      "messageLabel": "Your message & training goals *",
+      "messagePlaceholder": "Tell us about your current archery journey, goals you want to achieve, or services required...",
+      "consentLabel": "I have read and accept the privacy policy and the processing of my personal data under GDPR. In the case of minors, I confirm that I hold legal guardianship.",
+      "submitButton": "Submit Inquiry",
+      "submittingButton": "Sending inquiry...",
+      "successMessage": "Thank you! We have received your inquiry. Sergi or our coaching staff will get back to you within 24 working hours.",
+      "errorMessage": "An error occurred while submitting the form. Please check the required fields or message us directly on WhatsApp."
+    },
+    "gdpr": {
+      "title": "Legal Notice & Personal Data Protection (GDPR)",
+      "legalTextP1": "In compliance with Regulation (EU) 2016/679 of the European Parliament (GDPR) and Organic Law 3/2018 (LOPDGDD), you are informed that the data controller is Sergi Cebrian Pujol (La Cova del Drac). Data collected through this form is strictly used for inquiries, training appointment scheduling, and technical guidance.",
+      "legalTextP2": "Regarding sporting scores, records, and photographs of member athletes published on this website, all have been collected with the explicit prior written consent of the individuals. For athletes under 14 years old, signed authorization has been secured from their parents or legal guardians in accordance with youth and child sports protection legislation.",
+      "legalTextP3": "You may exercise your rights of access, rectification, erasure, restriction, and objection at any time by emailing info@covadeldrac.cat with a copy of your identification document."
+    }
+  },
+  "footer": {
+    "brandDescription": "La Cova del Drac is Catalonia's premier archery coaching and high-performance center founded by Sergi Cebrian Pujol. Precision mechanics, biomechanical analysis, and elite tournament preparation.",
+    "navigationTitle": "Navigation",
+    "facilitiesTitle": "Facilities",
+    "legalTitle": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "legalNotice": "Legal Notice",
+    "cookiesPolicy": "Cookies Policy",
+    "gdprDisclaimer": "Compliant with FCTA and RFETA national sports safety standards.",
+    "allRightsReserved": "All rights reserved.",
+    "designedFor": "Crafted for Sergi Cebrian Pujol • La Cova del Drac"
+  }
+}
