@@ -27,5 +27,5 @@ Personal and business portfolio website for **Sergi Cebrian Pujol**, professiona
 3. **About Sergi Cebrian:** Bio, years of experience, sporting milestones timeline, and coaching background.
 4. **Philosophy & Methodology:** Core pillars (Consistency, Focus, Respect, Self-awareness) and technical blocks (Form, Tactical, Mental, Safety protocols).
 5. **Facilities:** Training lanes (18m, 30m, 50m, 70m), target gallery, warm-up zone, bow workshop, and access info.
-6. **Athletes & Milestones:** Filterable athlete cards or responsive data table (Recurve, Compound, Barebow) showcasing competition achievements and member profiles.
+6. **Athletes & Milestones:** Filterable athlete cards or responsive data table (Recurve, Compound, Barebow, Longbow) showcasing competition achievements and member profiles.
 7. **Contact & GDPR Legal Notice:** Contact info, contact form placeholder, and mandatory GDPR disclaimer regarding athletes' personal data and minors.

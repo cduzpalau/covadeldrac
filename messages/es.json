@@ -231,7 +231,8 @@
       "all": "Todas las modalidades",
       "recurve": "Arco Recurvo (Olímpico)",
       "compound": "Arco de Poleas (Compound)",
-      "barebow": "Arco Desnudo (Barebow)"
+      "barebow": "Arco Desnudo (Barebow)",
+      "longbow": "Arco Longbow (Long bow)"
     },
     "table": {
       "name": "Arquero/a",
@@ -300,6 +301,16 @@
         "personalBest": "518 pts (18m)",
         "badge": "Copa Catalana",
         "bio": "Trayectoria ejemplar combinando deporte de alta intensidad con una técnica de anclaje impecable."
+      },
+      {
+        "name": "Ferran Martí i Solà",
+        "discipline": "Longbow",
+        "disciplineLabel": "Arco Longbow",
+        "category": "Sénior Masculino",
+        "achievements": "Campeón de Cataluña de Tiro de Bosque 3D 2024 • Subcampeón Nacional Longbow",
+        "personalBest": "486 pts (3D)",
+        "badge": "Campeón de Cataluña 3D",
+        "bio": "Especialista en la pureza del tiro instintivo con arcos de madera noble y afinación artesanal de flechas en La Cova."
       }
     ],
     "gdprNoticeBrief": "Datos deportivos e imágenes publicadas con el consentimiento expreso de los deportistas o sus tutores legales según la normativa vigente (RGPD / LOPDGDD)."

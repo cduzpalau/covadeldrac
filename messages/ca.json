@@ -231,7 +231,8 @@
       "all": "Totes les modalitats",
       "recurve": "Arc Recorbat (Olímpic)",
       "compound": "Arc de Politges (Compound)",
-      "barebow": "Arc Nu (Barebow)"
+      "barebow": "Arc Nu (Barebow)",
+      "longbow": "Arc Longbow (Long bow)"
     },
     "table": {
       "name": "Arquer/a",
@@ -300,6 +301,16 @@
         "personalBest": "518 pts (18m)",
         "badge": "Copa Catalana",
         "bio": "Trajectòria exemplar combinant esport d'alta intensitat amb una tècnica d'ancoratge exemplar."
+      },
+      {
+        "name": "Ferran Martí i Solà",
+        "discipline": "Longbow",
+        "disciplineLabel": "Arc Longbow",
+        "category": "Sènior Masculí",
+        "achievements": "Campió de Catalunya de Tir de Bosc 3D 2024 • Subcampió Estatal Longbow",
+        "personalBest": "486 pts (3D)",
+        "badge": "Campió de Catalunya 3D",
+        "bio": "Especialista en la puresa del tir instintiu amb arcs de fusta noble i afinació artesanal de sagetes a La Cova."
       }
     ],
     "gdprNoticeBrief": "Dades esportives i imatges publicades amb el consentiment exprés dels esportistes o els seus tutors legals segons la normativa vigent (RGPD / LOPDGDD)."

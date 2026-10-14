@@ -231,7 +231,8 @@
       "all": "All Disciplines",
       "recurve": "Olympic Recurve",
       "compound": "Compound Bow",
-      "barebow": "Barebow"
+      "barebow": "Barebow",
+      "longbow": "Long bow"
     },
     "table": {
       "name": "Archer",
@@ -300,6 +301,16 @@
         "personalBest": "518 pts (18m)",
         "badge": "Catalan Cup Winner",
         "bio": "Exemplary athletic progression pairing intense conditioning with pristine release mechanics."
+      },
+      {
+        "name": "Ferran Martí i Solà",
+        "discipline": "Longbow",
+        "disciplineLabel": "Longbow",
+        "category": "Senior Men",
+        "achievements": "Catalan 3D Field Archery Champion 2024 • National Longbow Silver Medalist",
+        "personalBest": "486 pts (3D)",
+        "badge": "Catalan 3D Champion",
+        "bio": "Specialist in traditional instinctive archery with fine woodcraft bows and custom arrow tuning at La Cova."
       }
     ],
     "gdprNoticeBrief": "Sports achievements, records, and imagery are displayed with the explicit written consent of athletes or legal guardians in accordance with GDPR / LOPDGDD legislation."

@@ -39,6 +39,8 @@ export async function generateMetadata({
       'barebow',
       'compound',
       'recurve',
+      'longbow',
+      'arc tradicional',
     ],
     authors: [{ name: 'Sergi Cebrian Pujol' }],
     alternates: {

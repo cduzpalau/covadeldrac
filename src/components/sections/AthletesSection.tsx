@@ -8,7 +8,7 @@ interface AthletesSectionProps {
   dict: Dictionary;
 }
 
-type DisciplineFilter = 'all' | 'recurve' | 'compound' | 'barebow';
+type DisciplineFilter = 'all' | 'recurve' | 'compound' | 'barebow' | 'longbow';
 
 export const AthletesSection: React.FC<AthletesSectionProps> = ({ dict }) => {
   const [selectedFilter, setSelectedFilter] = useState<DisciplineFilter>('all');
@@ -18,21 +18,27 @@ export const AthletesSection: React.FC<AthletesSectionProps> = ({ dict }) => {
     { id: 'recurve', label: dict.athletes.filters.recurve },
     { id: 'compound', label: dict.athletes.filters.compound },
     { id: 'barebow', label: dict.athletes.filters.barebow },
+    { id: 'longbow', label: dict.athletes.filters.longbow },
   ];
 
   const filteredAthletes = dict.athletes.roster.filter((athlete) => {
     if (selectedFilter === 'all') return true;
-    return athlete.discipline.toLowerCase() === selectedFilter.toLowerCase();
+    const cleanDiscipline = athlete.discipline.toLowerCase().replace(/[\s_-]+/g, '');
+    const cleanFilter = selectedFilter.toLowerCase().replace(/[\s_-]+/g, '');
+    return cleanDiscipline === cleanFilter;
   });
 
   const getDisciplineBadgeClass = (discipline: string) => {
-    switch (discipline.toLowerCase()) {
+    const d = discipline.toLowerCase().replace(/[\s_-]+/g, '');
+    switch (d) {
       case 'recurve':
         return 'bg-emerald-950/80 text-emerald-300 border-emerald-500/40';
       case 'compound':
         return 'bg-amber-950/80 text-amber-300 border-amber-500/40';
       case 'barebow':
         return 'bg-cyan-950/80 text-cyan-300 border-cyan-500/40';
+      case 'longbow':
+        return 'bg-orange-950/80 text-orange-300 border-orange-500/40';
       default:
         return 'bg-zinc-800 text-zinc-300 border-zinc-700';
     }
@@ -116,7 +122,7 @@ export const AthletesSection: React.FC<AthletesSectionProps> = ({ dict }) => {
 
               {/* Personal Best Score Footer */}
               <div className="pt-4 mt-4 border-t border-zinc-800/80 flex items-center justify-between text-xs">
-                <span className="text-zinc-500 font-medium">Rècord Personal:</span>
+                <span className="text-zinc-500 font-medium">{dict.athletes.table.personalBest}:</span>
                 <span className="font-mono font-bold text-amber-400 bg-amber-500/10 px-2.5 py-0.5 rounded border border-amber-500/20">
                   {athlete.personalBest}
                 </span>
