@@ -22,18 +22,21 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
 
   return {
+    metadataBase: new URL('https://covadeldrac.com'),
     title: `${dict.common.siteName} — ${dict.common.siteTagline}`,
     description: dict.hero.description,
     keywords: [
       'tir amb arc',
       'tiro con arco',
       'archery coaching',
-      'Sergi Cebrian Pujol',
+      'escola de tir amb arc',
+      'Sergi Cebrián',
       'La Cova del Drac',
-      'Granollers',
+      'Terrassa',
       'Catalunya',
-      'alt rendiment',
-      'recorbat',
+      'tecnificació',
+      'recorbat olímpic',
+      'tir de camp',
       'politges',
       'arc nu',
       'barebow',
@@ -42,7 +45,7 @@ export async function generateMetadata({
       'longbow',
       'arc tradicional',
     ],
-    authors: [{ name: 'Sergi Cebrian Pujol' }],
+    authors: [{ name: 'Sergi Cebrián' }],
     alternates: {
       canonical: `/${locale}`,
       languages: {

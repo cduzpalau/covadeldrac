@@ -1,16 +1,16 @@
 {
   "common": {
     "siteName": "La Cova del Drac",
-    "siteTagline": "Centro de Tecnificación y Alto Rendimiento de Tiro con Arco",
-    "founderName": "Sergi Cebrian Pujol",
-    "founderTitle": "Arquero Profesional & Entrenador de Alto Rendimiento",
+    "siteTagline": "Escuela y Centro de Tecnificación de Tiro con Arco",
+    "founderName": "Sergi Cebrián",
+    "founderTitle": "Arquero Internacional & Fundador de La Cova del Drac",
     "viewDetails": "Ver detalles",
     "close": "Cerrar",
     "backToTop": "Volver arriba",
     "selectLanguage": "Cambiar idioma",
     "explore": "Explorar",
     "bookSession": "Reserva una sesión",
-    "badgeLive": "Instalaciones homologadas",
+    "badgeLive": "Escuela y tecnificación en Terrassa",
     "languages": {
       "ca": "Catalán",
       "es": "Español",
@@ -19,7 +19,7 @@
   },
   "nav": {
     "home": "Inicio",
-    "about": "Sergi Cebrian",
+    "about": "¿Quién soy?",
     "methodology": "Metodología",
     "facilities": "Instalaciones",
     "athletes": "Atletas & Logros",
@@ -27,145 +27,159 @@
     "cta": "Contactar"
   },
   "hero": {
-    "badge": "Centro Técnico de Alto Rendimiento • Cataluña",
-    "titleLine1": "Precisión, Fuerza y Concentración",
+    "badge": "Escuela y Centro de Tecnificación • Terrassa",
+    "titleLine1": "Cabeza, Corazón y Técnica Propia",
     "titleLine2": "En La Cova del Drac",
-    "description": "El espacio de entrenamiento técnico y preparación deportiva dirigido por Sergi Cebrian Pujol. Formación integral desde la base hasta la alta competición internacional en recurvo, compuesto y arco desnudo.",
+    "description": "Una escuela y centro de tecnificación creado por Sergi Cebrián desde la independencia, miles de flechas y la experiencia internacional. Pongo mi pasión y mi camino a disposición de quien quiera compartir este maravilloso deporte conmigo, desde la primera flecha hasta la competición.",
     "ctaPrimary": "Descubre las Instalaciones",
-    "ctaSecondary": "El Método Sergi Cebrian",
+    "ctaSecondary": "Quién soy y cómo trabajo",
     "stats": {
       "experience": {
-        "value": "20+",
-        "label": "Años de trayectoria"
+        "value": "2010",
+        "label": "Primera flecha en la Vall de Núria"
       },
       "podiums": {
-        "value": "45+",
-        "label": "Podios y campeonatos"
+        "value": "< 6m",
+        "label": "Debut en el Campeonato de España"
       },
       "athletes": {
-        "value": "120+",
-        "label": "Arqueros formados"
+        "value": "3",
+        "label": "Países vividos por el arco (ESP, EE. UU., Suecia)"
       },
       "lanes": {
         "value": "18-70m",
-        "label": "Líneas de tiro oficiales"
+        "label": "Escuela de iniciación y tecnificación"
       }
     },
     "features": [
-      "Análisis biomecánico en vídeo de alta velocidad",
-      "Ajuste milimétrico de material y cuerdas artesanales",
-      "Preparación mental y gestión de competición"
+      "Técnica propia y universal para cualquier tipo de arco",
+      "La cabeza, el corazón y las emociones en cada flecha",
+      "Aprendizaje honesto y sin dogmas innecesarios"
     ]
   },
   "about": {
-    "badge": "El Fundador & Director Técnico",
-    "title": "Sergi Cebrian Pujol",
-    "subtitle": "Más de dos décadas de pasión por el tiro con arco, llevando a arqueros al máximo nivel competitivo.",
-    "bioLead": "Arquero en activo y entrenador titulado por la Real Federación Española de Tiro con Arco (RFETA) y la Federación Catalana de Tiro con Arco (FCTA).",
-    "bioP1": "La Cova del Drac nace de la visión de ofrecer un entorno profesional de entrenamiento que unifique el rigor biomecánico, la psicología deportiva de alto rendimiento y el cuidado artesanal del equipo de tiro.",
-    "bioP2": "A lo largo de su carrera deportiva, Sergi ha cosechado múltiples podios autonómicos y nacionales en disciplinas de arco desnudo, recurvo y bosque, combinando su faceta de competidor con una vocación docente que ha impulsado a jóvenes talentos a equipos nacionales.",
-    "credentialsTitle": "Acreditaciones & Especialidades",
+    "badge": "¿Quién soy?",
+    "title": "Sergi Cebrián",
+    "subtitle": "De descubrir el arco por casualidad en la Vall de Núria hasta la selección española y la creación de una escuela con criterio propio en Terrassa.",
+    "bioLead": "Me llamo Sergi Cebrián y empecé en el mundo del deporte desde muy pequeño. He practicado muchos: artes marciales, natación o fútbol, pero de una manera destacada y más en serio el snowboard, el hockey —que todavía practico— y el tiro con arco.",
+    "bioParagraphsBeforeCallout": [
+      "Descubrí el tiro con arco en el año 2010, accidentalmente haciendo distintas actividades en la Vall de Núria, y desde el primer momento me atrapó, desde la primera flecha. Debo decir que nunca tuve muchas dificultades para disparar e incluso muy pronto empecé a destacar respecto a mi entorno.",
+      "Mi tendencia competitiva y mi educación deportiva, adquirida a través de la práctica de tantos deportes, me hicieron debutar en competiciones oficiales e incluso en un Campeonato de España con menos de 6 meses de experiencia desde mi primera flecha y, con la perspectiva que da el tiempo, puedo decir que con óptimos resultados. Ahora bien, algo que me sorprendió y me quedó claro desde el primer momento era el carácter lúdico de esta disciplina deportiva, incluso dentro de un Campeonato de España. Me quedó claro que teníamos mucho camino por recorrer, tanto el deporte en sí como yo mismo.",
+      "Empecé a disparar con Barebow y todo mi aprendizaje fue autodidacta, fijándome en cómo disparaban los arqueros olímpicos que salían por la tele. Rápido identifiqué las diferencias entre las modalidades más «instintivas» y los procedimientos ejecutados por los arqueros profesionales. Mi primer objetivo fue desarrollar una técnica propia, autóctona, que me permitiera disparar de una misma manera cualquier tipo de arco. Así transcurrió la primera mitad de mi carrera como arquero: pronto empecé a ganar medallas tanto en Cataluña como en España, de modo que mi experiencia en competición y en métodos de entrenamiento no dejó de crecer."
+    ],
+    "epiphanyIntro": "Todos los conocimientos que adquiría a través de las competiciones, los viajes y los miles de flechas que disparaba cada mes me condujeron a una conclusión que me cambió la vida:",
+    "epiphanyCallout": "El secreto no estaba en una técnica depurada ni en ningún tipo de escuela o línea de trabajo concreta; el secreto del tiro con arco está en la cabeza, el corazón y las emociones con las que cada uno vive las cosas que hace, y en lo que respecta a estas tres cosas no existen secretos.",
+    "bioParagraphsAfterCallout": [
+      "He tenido la suerte de viajar mucho y vivir en distintos lugares como Estados Unidos o Suecia, dedicando el 100% de mi tiempo en estos países a disparar más flechas y empapándome de su manera de vivir el arco, y me inicié en el mundo del recurvo olímpico. Abandonar una modalidad en la que me estaba cargando de medallas catalanas, españolas e internacionales para empezar desde la iniciación otra vez. En esta nueva etapa, sin embargo, tuve la suerte de trabajar bajo la tutela del seleccionador español de entonces y actual Head Coach de EE. UU., Elías Cuesta. Un grande entre los grandes. A diferencia de toda mi carrera, ahora tenía un entrenador y eso me aportó un crecimiento impagable en todos los sentidos.",
+      "Fueron 10 meses de mucho trabajo y de muchos nuevos conocimientos, con técnicas diferentes a lo que estaba acostumbrado hasta entonces. En aquella época vivía en Suecia y el COVID y la distancia acabaron por separar nuestros caminos, pero pude extraer muchos aprendizajes de cómo deben hacerse las cosas y de qué cosas había que prescindir.",
+      "Con el arco recurvo nunca he demostrado la destreza que lucí con el arco desnudo, pero después de mucho trabajo también he podido cultivar un buen palmarés en España y Cataluña, llegando a la internacionalidad con la selección española en la modalidad de campo.",
+      "Mi independencia y la convicción en mi metodología de trabajo me han llevado a crear «La Cova del Drac», una escuela y centro de tecnificación en la que pongo mi pasión y experiencia a disposición de quien quiera compartir este maravilloso deporte conmigo."
+    ],
+    "bioSignature": "Sergi Cebrián — Terrassa",
+    "credentialsTitle": "Trayectoria & Perfil Deportivo",
     "credentials": [
       {
-        "title": "Entrenador Nacional Nivel II",
-        "issuer": "RFETA / CSD"
+        "title": "Internacional con la Selección Española",
+        "issuer": "Modalidad de Tiro de Campo • Arco Recurvo"
       },
       {
-        "title": "Técnico Deportivo en Tiro con Arco",
-        "issuer": "Generalitat de Catalunya"
+        "title": "Medallista Catalán, Estatal e Internacional",
+        "issuer": "Palmarés en Barebow (Arco Desnudo) y Recurvo Olímpico"
       },
       {
-        "title": "Especialista en Biomecánica & Tuned Archery",
-        "issuer": "High Performance Coaching"
+        "title": "Inmersión Internacional & Alto Rendimiento",
+        "issuer": "Estados Unidos y Suecia • Etapa con Elías Cuesta"
       },
       {
-        "title": "Fabricante & Ajustador Artesanal de Cuerdas",
-        "issuer": "Master String Maker"
+        "title": "Técnica Universal y Metodología Propia",
+        "issuer": "Fundador de la Escuela La Cova del Drac (Terrassa)"
       }
     ],
-    "timelineTitle": "Trayectoria y Logros Destacados",
+    "timelineTitle": "Mi Camino con el Arco",
     "timeline": [
       {
-        "year": "2006",
-        "title": "Inicio en la competición federada",
-        "description": "Primeros campeonatos autonómicos y especialización en arco tradicional y desnudo."
+        "year": "2010",
+        "title": "La primera flecha y debut en el Campeonato de España",
+        "description": "Descubro el arco por casualidad en la Vall de Núria y en menos de 6 meses debuto en un Campeonato de España con grandes resultados."
       },
       {
-        "year": "2013",
-        "title": "Consolidación en el podio nacional",
-        "description": "Medallas en los Campeonatos de España y convocatorias a concentraciones técnicas estatales."
+        "year": "Arco Desnudo",
+        "title": "Etapa autodidacta y medallas internacionales",
+        "description": "Desarrollo una técnica autóctona capaz de disparar cualquier arco de una misma manera, sumando podios en Cataluña, España y a nivel internacional."
       },
       {
-        "year": "2017",
-        "title": "Titulación oficial como entrenador",
-        "description": "Comienza la formación intensiva de jóvenes promesas y deportistas de élite en Cataluña."
+        "year": "EE. UU. & Suecia",
+        "title": "Empezar de cero en Recurvo Olímpico",
+        "description": "Dedico el 100% de mi tiempo a disparar en el extranjero y trabajo 10 meses bajo la tutela de Elías Cuesta, aprendiendo cómo hacer las cosas y de qué prescindir."
       },
       {
-        "year": "2021",
-        "title": "Fundación de La Cova del Drac",
-        "description": "Creación del centro técnico privado con líneas de tiro climatizadas y taller de alto rendimiento."
+        "year": "Selección",
+        "title": "Palmarés en Recurvo e internacionalidad en Campo",
+        "description": "A base de trabajo constante consolido medallas nacionales y autonómicas en recurvo y llego a la selección española en la modalidad de campo."
       },
       {
-        "year": "2025",
-        "title": "Expansión del equipo de competición",
-        "description": "Más de 15 medallas en campeonatos nacionales obtenidas por arqueros del centro en una sola temporada."
+        "year": "Terrassa",
+        "title": "Nacimiento de La Cova del Drac",
+        "description": "Creo una escuela y centro de tecnificación independiente para compartir pasión, experiencia y método con quien quiera vivir este deporte."
       }
     ],
-    "quote": "La flecha nunca miente. Cada tiro es un espejo de tu mente, tu ritmo y tu serenidad interior.",
-    "quoteAuthor": "Sergi Cebrian Pujol"
+    "quote": "La flecha nunca miente. Cada tiro es un espejo de tu mente, ritmo y tu serenidad interior.",
+    "quoteAuthor": "Sergi Cebrián"
   },
   "methodology": {
-    "badge": "Filosofía de Trabajo",
-    "title": "Nuestra Metodología",
-    "subtitle": "Un enfoque holístico basado en la precisión mecánica, la fortaleza mental y la individualización de cada arquero.",
-    "pillarsTitle": "Los 4 Pilares Fundamentales",
+    "badge": "Cómo Entiendo el Arco",
+    "title": "Filosofía y Metodología",
+    "subtitle": "Sin escuelas cerradas ni dogmas rígidos: una base técnica universal para cualquier arco, donde la cabeza, el corazón y las emociones marcan la diferencia.",
+    "pillarsTitle": "Los 4 Pilares de Mi Trabajo",
+    "pillarsLabel": "Fundamentos",
     "pillars": [
       {
         "id": "consistency",
         "title": "Consistencia",
-        "subtitle": "Repetición y Automatización",
-        "description": "Construimos una secuencia de tiro sólida y reproducible, eliminando movimientos parásitos para que el anclaje y la suelta sean idénticos bajo cualquier condición."
+        "subtitle": "Una Técnica Propia y Universal",
+        "description": "Construimos una forma de disparar natural y coherente que sirve para cualquier tipo de arco, sin gestos artificiales y sabiendo de qué cosas hay que prescindir."
       },
       {
         "id": "focus",
         "title": "Enfoque",
-        "subtitle": "Control Visual y Atencional",
-        "description": "Entrenamos la fijación visual en la diana, el control respiratorio y la capacidad de abstraerse de estímulos externos tanto en la línea de tiro como en los minutos previos."
+        "subtitle": "Mente, Ritmo y Serenidad",
+        "description": "Cada tiro refleja cómo está tu mente. Trabajamos la calma interior, el ritmo propio en la línea de tiro y la capacidad de estar presente flecha a flecha."
       },
       {
         "id": "respect",
         "title": "Respeto",
-        "subtitle": "Valores, Deportividad y Seguridad",
-        "description": "Respeto hacia el material, los compañeros, los rivales y los jueces. La seguridad es la base innegociable en todas nuestras instalaciones."
+        "subtitle": "Cultura Deportiva y Pasión Compartida",
+        "description": "Entendemos el tiro con arco como un deporte de verdad pero también como un lugar para disfrutar y crecer juntos, con respeto absoluto por la seguridad, los compañeros y el oficio."
       },
       {
         "id": "selfAwareness",
         "title": "Autoconocimiento",
-        "subtitle": "Propiocepción y Gestión Emocional",
-        "description": "El arquero aprende a sentir la tensión muscular exacta de la espalda, gestionar las pulsaciones en momentos de máxima presión y convertir la tensión en impulso."
+        "subtitle": "Cabeza, Corazón y Emociones",
+        "description": "En lo que de verdad importa no existen secretos: aprendemos a escuchar lo que sientes al abrir el arco y a gestionar las emociones con las que vives cada entrenamiento y competición."
       }
     ],
     "blocksTitle": "Bloques de Evolución Técnica",
+    "blocksLabel": "Progreso Estructurado",
     "blocks": [
       {
         "step": "01",
-        "title": "Biomecánica & Postura",
-        "description": "Alineación de la estructura ósea, estabilidad del tren inferior, agarre y alineación escapular según la morfología del arquero."
+        "title": "Base Técnica Sin Dogmas",
+        "description": "Estructuración del tiro adaptada a cada persona y modalidad —desde la iniciación hasta la tecnificación— quedándonos con lo esencial y quitando complicaciones innecesarias."
       },
       {
         "step": "02",
-        "title": "Táctica & Gestión del Reloj",
-        "description": "Estrategia de series eliminatorias flecha a flecha, lectura de rachas de viento y adaptación a los tiempos reglamentarios de tiro de 20 o 40 segundos."
+        "title": "Competición & Lectura de Campo",
+        "description": "Experiencia real acumulada en miles de flechas en sala, aire libre y recorridos de campo: ritmo de tiro, adaptación al entorno y oficio competitivo."
       },
       {
         "step": "03",
-        "title": "Psicología & Presión Competitiva",
-        "description": "Rutinas pre-tiro, protocolos de anclaje mental, visualización positiva y técnicas de anclaje emocional para responder al desempate (shoot-off)."
+        "title": "Gestión Emocional bajo Presión",
+        "description": "Trabajo sincero sobre la cabeza y el corazón cuando toca competir, empezar de cero ante un nuevo reto o responder con serenidad en los momentos decisivos."
       },
       {
         "step": "04",
-        "title": "Ajuste & Optimización de Material",
-        "description": "Paper tuning, walk-back tuning, selección de calibre y spine de flecha, peso de puntas y fabricación de cuerdas de alto rendimiento personalizadas."
+        "title": "Criterio y Sintonía con el Material",
+        "description": "Ajuste práctico y comprensión del equipo —arco desnudo, recurvo, poleas o tradicional— para que el arco acompañe tu tiro con total confianza."
       }
     ]
   },
@@ -174,6 +188,8 @@
     "title": "Instalaciones de Alto Rendimiento",
     "subtitle": "Diseñadas específicamente para la máxima precisión deportiva, confort técnico y seguridad a cualquier distancia.",
     "lanesTitle": "Líneas de Tiro Homologadas",
+    "lanesLabel": "Distancias Reglamentarias",
+    "specsTitle": "Especificaciones Técnicas",
     "lanes": [
       {
         "distance": "18 metros",
@@ -201,6 +217,7 @@
       }
     ],
     "zonesTitle": "Áreas Técnicas Complementarias",
+    "zonesLabel": "Equipamiento Avanzado",
     "zones": [
       {
         "title": "Taller Profesional de Cuerdas & Bow Tuning",
@@ -316,24 +333,26 @@
     "gdprNoticeBrief": "Datos deportivos e imágenes publicadas con el consentimiento expreso de los deportistas o sus tutores legales según la normativa vigente (RGPD / LOPDGDD)."
   },
   "contact": {
-    "badge": "Comienza tu Entrenamiento",
-    "title": "Contacto & Reserva",
-    "subtitle": "Infórmate sobre nuestros planes de entrenamiento, sesiones de perfeccionamiento y afinación de material en La Cova del Drac.",
-    "infoTitle": "Información del Centro",
+    "badge": "Ven a Tirar Flechas",
+    "title": "Contacto & Escuela",
+    "subtitle": "Si quieres descubrir el tiro con arco desde tu primera flecha, retomarlo o trabajar la tecnificación y compartir este maravilloso deporte conmigo en Terrassa, escríbeme.",
+    "infoTitle": "Dónde Estamos",
     "addressTitle": "Ubicación",
-    "addressText": "Carrer del Tir, Nau 4 - Polígon Can Parera\n08400 Granollers (Vallès Oriental), Barcelona",
+    "addressText": "Major de Sant Pere 51\n08222 Terrassa",
+    "websiteTitle": "Web",
+    "websiteText": "covadeldrac.com",
     "emailTitle": "Correo electrónico",
-    "emailText": "info@covadeldrac.cat",
+    "emailText": "info@covadeldrac.com",
     "phoneTitle": "Teléfono & WhatsApp",
     "phoneText": "+34 654 98 73 21",
-    "hoursTitle": "Horarios de atención técnica",
+    "hoursTitle": "Horarios de escuela y tecnificación",
     "hoursText": "Lunes a Viernes: 10:00 - 13:30 y 16:30 - 21:00\nSábados: 09:00 - 14:00 (Competición o intensivos)",
     "form": {
-      "title": "Envíanos una Consulta",
+      "title": "Escríbeme",
       "nameLabel": "Nombre y Apellidos *",
       "namePlaceholder": "ej. Jorge Martínez",
       "emailLabel": "Correo Electrónico *",
-      "emailPlaceholder": "jorge@ejemplo.es",
+      "emailPlaceholder": "jorge@ejemplo.com",
       "phoneLabel": "Teléfono de Contacto",
       "phonePlaceholder": "+34 600 000 000",
       "disciplineLabel": "Modalidad de interés *",
@@ -342,40 +361,44 @@
         "compound": "Arco de Poleas (Compound)",
         "barebow": "Arco Desnudo (Barebow)",
         "traditional": "Arco Tradicional / Longbow",
-        "initiation": "Iniciación / Por determinar"
+        "initiation": "Iniciación / Primera flecha"
       },
-      "levelLabel": "Nivel de experiencia *",
+      "levelLabel": "Punto de partida *",
       "levels": {
         "beginner": "Iniciación (Sin o con poca experiencia)",
         "intermediate": "Arquero federado con equipo propio",
-        "advanced": "Competición autonómica o nacional",
-        "equipment": "Solo consulta de taller / ajuste de arco"
+        "advanced": "Competición autonómica, nacional o internacional",
+        "equipment": "Consulta de material / ajuste de arco"
       },
-      "messageLabel": "Tu mensaje u objetivos deportivos *",
-      "messagePlaceholder": "Cuéntanos tu experiencia actual, los objetivos que deseas alcanzar o el servicio que precisas...",
+      "messageLabel": "Cuéntame qué buscas *",
+      "messagePlaceholder": "Cuéntame si quieres empezar desde cero, qué arco utilizas o qué objetivos tienes...",
       "consentLabel": "He leído y acepto la política de privacidad y el tratamiento de mis datos personales según el RGPD. En caso de menores de edad, confirmo que ostento la representación legal del menor.",
-      "submitButton": "Enviar Solicitud",
-      "submittingButton": "Enviando consulta...",
-      "successMessage": "¡Muchas gracias! Hemos recibido tu consulta correctamente. Sergi o nuestro equipo técnico te responderá en menos de 24 horas laborables.",
+      "submitButton": "Enviar Mensaje",
+      "submittingButton": "Enviando mensaje...",
+      "sendAnother": "Enviar otra consulta",
+      "successMessage": "¡Muchas gracias por escribirme! He recibido tu mensaje y te responderé muy pronto para que podamos hablar.",
       "errorMessage": "Se ha producido un error al enviar el formulario. Por favor, revisa los campos requeridos o contacta directamente por WhatsApp."
     },
     "gdpr": {
       "title": "Aviso Legal & Protección de Datos Personales (RGPD)",
-      "legalTextP1": "En cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), le informamos de que el responsable del tratamiento de sus datos es Sergi Cebrian Pujol (La Cova del Drac). La finalidad de la recogida de datos a través de este formulario es exclusivamente la gestión de consultas, reservas de entrenamiento deportivo y asesoramiento técnico.",
+      "legalTextP1": "En cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), le informamos de que el responsable del tratamiento de sus datos es Sergi Cebrián Pujol (La Cova del Drac — Major de Sant Pere 51, 08222 Terrassa). La finalidad de la recogida de datos a través de este formulario es exclusivamente la gestión de consultas, reservas de entrenamiento deportivo y asesoramiento técnico.",
       "legalTextP2": "En relación con los datos deportivos, marcas y fotografías publicadas en la web relativas a los atletas miembros del centro, todas ellas cuentan con el consentimiento expreso y por escrito de los interesados. En el caso de deportistas menores de 14 años, se dispone de la autorización firmada previamente por sus padres, madres o tutores legales, conforme a la protección reforzada prevista en la legislación de protección a la infancia y al deporte.",
-      "legalTextP3": "Puede ejercer sus derechos de acceso, rectificación, supresión, limitación y oposición enviando un correo electrónico a info@covadeldrac.cat adjuntando copia de su documento de identidad."
+      "legalTextP3": "Puede ejercer sus derechos de acceso, rectificación, supresión, limitación y oposición enviando un correo electrónico a info@covadeldrac.com adjuntando copia de su documento de identidad."
     }
   },
   "footer": {
-    "brandDescription": "La Cova del Drac es el centro de referencia en tecnificación de tiro con arco en Cataluña, fundado por Sergi Cebrian Pujol. Entrenamiento técnico, análisis biomecánico y preparación de alta precisión.",
+    "brandDescription": "Escuela y centro de tecnificación de tiro con arco en Terrassa, creado por Sergi Cebrián. Pasión, método propio y experiencia internacional para quien quiera compartir este maravilloso deporte.",
+    "locationCity": "Terrassa • Cataluña",
+    "addressInline": "Major de Sant Pere 51, 08222 Terrassa",
     "navigationTitle": "Navegación",
     "facilitiesTitle": "Instalaciones",
     "legalTitle": "Información Legal",
     "privacyPolicy": "Política de Privacidad",
     "legalNotice": "Aviso Legal",
     "cookiesPolicy": "Política de Cookies",
-    "gdprDisclaimer": "Centro adherido a las normativas de seguridad deportiva de la FCTA y RFETA.",
+    "gdprDisclaimer": "Escuela y centro de tecnificación de tiro con arco • covadeldrac.com",
+    "minorsNotice": "Protección de menores y datos deportivos regulada por RGPD (UE) 2016/679.",
     "allRightsReserved": "Todos los derechos reservados.",
-    "designedFor": "Desarrollado para Sergi Cebrian Pujol • La Cova del Drac"
+    "designedFor": "Sergi Cebrián • La Cova del Drac (covadeldrac.com)"
   }
 }

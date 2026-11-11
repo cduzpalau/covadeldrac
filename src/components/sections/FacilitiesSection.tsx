@@ -35,11 +35,11 @@ export const FacilitiesSection: React.FC<FacilitiesSectionProps> = ({ dict }) =>
         {/* 4 Distance Shooting Lanes Grid */}
         <div className="mb-20">
           <div className="flex items-center justify-between mb-8 pb-3 border-b border-zinc-800">
-            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight text-balance">
               {dict.facilities.lanesTitle}
             </h3>
             <span className="text-xs font-semibold text-emerald-400 uppercase tracking-widest">
-              Distàncies Reglamentàries
+              {dict.facilities.lanesLabel}
             </span>
           </div>
 
@@ -82,7 +82,7 @@ export const FacilitiesSection: React.FC<FacilitiesSectionProps> = ({ dict }) =>
 
                   <div className="pt-2 border-t border-zinc-800/80 space-y-2">
                     <span className="text-xs font-bold text-zinc-400 uppercase tracking-wider">
-                      Especificacions Tècniques
+                      {dict.facilities.specsTitle}
                     </span>
                     <ul className="space-y-1.5">
                       {lane.specs.map((spec, sIdx) => (
@@ -102,11 +102,11 @@ export const FacilitiesSection: React.FC<FacilitiesSectionProps> = ({ dict }) =>
         {/* Specialized Technical Zones */}
         <div className="mb-16">
           <div className="flex items-center justify-between mb-8 pb-3 border-b border-zinc-800">
-            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight text-balance">
               {dict.facilities.zonesTitle}
             </h3>
             <span className="text-xs font-semibold text-amber-400 uppercase tracking-widest">
-              Equipament Avançat
+              {dict.facilities.zonesLabel}
             </span>
           </div>
 

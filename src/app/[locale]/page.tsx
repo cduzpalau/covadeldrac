@@ -51,6 +51,11 @@ export default async function LocalePage({ params }: LocalePageProps) {
           founderTitle: dict.common.founderTitle,
           backToTop: dict.common.backToTop,
           nav: dict.nav,
+          contact: {
+            websiteText: dict.contact.websiteText,
+            emailText: dict.contact.emailText,
+            phoneText: dict.contact.phoneText,
+          },
           footer: dict.footer,
         }}
       />

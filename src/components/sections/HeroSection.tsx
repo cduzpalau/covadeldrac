@@ -38,14 +38,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ dict }) => {
 
           {/* Main Titles */}
           <div className="space-y-3">
-            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight">
+            <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-tight text-balance">
               <span>{dict.hero.titleLine1}</span>
               <br />
               <span className="gold-gradient-text">
                 {dict.hero.titleLine2}
               </span>
             </h1>
-            <p className="text-lg sm:text-xl text-zinc-300 max-w-2xl mx-auto font-normal leading-relaxed pt-2">
+            <p className="text-lg sm:text-xl text-zinc-300 max-w-2xl mx-auto font-normal leading-relaxed pt-2 text-pretty">
               {dict.hero.description}
             </p>
           </div>
@@ -84,37 +84,37 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ dict }) => {
           {/* Quantitative Stats Ticker */}
           <div className="pt-10 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             <div className="p-4 sm:p-5 rounded-2xl bg-zinc-900/80 border border-zinc-800 text-center hover:border-zinc-700 transition-colors">
-              <div className="text-3xl sm:text-4xl font-extrabold text-amber-400 tracking-tight">
+              <div className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-amber-400 tracking-tight">
                 {dict.hero.stats.experience.value}
               </div>
-              <div className="text-xs sm:text-sm text-zinc-400 mt-1 font-medium">
+              <div className="text-xs sm:text-sm text-zinc-400 mt-1 font-medium text-pretty">
                 {dict.hero.stats.experience.label}
               </div>
             </div>
 
             <div className="p-4 sm:p-5 rounded-2xl bg-zinc-900/80 border border-zinc-800 text-center hover:border-zinc-700 transition-colors">
-              <div className="text-3xl sm:text-4xl font-extrabold text-emerald-400 tracking-tight">
+              <div className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-emerald-400 tracking-tight">
                 {dict.hero.stats.podiums.value}
               </div>
-              <div className="text-xs sm:text-sm text-zinc-400 mt-1 font-medium">
+              <div className="text-xs sm:text-sm text-zinc-400 mt-1 font-medium text-pretty">
                 {dict.hero.stats.podiums.label}
               </div>
             </div>
 
             <div className="p-4 sm:p-5 rounded-2xl bg-zinc-900/80 border border-zinc-800 text-center hover:border-zinc-700 transition-colors">
-              <div className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
+              <div className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight">
                 {dict.hero.stats.athletes.value}
               </div>
-              <div className="text-xs sm:text-sm text-zinc-400 mt-1 font-medium">
+              <div className="text-xs sm:text-sm text-zinc-400 mt-1 font-medium text-pretty">
                 {dict.hero.stats.athletes.label}
               </div>
             </div>
 
             <div className="p-4 sm:p-5 rounded-2xl bg-zinc-900/80 border border-zinc-800 text-center hover:border-zinc-700 transition-colors">
-              <div className="text-3xl sm:text-4xl font-extrabold text-amber-400 tracking-tight">
+              <div className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-amber-400 tracking-tight">
                 {dict.hero.stats.lanes.value}
               </div>
-              <div className="text-xs sm:text-sm text-zinc-400 mt-1 font-medium">
+              <div className="text-xs sm:text-sm text-zinc-400 mt-1 font-medium text-pretty">
                 {dict.hero.stats.lanes.label}
               </div>
             </div>

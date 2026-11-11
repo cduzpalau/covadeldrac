@@ -43,11 +43,11 @@ export const MethodologySection: React.FC<MethodologySectionProps> = ({ dict }) 
         {/* 4 Core Pillars Grid */}
         <div className="mb-20">
           <div className="flex items-center justify-between mb-8 pb-3 border-b border-zinc-800">
-            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight text-balance">
               {dict.methodology.pillarsTitle}
             </h3>
             <span className="text-xs font-semibold text-emerald-400 uppercase tracking-widest">
-              Fonaments
+              {dict.methodology.pillarsLabel}
             </span>
           </div>
 
@@ -79,11 +79,11 @@ export const MethodologySection: React.FC<MethodologySectionProps> = ({ dict }) 
         {/* 4 Structured Progression Blocks */}
         <div>
           <div className="flex items-center justify-between mb-8 pb-3 border-b border-zinc-800">
-            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
+            <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight text-balance">
               {dict.methodology.blocksTitle}
             </h3>
             <span className="text-xs font-semibold text-amber-400 uppercase tracking-widest">
-              Progrés Estructurat
+              {dict.methodology.blocksLabel}
             </span>
           </div>
 

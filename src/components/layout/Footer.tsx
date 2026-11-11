@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Locale } from '@/lib/i18n';
-import { Target, ArrowUp, Mail, Phone, MapPin, ShieldCheck } from 'lucide-react';
+import { Target, ArrowUp, Mail, Phone, MapPin, ShieldCheck, Globe } from 'lucide-react';
 
 interface FooterProps {
   locale: Locale;
@@ -19,8 +19,15 @@ interface FooterProps {
       athletes: string;
       contact: string;
     };
+    contact: {
+      websiteText: string;
+      emailText: string;
+      phoneText: string;
+    };
     footer: {
       brandDescription: string;
+      locationCity: string;
+      addressInline: string;
       navigationTitle: string;
       facilitiesTitle: string;
       legalTitle: string;
@@ -28,6 +35,7 @@ interface FooterProps {
       legalNotice: string;
       cookiesPolicy: string;
       gdprDisclaimer: string;
+      minorsNotice: string;
       allRightsReserved: string;
       designedFor: string;
     };
@@ -46,7 +54,7 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-emerald-950/80 border border-emerald-500/30 flex items-center justify-center text-amber-400">
-              <ShieldCheck className="w-5 h-5 text-emerald-400" />
+              <ShieldCheck className="w-5 h-5 text-emerald-400" aria-hidden="true" />
             </div>
             <div>
               <p className="text-sm font-semibold text-zinc-200">
@@ -63,7 +71,7 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
             className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg bg-zinc-900 hover:bg-zinc-800 text-xs font-semibold text-zinc-300 hover:text-white border border-zinc-800 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
           >
             <span>{dict.backToTop}</span>
-            <ArrowUp className="w-3.5 h-3.5" />
+            <ArrowUp className="w-3.5 h-3.5" aria-hidden="true" />
           </button>
         </div>
       </div>
@@ -75,17 +83,17 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
           <div className="space-y-4">
             <div className="flex items-center gap-2.5">
               <div className="w-8 h-8 rounded-lg bg-emerald-800 flex items-center justify-center text-amber-400 shadow-md shadow-emerald-950">
-                <Target className="w-4 h-4" />
+                <Target className="w-4 h-4" aria-hidden="true" />
               </div>
               <span className="font-extrabold text-lg tracking-tight text-white">
                 {dict.siteName}
               </span>
             </div>
-            <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
+            <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed text-pretty">
               {dict.footer.brandDescription}
             </p>
             <div className="pt-2 text-xs text-zinc-500">
-              Granollers, Barcelona • Catalunya
+              {dict.footer.locationCity}
             </div>
           </div>
 
@@ -130,21 +138,38 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
             </h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-emerald-400 mt-0.5 shrink-0" />
+                <MapPin className="w-4 h-4 text-emerald-400 mt-0.5 shrink-0" aria-hidden="true" />
                 <span className="text-zinc-400 text-xs sm:text-sm">
-                  Carrer del Tir, Nau 4 - Pol. Can Parera, Granollers
+                  {dict.footer.addressInline}
                 </span>
               </li>
               <li className="flex items-center gap-2.5">
-                <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="mailto:info@covadeldrac.cat" className="hover:text-amber-400 transition-colors text-xs sm:text-sm">
-                  info@covadeldrac.cat
+                <Globe className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
+                <a
+                  href={`https://${dict.contact.websiteText}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-amber-400 transition-colors text-xs sm:text-sm"
+                >
+                  {dict.contact.websiteText}
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-                <a href="tel:+34654987321" className="hover:text-amber-400 transition-colors text-xs sm:text-sm">
-                  +34 654 98 73 21
+                <Mail className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
+                <a
+                  href={`mailto:${dict.contact.emailText}`}
+                  className="hover:text-amber-400 transition-colors text-xs sm:text-sm"
+                >
+                  {dict.contact.emailText}
+                </a>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <Phone className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
+                <a
+                  href={`tel:${dict.contact.phoneText.replace(/\s+/g, '')}`}
+                  className="hover:text-amber-400 transition-colors text-xs sm:text-sm"
+                >
+                  {dict.contact.phoneText}
                 </a>
               </li>
             </ul>
@@ -174,7 +199,7 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
             </ul>
             <div className="pt-2">
               <p className="text-[11px] text-zinc-500 leading-tight">
-                Protecció de menors i dades esportives regulada per RGPD (UE) 2016/679.
+                {dict.footer.minorsNotice}
               </p>
             </div>
           </div>

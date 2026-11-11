@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Dictionary } from '@/lib/i18n';
-import { Mail, Phone, MapPin, Clock, Send, ShieldCheck, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Send, ShieldCheck, CheckCircle2, AlertCircle, Globe } from 'lucide-react';
 
 interface ContactSectionProps {
   dict: Dictionary;
@@ -73,7 +73,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ dict }) => {
               <div className="space-y-6">
                 <div className="flex items-start gap-3.5">
                   <div className="p-2.5 rounded-xl bg-zinc-950 border border-zinc-800 text-emerald-400 shrink-0">
-                    <MapPin className="w-5 h-5" />
+                    <MapPin className="w-5 h-5" aria-hidden="true" />
                   </div>
                   <div>
                     <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-400">
@@ -82,6 +82,25 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ dict }) => {
                     <p className="text-sm text-zinc-200 mt-1 whitespace-pre-line leading-relaxed">
                       {dict.contact.addressText}
                     </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3.5">
+                  <div className="p-2.5 rounded-xl bg-zinc-950 border border-zinc-800 text-emerald-400 shrink-0">
+                    <Globe className="w-5 h-5" aria-hidden="true" />
+                  </div>
+                  <div>
+                    <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-400">
+                      {dict.contact.websiteTitle}
+                    </h4>
+                    <a
+                      href={`https://${dict.contact.websiteText}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors mt-1 inline-block"
+                    >
+                      {dict.contact.websiteText}
+                    </a>
                   </div>
                 </div>
 
@@ -154,7 +173,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ dict }) => {
                     onClick={() => setStatus('idle')}
                     className="inline-flex items-center px-4 py-2 text-xs font-bold rounded-lg bg-zinc-900 hover:bg-zinc-800 text-zinc-200 border border-zinc-700 transition-colors"
                   >
-                    Enviar una altra consulta
+                    {dict.contact.form.sendAnother}
                   </button>
                 </div>
               ) : (
@@ -174,6 +193,7 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ dict }) => {
                       <input
                         id="contact-name"
                         type="text"
+                        autoComplete="name"
                         required
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -189,6 +209,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ dict }) => {
                       <input
                         id="contact-email"
                         type="email"
+                        inputMode="email"
+                        autoComplete="email"
                         required
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -206,6 +228,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ dict }) => {
                       <input
                         id="contact-phone"
                         type="tel"
+                        inputMode="tel"
+                        autoComplete="tel"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         placeholder={dict.contact.form.phonePlaceholder}
