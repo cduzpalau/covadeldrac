@@ -22,7 +22,6 @@
     "about": "Who I Am",
     "methodology": "Methodology",
     "facilities": "Facilities",
-    "athletes": "Athletes & Records",
     "contact": "Contact",
     "cta": "Get in Touch"
   },
@@ -30,31 +29,31 @@
     "badge": "Archery School & Training Center • Terrassa",
     "titleLine1": "Head, Heart & Your Own Form",
     "titleLine2": "At La Cova del Drac",
-    "description": "An archery school and technical center created by Sergi Cebrián out of independence, thousands of arrows, and international experience. I put my passion and journey at the service of anyone who wants to share this wonderful sport with me—from your first arrow to competition.",
-    "ctaPrimary": "Explore Our Facilities",
-    "ctaSecondary": "Who I Am & How I Work",
+    "description": "An archery school and technical center created by Sergi Cebrián on Carrer Major de Sant Pere in Terrassa. I put my knowledge, over ten years of coaching archers, and a complete training infrastructure behind anyone ready to start a sporting project and share this wonderful sport with me.",
+    "ctaPrimary": "Explore My Facilities",
+    "ctaSecondary": "Who I Am & My Methodology",
     "stats": {
       "experience": {
         "value": "2010",
         "label": "First arrow at Vall de Núria"
       },
       "podiums": {
-        "value": "< 6m",
-        "label": "Debut at Spanish Nationals"
+        "value": "10+",
+        "label": "Years coaching archers"
       },
       "athletes": {
         "value": "3",
         "label": "Countries lived for archery (ESP, USA, SWE)"
       },
       "lanes": {
-        "value": "18-70m",
-        "label": "Initiation school & training lines"
+        "value": "25m",
+        "label": "Camera range & complete gym"
       }
     },
     "features": [
-      "A homegrown universal technique for every bow type",
-      "Head, heart, and emotion at the core of every shot",
-      "Honest coaching free from rigid, unnecessary dogma"
+      "Comfort, System & Balance: technique adapts to your body",
+      "Psychology & ethology applied to competitive emotional flow",
+      "Up-to-25m camera range & complete gym in Terrassa"
     ]
   },
   "about": {
@@ -91,8 +90,8 @@
         "issuer": "United States & Sweden • Mentored by Elías Cuesta"
       },
       {
-        "title": "Universal Technique & Independent Method",
-        "issuer": "Founder of La Cova del Drac School (Terrassa)"
+        "title": "10+ Years Coaching & Applied Ethology",
+        "issuer": "Body-adapted form, psychology & emotional flow"
       }
     ],
     "timelineTitle": "My Path with the Bow",
@@ -127,233 +126,141 @@
     "quoteAuthor": "Sergi Cebrián"
   },
   "methodology": {
-    "badge": "How I Understand Archery",
-    "title": "Philosophy & Methodology",
-    "subtitle": "No closed schools or rigid dogma: one universal shooting foundation adaptable to any bow, where your head, heart, and emotions make the real difference.",
-    "pillarsTitle": "The 4 Pillars of My Work",
-    "pillarsLabel": "Foundations",
-    "pillars": [
+    "badge": "Over 10 Years Coaching Archers",
+    "title": "Methodology",
+    "subtitle": "Archery is undoubtedly a technical sport, yet by no means complicated: technique must adapt to our body, never the other way around.",
+    "introText": "There is the basic 'ballistic' aspect, followed by a clear set of technical principles that need to be met—but under no circumstances do I believe that technique or any specific school, whether KSL, Continuous Shot, or any other, should force an archer into shooting one rigid, prescribed way.",
+    "rulesTitle": "The 3 Rules of Archery",
+    "rulesLabel": "Working Pillars",
+    "rules": [
       {
-        "id": "consistency",
-        "title": "Consistency",
-        "subtitle": "A Universal, Natural Technique",
-        "description": "We build a coherent, honest way of shooting that works across any bow type, free of artificial complexity and clear on what unnecessary habits to strip away."
+        "id": "confort",
+        "ruleNumber": "Rule Number 1",
+        "title": "COMFORT",
+        "subtitle": "Technique adapts to our body",
+        "description": "Through my own experience and that of fellow archers over the years, one thing has become crystal clear: technique is what must adapt to our body, rather than subordinating the archer to a rigid school."
       },
       {
-        "id": "focus",
-        "title": "Focus",
-        "subtitle": "Mind, Rhythm & Inner Calm",
-        "description": "Every arrow mirrors your state of mind. We train quiet focus, personal pacing on the line, and staying fully present one shot at a time."
+        "id": "sistema",
+        "ruleNumber": "Rule Number 2",
+        "title": "SYSTEM",
+        "subtitle": "From routine to the pleasure of shooting",
+        "description": "Training methodology is what ultimately separates monotonous routine from genuine pleasure on the line—and our results depend on it. Some drills assimilate concepts, others raise performance, and others build workload capacity; every training goal must match the work performed."
       },
       {
-        "id": "respect",
-        "title": "Respect",
-        "subtitle": "True Sport & Shared Passion",
-        "description": "We treat archery with genuine sporting rigor while keeping it a welcoming place to grow together—grounded in safety, camaraderie, and respect for the craft."
-      },
-      {
-        "id": "selfAwareness",
-        "title": "Self-awareness",
-        "subtitle": "Head, Heart & Emotions",
-        "description": "Where it truly counts, there are no secrets: we learn to read what you feel at full draw and channel the emotions you bring to training and competition."
+        "id": "balanc",
+        "ruleNumber": "Rule Number 3",
+        "title": "BALANCE",
+        "subtitle": "Translating concepts into sensations",
+        "description": "Across more than ten years coaching archers, I've realized the hardest thing for everyone is truly grasping the basic concept of the shot—and harder still, translating that concept into physical sensations. That is my core pillar for guiding any archer to an advanced level. It looks simple, yet it isn't."
       }
     ],
-    "blocksTitle": "Technical Progression Blocks",
-    "blocksLabel": "Structured Growth",
-    "blocks": [
-      {
-        "step": "01",
-        "title": "Dogma-Free Form Foundation",
-        "description": "Shot mechanics tailored to each person and bow—from your first day at the school to high-level coaching—keeping what works and discarding noise."
-      },
-      {
-        "step": "02",
-        "title": "Competition & Field Craft",
-        "description": "Real-world know-how forged over thousands of arrows indoors, outdoors, and on field courses: shot rhythm, reading terrain, and tournament composure."
-      },
-      {
-        "step": "03",
-        "title": "Emotional Clarity Under Pressure",
-        "description": "Honest mental and emotional work when stepping onto the tournament line, starting fresh in a new discipline, or facing decisive arrows."
-      },
-      {
-        "step": "04",
-        "title": "Practical Gear Harmony",
-        "description": "Clear, sensible tuning and understanding of your setup—barebow, recurve, compound, or traditional—so your bow supports your shot seamlessly."
-      }
-    ]
+    "psychology": {
+      "bridgeText": "Building on these three points as our working pillars, we can tackle the fundamental side of this sport—where I pour all my effort and where my athletes stand out above the rest:",
+      "badge": "Ethology Applied to Performance",
+      "title": "Psychology & the Emotional Side",
+      "description": "I studied ethology and apply my knowledge of behavioral science to prepare my athletes emotionally—because that is what truly makes the difference.",
+      "pillars": [
+        {
+          "title": "Stepping out of the comfort zone",
+          "description": "Once technical comfort is built, I pull my athletes out of that comfort zone so they learn to respond under real challenge."
+        },
+        {
+          "title": "True competitive mindset",
+          "description": "I prepare them psychologically for the demands of sport and head-to-head competition."
+        },
+        {
+          "title": "Managing frustration",
+          "description": "I teach them how to handle frustration so a rough arrow becomes fuel for growth rather than baggage on the next shot."
+        },
+        {
+          "title": "Optimal emotional flow",
+          "description": "Most importantly, I give them practical tools to generate and sustain an optimal emotional flow for every moment."
+        }
+      ],
+      "quote": "I don't consider myself a great archer, yet I have always had the ability to perform above my level when it mattered—and that can be passed on too.",
+      "quoteAuthor": "Sergi Cebrián"
+    }
   },
   "facilities": {
-    "badge": "Training Grounds",
-    "title": "High-Performance Facilities",
-    "subtitle": "Engineered specifically for elite precision, technical safety, and continuous athletic progression across all distances.",
-    "lanesTitle": "Official Shooting Lanes",
-    "lanesLabel": "Regulation Distances",
-    "specsTitle": "Technical Specifications",
-    "lanes": [
+    "badge": "Infrastructure & Sporting Project",
+    "title": "Facilities",
+    "subtitle": "Purpose-built spaces on Carrer Major de Sant Pere in Terrassa covering every need of an athlete—from amateur to professional.",
+    "introLead": "My desire to share my knowledge and experience as an athlete goes far beyond handing out a few outdated little lessons.",
+    "introParagraphs": [
+      "When I started shooting a bow, my workouts boiled down to flinging arrows indiscriminately—pretty much like everyone else does at first—until I quickly saw that lacking a system and methodology never brings growth proportional to the work put in.",
+      "Archery is a sport like any other: real progress demands a clear working system and physical conditioning tailored to the activity. Dedicating myself exclusively to archery allowed me not only to gain the knowledge needed to compete internationally, but also to create the ideal spaces to cover every need of an athlete, from amateur to professional.",
+      "Anyone who starts a sporting project with me gets not only my knowledge, but my entire infrastructure to facilitate and maximize their growth. Time has taught me that leading by example and doing joint field work alongside my athletes is the best way to walk with them as far as they want to go."
+    ],
+    "spacesTitle": "What You Will Find at La Cova del Drac",
+    "spacesLabel": "Complete Infrastructure",
+    "specsTitle": "Equipment & focus",
+    "spaces": [
       {
-        "distance": "18 meters",
-        "title": "High-Precision Indoor Hall",
-        "description": "Official FITA indoor competition range. High-CRI 95 glare-free shadowless LED lighting, acoustic treatment, and reinforced Kevlar safety backstop.",
-        "specs": ["Regulated 21ºC climate control", "6 Danage & high-density foam target butts", "Instant replay monitors at the shooting line"]
+        "tag": "Up to 25 meters",
+        "title": "Shooting Hall with Cameras & Monitors",
+        "description": "An indoor shooting range of up to 25 meters equipped with cameras and monitors so you can train with a real system, review shots immediately, and leave aimless arrow-flinging behind.",
+        "specs": [
+          "Indoor shooting distance up to 25 meters",
+          "Live cameras and monitors for immediate visual feedback",
+          "Built for everyone from amateur archers to professionals"
+        ]
       },
       {
-        "distance": "30 meters",
-        "title": "Technical Mid-Range Line",
-        "description": "Dedicated lane for indoor-to-outdoor transitions, sight calibration, arrow flight stability tests, and progressive archer development.",
-        "specs": ["Perfect for outdoor form development", "Multi-spot target configurations", "Postural feedback mirrors on the line"]
+        "tag": "Complete Gym",
+        "title": "Conditioning, Recovery & Prevention",
+        "description": "A complete on-site gym built for optimal archery-specific physical conditioning, recovery from injuries and aches, and preventive body compensation work.",
+        "specs": [
+          "Free weights, cables, and pulley systems",
+          "Multi-function machines and calisthenics stations",
+          "Injury recovery, ache relief, and preventive body compensations"
+        ]
       },
       {
-        "distance": "50 meters",
-        "title": "Compound & Barebow Range",
-        "description": "Official World Archery distance range for Compound 50m matches and national outdoor Barebow competition training.",
-        "specs": ["Wind direction & velocity indicators", "80cm and 122cm tournament target butts", "High-speed arrow stopping backstops (up to 340 fps)"]
+        "tag": "Exclusive Gear",
+        "title": "Archery Equipment at Athletes' Disposal",
+        "description": "A very extensive range of exclusive archery equipment placed directly at my athletes' disposal to support technical development and maximize progression.",
+        "specs": [
+          "Extensive range of exclusive archery equipment",
+          "Directly available to athletes in the project",
+          "Covers every stage from initiation to elite competition"
+        ]
       },
       {
-        "distance": "70 meters",
-        "title": "Olympic Recurve Field",
-        "description": "The official Olympic distance for Recurve archery. Full outdoor simulation with wind management, elevation, and tournament line protocols.",
-        "specs": ["Official World Archery markings", "Certified 122cm tournament targets", "Elevated platform for coach perspective & filming"]
+        "tag": "Joint Field Work",
+        "title": "Shared Sporting Project & Field Coaching",
+        "description": "Beyond the range and the gym, real progression grows out of daily example and joint field work side-by-side with my athletes all the way to their goals.",
+        "specs": [
+          "Structured sporting project with a proven working system",
+          "Hands-on joint field work alongside Sergi",
+          "Mentorship rooted in real competitive example"
+        ]
       }
     ],
-    "zonesTitle": "Technical Workshops & Specialized Zones",
-    "zonesLabel": "Advanced Equipment",
-    "zones": [
-      {
-        "title": "Master Bow Workshop & String Building",
-        "description": "String stretching jig, digital arrow spine testers, heavy-duty compound bow press, and dedicated paper tuning chamber for micron-level setup.",
-        "tag": "Hardware & Tuning"
-      },
-      {
-        "title": "Biomechanical Video Lab at 240 fps",
-        "description": "Multi-angle ultra-high-speed cameras analyzing clicker expansion, finger release purity, stabilizer harmonics, and arrow clearing dynamics.",
-        "tag": "Video & Data Analytics"
-      },
-      {
-        "title": "Scapular Warm-Up & Physical Conditioning",
-        "description": "Training zone equipped with variable resistance bands, bow simulators, stretching benches, and rotator cuff injury prevention gear.",
-        "tag": "Health & Athletic Conditioning"
-      }
-    ],
-    "accessInfoTitle": "Training Access & Scheduling",
-    "accessInfoText": "By appointment only. Private 1-on-1 coaching or small groups capped at 4 archers to guarantee 100% individual oversight. Smart card entry for accredited federated members.",
-    "ctaText": "Ready to test your shooting on our lanes?",
-    "ctaButton": "Request a technical visit"
-  },
-  "athletes": {
-    "badge": "The Squad & Results",
-    "title": "Athletes & Competition Records",
-    "subtitle": "Proof of disciplined work on the shooting line: champions and dedicated archers training at La Cova del Drac.",
-    "filters": {
-      "all": "All Disciplines",
-      "recurve": "Olympic Recurve",
-      "compound": "Compound Bow",
-      "barebow": "Barebow",
-      "longbow": "Long bow"
-    },
-    "table": {
-      "name": "Archer",
-      "discipline": "Discipline",
-      "category": "Category",
-      "achievements": "Recent Honours & Titles",
-      "personalBest": "Personal Best"
-    },
-    "roster": [
-      {
-        "name": "Marc Soler Vila",
-        "discipline": "Recurve",
-        "disciplineLabel": "Olympic Recurve",
-        "category": "Senior Men",
-        "achievements": "Silver Medalist Catalan Indoor 2024 • Gold at Archery Grand Prix 2023",
-        "personalBest": "668 pts (70m)",
-        "badge": "National Podium",
-        "bio": "Team member since 2022. Renowned for rock-solid anchor positioning and pressure execution."
-      },
-      {
-        "name": "Ariadna Puig i Fonts",
-        "discipline": "Compound",
-        "disciplineLabel": "Compound Bow",
-        "category": "Junior Women",
-        "achievements": "Spanish Junior Champion 2024 • Catalan Indoor Record at 18m",
-        "personalBest": "592 pts (18m)",
-        "badge": "Regional Record",
-        "bio": "Youth prodigy possessing pinpoint accuracy and aiming for international World Cup circuits."
-      },
-      {
-        "name": "Joan Carles Rovira",
-        "discipline": "Barebow",
-        "disciplineLabel": "Barebow",
-        "category": "Masters (+50)",
-        "achievements": "Gold at Catalan 3D Field Championship 2024 • National Bronze Medalist",
-        "personalBest": "534 pts (18m)",
-        "badge": "Catalan Champion",
-        "bio": "Master of string walking technique and an inspirational figure of consistency and calm."
-      },
-      {
-        "name": "Laia Masdeu i Riera",
-        "discipline": "Recurve",
-        "disciplineLabel": "Olympic Recurve",
-        "category": "U-21 Women",
-        "achievements": "Bronze at Spanish Outdoor Championship 2024 • Catalan National Team Member",
-        "personalBest": "645 pts (70m)",
-        "badge": "National Team",
-        "bio": "Rising star developed at La Cova del Drac from the very first technical initiation classes."
-      },
-      {
-        "name": "Pau Guitart Costa",
-        "discipline": "Compound",
-        "disciplineLabel": "Compound Bow",
-        "category": "Senior Men",
-        "achievements": "Catalan Indoor League Winner 2023 • Top 8 Spanish National Championship 2024",
-        "personalBest": "704 pts (50m)",
-        "badge": "Top 8 National",
-        "bio": "Engineer by day and perfectionist in mechanical tension release aid tuning."
-      },
-      {
-        "name": "Clara Valls Vidal",
-        "discipline": "Barebow",
-        "disciplineLabel": "Barebow",
-        "category": "Senior Women",
-        "achievements": "Winner of the Catalan Barebow Cup 2024 • Ranked #4 Nationally",
-        "personalBest": "518 pts (18m)",
-        "badge": "Catalan Cup Winner",
-        "bio": "Exemplary athletic progression pairing intense conditioning with pristine release mechanics."
-      },
-      {
-        "name": "Ferran Martí i Solà",
-        "discipline": "Longbow",
-        "disciplineLabel": "Longbow",
-        "category": "Senior Men",
-        "achievements": "Catalan 3D Field Archery Champion 2024 • National Longbow Silver Medalist",
-        "personalBest": "486 pts (3D)",
-        "badge": "Catalan 3D Champion",
-        "bio": "Specialist in traditional instinctive archery with fine woodcraft bows and custom arrow tuning at La Cova."
-      }
-    ],
-    "gdprNoticeBrief": "Sports achievements, records, and imagery are displayed with the explicit written consent of athletes or legal guardians in accordance with GDPR / LOPDGDD legislation."
+    "closingBadge": "Major de Sant Pere 51 • Terrassa",
+    "closingQuote": "My facilities are located on Carrer Major de Sant Pere in Terrassa—where you will find a new way of relating to sport and archery built on passion, experience, and love for this sport.",
+    "closingAuthor": "Sergi Cebrián",
+    "ctaButton": "Start a sporting project with me"
   },
   "contact": {
     "badge": "Come Shoot Some Arrows",
     "title": "Contact & School",
-    "subtitle": "Whether you want to shoot your very first arrow, pick the bow back up, or refine your competitive game and share this wonderful sport with me in Terrassa, drop me a message.",
+    "subtitle": "If you want to start a sporting project with me, try your first arrow, or visit our Carrer Major de Sant Pere facilities in Terrassa, send me a message through the form.",
     "infoTitle": "Where to Find Us",
     "addressTitle": "Location",
     "addressText": "Major de Sant Pere 51\n08222 Terrassa",
     "websiteTitle": "Website",
     "websiteText": "covadeldrac.com",
-    "emailTitle": "Email address",
-    "emailText": "info@covadeldrac.com",
-    "phoneTitle": "Phone & WhatsApp",
-    "phoneText": "+34 654 98 73 21",
-    "hoursTitle": "School & coaching hours",
-    "hoursText": "Monday to Friday: 10:00 - 13:30 & 16:30 - 21:00\nSaturday: 09:00 - 14:00 (Competitions or intensive sessions)",
+    "hoursTitle": "Visits & training sessions",
+    "hoursText": "By prior appointment.\nWrite to me through the form to arrange a day and time.",
+    "hoursShort": "By prior appointment",
     "form": {
       "title": "Write to Me",
       "nameLabel": "Full Name *",
       "namePlaceholder": "e.g. John Miller",
-      "emailLabel": "Email Address *",
+      "emailLabel": "Your contact email *",
       "emailPlaceholder": "john@example.com",
-      "phoneLabel": "Phone Number",
+      "phoneLabel": "Phone Number (optional)",
       "phonePlaceholder": "+34 600 000 000",
       "disciplineLabel": "Archery Discipline of Interest *",
       "disciplines": {
@@ -368,36 +275,34 @@
         "beginner": "Beginner (Zero or little experience)",
         "intermediate": "Federated archer with own gear",
         "advanced": "Regional, national, or international competitor",
-        "equipment": "Equipment inquiry / bow tuning"
+        "equipment": "Equipment / physical conditioning inquiry"
       },
       "messageLabel": "Tell me what you're looking for *",
-      "messagePlaceholder": "Tell me if you want to start from scratch, what bow you shoot, or what goals you have in mind...",
+      "messagePlaceholder": "Tell me if you want to start from scratch, what bow you shoot, or what sporting project you have in mind...",
       "consentLabel": "I have read and accept the privacy policy and the processing of my personal data under GDPR. In the case of minors, I confirm that I hold legal guardianship.",
       "submitButton": "Send Message",
       "submittingButton": "Sending message...",
       "sendAnother": "Send another message",
       "successMessage": "Thanks so much for reaching out! I've received your message and will get back to you soon so we can talk.",
-      "errorMessage": "An error occurred while submitting the form. Please check the required fields or message us directly on WhatsApp."
+      "errorMessage": "Your message could not be sent. Please check that all required fields and the privacy consent are completed, or try again in a few minutes."
     },
     "gdpr": {
       "title": "Legal Notice & Personal Data Protection (GDPR)",
-      "legalTextP1": "In compliance with Regulation (EU) 2016/679 of the European Parliament (GDPR) and Organic Law 3/2018 (LOPDGDD), you are informed that the data controller is Sergi Cebrián Pujol (La Cova del Drac — Major de Sant Pere 51, 08222 Terrassa). Data collected through this form is strictly used for inquiries, training appointment scheduling, and technical guidance.",
-      "legalTextP2": "Regarding sporting scores, records, and photographs of member athletes published on this website, all have been collected with the explicit prior written consent of the individuals. For athletes under 14 years old, signed authorization has been secured from their parents or legal guardians in accordance with youth and child sports protection legislation.",
-      "legalTextP3": "You may exercise your rights of access, rectification, erasure, restriction, and objection at any time by emailing info@covadeldrac.com with a copy of your identification document."
+      "legalTextP1": "In compliance with Regulation (EU) 2016/679 of the European Parliament (GDPR) and Organic Law 3/2018 (LOPDGDD), you are informed that the data controller is Sergi Cebrián Pujol (La Cova del Drac — Major de Sant Pere 51, 08222 Terrassa). Data collected through this form is strictly used for inquiries, training appointment scheduling, and technical guidance. For inquiries regarding minors, the submission must be completed by a parent or legal guardian.",
+      "legalTextP2": "Personal data is retained solely for the time required to address your inquiry and is never shared with external third parties except under legal obligation. You may exercise your rights of access, rectification, erasure, restriction, and objection at any time through this contact form or in writing at Major de Sant Pere 51, 08222 Terrassa."
     }
   },
   "footer": {
-    "brandDescription": "Archery school and technical training center in Terrassa created by Sergi Cebrián. Passion, an independent method, and international experience for anyone who wants to share this wonderful sport.",
+    "brandDescription": "Archery school and technical training center on Carrer Major de Sant Pere in Terrassa, created by Sergi Cebrián. A new way of relating to archery built on passion, experience, and love for this sport.",
     "locationCity": "Terrassa • Catalonia",
     "addressInline": "Major de Sant Pere 51, 08222 Terrassa",
+    "formLinkLabel": "Send a message via the form",
     "navigationTitle": "Navigation",
-    "facilitiesTitle": "Facilities",
     "legalTitle": "Legal",
     "privacyPolicy": "Privacy Policy",
     "legalNotice": "Legal Notice",
-    "cookiesPolicy": "Cookies Policy",
     "gdprDisclaimer": "Archery school & technical training center • covadeldrac.com",
-    "minorsNotice": "Youth protection and sports data governed by GDPR (EU) 2016/679.",
+    "minorsNotice": "Personal data processing governed by GDPR (EU) 2016/679 and LOPDGDD.",
     "allRightsReserved": "All rights reserved.",
     "designedFor": "Sergi Cebrián • La Cova del Drac (covadeldrac.com)"
   }

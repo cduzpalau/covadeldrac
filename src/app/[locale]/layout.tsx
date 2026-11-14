@@ -3,6 +3,8 @@ import type { Metadata } from 'next';
 import { locales, isValidLocale, defaultLocale, getDictionary, Locale } from '@/lib/i18n';
 import '../globals.css';
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
@@ -35,6 +37,9 @@ export async function generateMetadata({
       'Terrassa',
       'Catalunya',
       'tecnificació',
+      'preparació física tir amb arc',
+      'psicologia esportiva',
+      'etologia',
       'recorbat olímpic',
       'tir de camp',
       'politges',

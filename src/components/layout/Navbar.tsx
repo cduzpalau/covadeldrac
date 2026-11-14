@@ -16,7 +16,6 @@ interface NavbarProps {
       about: string;
       methodology: string;
       facilities: string;
-      athletes: string;
       contact: string;
       cta: string;
     };
@@ -39,7 +38,6 @@ export const Navbar: React.FC<NavbarProps> = ({ locale, dict }) => {
     { href: `#about`, label: dict.nav.about },
     { href: `#methodology`, label: dict.nav.methodology },
     { href: `#facilities`, label: dict.nav.facilities },
-    { href: `#athletes`, label: dict.nav.athletes },
     { href: `#contact`, label: dict.nav.contact },
   ];
 

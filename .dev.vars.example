@@ -1,0 +1,12 @@
+# Cloudflare Pages local development secrets (copy to `.dev.vars` for `npx wrangler pages dev out`)
+# In production, configure these in: Cloudflare Dashboard -> Workers & Pages -> <project> -> Settings -> Variables and Secrets
+
+# 1. Deployed Google Apps Script Web App URL ("https://script.google.com/macros/s/.../exec")
+GOOGLE_SCRIPT_WEBHOOK_URL=""
+
+# 2. Target Google Workspace inbox (leave blank to default to the Workspace user who deployed the Apps Script, or set any email/alias once created)
+CONTACT_RECIPIENT_EMAIL=""
+
+# 3. Shared secret string (must match `CONTACT_WEBHOOK_SECRET` in Apps Script -> Project Settings -> Script Properties)
+CONTACT_WEBHOOK_SECRET="change-me-to-a-random-32-char-secret"
+

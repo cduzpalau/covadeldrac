@@ -22,7 +22,6 @@
     "about": "Qui sóc?",
     "methodology": "Metodologia",
     "facilities": "Instal·lacions",
-    "athletes": "Atletes & Fites",
     "contact": "Contacte",
     "cta": "Contactar"
   },
@@ -30,31 +29,31 @@
     "badge": "Escola i Centre de Tecnificació • Terrassa",
     "titleLine1": "Cap, Cor i Tècnica Pròpia",
     "titleLine2": "A La Cova del Drac",
-    "description": "Una escola i centre de tecnificació creat per Sergi Cebrián des de la independència, els milers de fletxes i l'experiència internacional. Poso la meva passió i el meu camí a disposició de qui vulgui compartir aquest meravellós esport amb mi, des de la primera fletxa fins a la competició.",
+    "description": "Una escola i centre de tecnificació creat per Sergi Cebrián al carrer Major de Sant Pere de Terrassa. Poso els meus coneixements, més de deu anys entrenant arquers i una infraestructura completa a disposició de qui vulgui començar un projecte esportiu i compartir aquest meravellós esport amb mi.",
     "ctaPrimary": "Descobreix les Instal·lacions",
-    "ctaSecondary": "Qui sóc i com treballo",
+    "ctaSecondary": "Qui sóc i la meva metodologia",
     "stats": {
       "experience": {
         "value": "2010",
         "label": "Primera fletxa a la Vall de Núria"
       },
       "podiums": {
-        "value": "< 6m",
-        "label": "Debut al Campionat d'Espanya"
+        "value": "10+",
+        "label": "Anys entrenant arquers"
       },
       "athletes": {
         "value": "3",
         "label": "Països viscuts per l'arc (CAT/ESP, EUA, Suècia)"
       },
       "lanes": {
-        "value": "18-70m",
-        "label": "Escola d'iniciació i tecnificació"
+        "value": "25m",
+        "label": "Sala amb càmeres i gimnàs complet"
       }
     },
     "features": [
-      "Tècnica pròpia i universal per a qualsevol tipus d'arc",
-      "El cap, el cor i les emocions al centre de cada tir",
-      "Aprenentatge honest i sense dogmes innecessaris"
+      "Confort, Sistema i Balanç: la tècnica s'adapta al teu cos",
+      "Psicologia i etologia aplicada al flux emocional competitiu",
+      "Sala de tir fins a 25m amb càmeres i gimnàs complet a Terrassa"
     ]
   },
   "about": {
@@ -91,8 +90,8 @@
         "issuer": "Estats Units i Suècia • Etapa amb Elías Cuesta"
       },
       {
-        "title": "Tècnica Universal i Metodologia Pròpia",
-        "issuer": "Fundador de l'Escola La Cova del Drac (Terrassa)"
+        "title": "Més de 10 Anys d'Entrenador & Etologia",
+        "issuer": "Tècnica adaptada al cos, psicologia i flux emocional"
       }
     ],
     "timelineTitle": "El Meu Camí amb l'Arc",
@@ -127,233 +126,141 @@
     "quoteAuthor": "Sergi Cebrián"
   },
   "methodology": {
-    "badge": "Com Entenc l'Arc",
-    "title": "Filosofia i Metodologia",
-    "subtitle": "Cap escola tancada ni dogmes rígids: una base tècnica universal per a qualsevol arc, on el cap, el cor i les emocions marquen la diferència.",
-    "pillarsTitle": "Els 4 Pilars del Meu Treball",
-    "pillarsLabel": "Fonaments",
-    "pillars": [
+    "badge": "Més de 10 Anys Entrenant Arquers",
+    "title": "Metodologia",
+    "subtitle": "El tir amb arc és un esport indubtablement tècnic, però en cap cas complicat: és la tècnica la que s'ha d'adaptar al nostre cos.",
+    "introText": "Existeix l'aspecte «balístic», que és bàsic, i després una sèrie de conceptes tècnics que s'han de complir, però en cap cas considero que la tècnica o cap aspecte tècnic relacionat amb qualsevol escola —ja sigui KSL, Tir continu, etc.— hagi de supeditar l'arquer a disparar d'una manera concreta.",
+    "rulesTitle": "Les 3 Normes del Tir amb Arc",
+    "rulesLabel": "Pilars de Treball",
+    "rules": [
       {
-        "id": "consistency",
-        "title": "Consistència",
-        "subtitle": "Una Tècnica Pròpia i Universal",
-        "description": "Construïm una manera de disparar natural i coherent que serveix per a qualsevol tipus d'arc, sense moviments artificials i sabent de quines coses cal prescindir."
+        "id": "confort",
+        "ruleNumber": "Norma número 1",
+        "title": "CONFORT",
+        "subtitle": "La tècnica s'adapta al nostre cos",
+        "description": "En la meva experiència i la dels meus companys al llarg dels anys, ens ha quedat clar que és la tècnica la que s'ha d'adaptar al nostre cos, sense que cap escola rígida supediti la manera natural de disparar de cada arquer."
       },
       {
-        "id": "focus",
-        "title": "Enfocament",
-        "subtitle": "Ment, Ritme i Serenor",
-        "description": "Cada tir reflecteix com està la teva ment. Treballem la calma interior, el ritme propi a la línia de tir i la capacitat d'estar present fletxa a fletxa."
+        "id": "sistema",
+        "ruleNumber": "Norma número 2",
+        "title": "SISTEMA",
+        "subtitle": "De la rutina al plaer tirant",
+        "description": "La metodologia d'entrenament és el que acabarà marcant la diferència entre la rutina i el plaer tirant, i d'això en depenen els nostres resultats. Existeixen exercicis per assimilar conceptes, d'altres per pujar el rendiment i d'altres per assolir nivells de càrregues de treball; cada objectiu marcat ha d'estar en consonància amb el treball realitzat."
       },
       {
-        "id": "respect",
-        "title": "Respecte",
-        "subtitle": "Cultura Esportiva i Passió Compartida",
-        "description": "Entenem el tir amb arc com un esport de veritat però també com un espai per gaudir i créixer plegats, amb respecte absolut per la seguretat, els companys i l'ofici."
-      },
-      {
-        "id": "selfAwareness",
-        "title": "Autoconeixement",
-        "subtitle": "Cap, Cor i Emocions",
-        "description": "En les coses que importen no hi ha secrets: aprenem a escoltar el que sents quan tenses l'arc i a gestionar les emocions amb les que vius cada entrenament i competició."
+        "id": "balanc",
+        "ruleNumber": "Norma número 3",
+        "title": "BALANÇ",
+        "subtitle": "Traduir el concepte a sensacions",
+        "description": "Durant els més de deu anys que porto entrenant arquers me n'he adonat que el més difícil per a tothom és entendre realment el concepte bàsic del tir i, el que és més difícil, traduir aquest concepte a sensacions. Aquest és el meu pilar de treball per conduir qualsevol arquer a nivell avançat. No és fàcil, tot i que ho sembla."
       }
     ],
-    "blocksTitle": "Blocs d'Evolució Tècnica",
-    "blocksLabel": "Progrés Estructurat",
-    "blocks": [
-      {
-        "step": "01",
-        "title": "Base Tècnica Sense Dogmes",
-        "description": "Estructuració del tir adaptada a cada persona i modalitat —des de la iniciació fins a la tecnificació— quedant-nos amb l'essencial i eliminant complicacions innecessàries."
-      },
-      {
-        "step": "02",
-        "title": "Competició & Lectura de Camp",
-        "description": "Experiència real acumulada en milers de fletxes, sala, aire lliure i recorreguts de camp: ritme de tir, adaptació a l'entorn i ofici competitiu."
-      },
-      {
-        "step": "03",
-        "title": "Gestió Emocional sota Pressió",
-        "description": "Treball sincer sobre el cap i el cor quan toca competir, començar de zero en un nou repte o respondre amb serenor als moments decisius."
-      },
-      {
-        "step": "04",
-        "title": "Criteri i Sintonia amb el Material",
-        "description": "Ajust pràctic i comprensió de l'equip —arc nu, recorbat, politges o tradicional— perquè l'arc acompanyi el teu tir amb total confiança."
-      }
-    ]
+    "psychology": {
+      "bridgeText": "Partint de la base d'aquests punts i utilitzant-los com a pilars de treball podem encarar la part fonamental d'aquest esport, on diposito tot el meu esforç i on els meus atletes destaquen per sobre de la resta:",
+      "badge": "Etologia Aplicada a l'Alt Rendiment",
+      "title": "La Psicologia i la Part Emocional",
+      "description": "He estudiat etologia i utilitzo els meus coneixements en aquesta ciència per preparar els meus atletes a nivell emocional, que és el que realment marca la diferència.",
+      "pillars": [
+        {
+          "title": "Fora de la zona de confort",
+          "description": "Un cop consolidada la base tècnica, els trec de la zona de confort creada perquè aprenguin a respondre en qualsevol escenari."
+        },
+        {
+          "title": "Preparació psicològica real",
+          "description": "Els preparo psicològicament per a l'exigència de l'esport i la tensió real de la competició."
+        },
+        {
+          "title": "Gestió de la frustració",
+          "description": "Els ensenyo a gestionar la frustració perquè l'error formi part del creixement i no condicioni la fletxa següent."
+        },
+        {
+          "title": "Flux emocional òptim",
+          "description": "El que és més important: els dono eines per generar i mantenir un flux emocional òptim per a cada moment."
+        }
+      ],
+      "quote": "Jo no em considero un gran arquer, però sí que he tingut la capacitat de rendir per sobre del meu nivell quan ha fet falta, i això també es pot transmetre.",
+      "quoteAuthor": "Sergi Cebrián"
+    }
   },
   "facilities": {
-    "badge": "Espais d'Entrenament",
-    "title": "Instal·lacions d'Alt Rendiment",
-    "subtitle": "Dissenyades específicament per a la màxima precisió esportiva, confort tècnic i seguretat a qualsevol distància.",
-    "lanesTitle": "Línies de Tir Homologades",
-    "lanesLabel": "Distàncies Reglamentàries",
-    "specsTitle": "Especificacions Tècniques",
-    "lanes": [
+    "badge": "Infraestructura & Projecte Esportiu",
+    "title": "Instal·lacions",
+    "subtitle": "Els espais ideals al carrer Major de Sant Pere de Terrassa per cobrir íntegrament les necessitats de qualsevol atleta, des d'amateur fins a professional.",
+    "introLead": "La meva voluntat de compartir els meus coneixements i la meva experiència com a esportista no es limita a donar quatre lliçonetes anacròniques.",
+    "introParagraphs": [
+      "Quan vaig començar a tirar amb arc, els meus entrenaments es resumien a disparar fletxes indiscriminadament, una miqueta igual que fa tothom, però ràpid vaig poder observar que aquesta falta de sistema i metodologia no comportava un creixement proporcional al treball realitzat.",
+      "El tir amb arc és un esport i, com tots els altres, per poder progressar es necessita un sistema de treball i una preparació física adequada a l'activitat que es desenvolupa. La meva dedicació exclusiva m'ha permès d'adquirir els coneixements necessaris per esdevenir internacional, però també he pogut crear els espais ideals per cobrir íntegrament les necessitats de qualsevol atleta, des d'amateur fins a professional.",
+      "Qui vol començar un projecte esportiu amb mi no només disposa dels meus coneixements, també de la meva infraestructura per facilitar i maximitzar el seu creixement. El temps m'ha ensenyat que l'exemple i el treball de camp conjunt amb els meus atletes són la millor manera d'acompanyar-los fins on volen arribar."
+    ],
+    "spacesTitle": "Què Trobareu a La Cova del Drac",
+    "spacesLabel": "Infraestructura Integral",
+    "specsTitle": "Equipament i enfocament",
+    "spaces": [
       {
-        "distance": "18 metres",
-        "title": "Galeria Indoor d'Alta Precisió",
-        "description": "Línia homologada per a campionats de sala. Il·luminació LED d'índex CRI 95 uniforme sense reflexos, aïllament tèrmic i cortina posterior de seguretat d'alta densitat.",
-        "specs": ["Climatització constant 21ºC", "6 parapets Danage & Foam d'alta densitat", "Càmeres de repeticions a peu de tir"]
+        "tag": "Fins a 25 metres",
+        "title": "Sala de Tir amb Càmeres i Monitors",
+        "description": "Sala de tir interior de fins a 25 metres equipada amb càmeres i monitors per treballar amb sistema, analitzar el tir al moment i deixar enrere el fet de disparar fletxes indiscriminadament.",
+        "specs": [
+          "Distància de tir interior fins a 25 metres",
+          "Càmeres i monitors per a seguiment tècnic en directe",
+          "Pensada tant per a esportistes amateurs com professionals"
+        ]
       },
       {
-        "distance": "30 metres",
-        "title": "Línia Tècnica Intermèdia",
-        "description": "Ideal per a la transició de sala a aire lliure, regulació de visors, calibratge de vol de fletxa i entrenament d'arquers en formació.",
-        "specs": ["Ideal per a iniciació a l'aire lliure", "Dianes multicamp", "Miralls de correcció postural a la línia"]
+        "tag": "Gimnàs Complet",
+        "title": "Preparació Física, Recuperació i Prevenció",
+        "description": "Un gimnàs complet dissenyat per a una òptima preparació física adaptada al tir amb arc, la recuperació de lesions i molèsties o la realització de compensacions corporals preventives.",
+        "specs": [
+          "Peses, cables i politges d'entrenament específic",
+          "Màquines multifunció i estacions de calistènia",
+          "Recuperació de lesions, molèsties i compensacions preventives"
+        ]
       },
       {
-        "distance": "50 metres",
-        "title": "Línia de Politges i Arc Nu",
-        "description": "Línia oficial per a la distància internacional de l'arc de politges (Compound) i campionats d'aire lliure d'Arc Nu (Barebow).",
-        "specs": ["Banderes indicadores de vent", "Dianes de reducció de 80cm i 122cm", "Parapets reforçats per a altes velocitats (fps)"]
+        "tag": "Material Exclusiu",
+        "title": "Equipament de Tir amb Arc per als Atletes",
+        "description": "Un ventall molt extens de material exclusiu de tir amb arc posat directament a disposició dels meus atletes per facilitar el treball tècnic i maximitzar la seva evolució.",
+        "specs": [
+          "Ventall molt extens de material exclusiu de tir amb arc",
+          "A disposició directa dels atletes del projecte",
+          "Recursos per cobrir totes les etapes de creixement"
+        ]
       },
       {
-        "distance": "70 metres",
-        "title": "Camp Olímpic Recorbat",
-        "description": "Distància olímpica oficial World Archery per a l'arc recorbat. Entrenament en condicions reals de vent, llum natural i competició.",
-        "specs": ["Marcatge oficial WA", "Dianes de 122cm homologades", "Plataforma elevada per a anàlisi de tir"]
+        "tag": "Treball Conjunt",
+        "title": "Acompanyament i Treball de Camp",
+        "description": "Més enllà de la sala i el gimnàs, el creixement es construeix des de l'exemple i el treball de camp conjunt amb els meus atletes per acompanyar-los fins on volen arribar.",
+        "specs": [
+          "Projecte esportiu amb sistema i metodologia pròpia",
+          "Treball de camp conjunt colze a colze amb els atletes",
+          "Acompanyament proper des de l'exemple com a esportista"
+        ]
       }
     ],
-    "zonesTitle": "Àrees Tècniques Complementàries",
-    "zonesLabel": "Equipament Avançat",
-    "zones": [
-      {
-        "title": "Taller Professional de Cordes & Bow Tuning",
-        "description": "Banc d'estiratge de cordes personalitzades, màquina de mesurar flexió d'astils (spine tester), premsa d'arc de politges i paper tuning bay per a l'ajust mil·limètric de cada fletxa.",
-        "tag": "Material & Afinació"
-      },
-      {
-        "title": "Laboratori de Vídeo Biomecànic a 240 fps",
-        "description": "Captura multifocal amb càmeres d'alta velocitat per estudiar l'obertura, la netedat de la solta, l'acció del clicker i la vibració de les pales en el moment del tret.",
-        "tag": "Tecnologia & Dades"
-      },
-      {
-        "title": "Zona d'Escalfament & Activació Escapular",
-        "description": "Espai equipat amb bandes elàstiques de diferents resistències, arcs simuladors de tir, bancs d'estirament i material específic per a la prevenció de lesions d'espatlla.",
-        "tag": "Salut & Condició Física"
-      }
-    ],
-    "accessInfoTitle": "Accés i Horaris d'Entrenament",
-    "accessInfoText": "Entrenaments concertats individuals o en grups reduïts de màxim 4 arquers per garantir atenció 100% personalitzada. Accés amb clau intel·ligent per a arquers federats acreditats.",
-    "ctaText": "Vols reservar un dia de prova a les nostres línies?",
-    "ctaButton": "Sol·licitar visita tècnica"
-  },
-  "athletes": {
-    "badge": "L'Equip & Resultats",
-    "title": "Atletes & Fites Esportives",
-    "subtitle": "El reflex de la dedicació diària a la línia de tir: campions i arquers que creixen a La Cova del Drac.",
-    "filters": {
-      "all": "Totes les modalitats",
-      "recurve": "Arc Recorbat (Olímpic)",
-      "compound": "Arc de Politges (Compound)",
-      "barebow": "Arc Nu (Barebow)",
-      "longbow": "Arc Longbow (Long bow)"
-    },
-    "table": {
-      "name": "Arquer/a",
-      "discipline": "Modalitat",
-      "category": "Categoria",
-      "achievements": "Palmarès & Fites Recents",
-      "personalBest": "Rècord Personal"
-    },
-    "roster": [
-      {
-        "name": "Marc Soler Vila",
-        "discipline": "Recurve",
-        "disciplineLabel": "Recorbat Olímpic",
-        "category": "Sènior Masculí",
-        "achievements": "Subcampió de Catalunya Sala 2024 • Or al Gran Premi de Tir amb Arc 2023",
-        "personalBest": "668 pts (70m)",
-        "badge": "Podi Nacional",
-        "bio": "Membre de l'equip des del 2022. Especialitzat en la solidesa d'ancoratge i tir sota pressió."
-      },
-      {
-        "name": "Ariadna Puig i Fonts",
-        "discipline": "Compound",
-        "disciplineLabel": "Arc de Politges",
-        "category": "Júnior Femení",
-        "achievements": "Campiona d'Espanya Júnior 2024 • Rècord Català de Sala a 18m",
-        "personalBest": "592 pts (18m)",
-        "badge": "Rècord Autonòmic",
-        "bio": "Puntal juvenil amb una precisió quirúrgica i futur als circuits internacionals."
-      },
-      {
-        "name": "Joan Carles Rovira",
-        "discipline": "Barebow",
-        "disciplineLabel": "Arc Nu",
-        "category": "Veterans (+50)",
-        "achievements": "Or al Campionat de Catalunya de Bosc 2024 • Bronze Estatal Arc Nu",
-        "personalBest": "534 pts (18m)",
-        "badge": "Campió de Catalunya",
-        "bio": "Mestre de la tècnica del 'string walking' i referent de constància i concentració al club."
-      },
-      {
-        "name": "Laia Masdeu i Riera",
-        "discipline": "Recurve",
-        "disciplineLabel": "Recorbat Olímpic",
-        "category": "Sub-21 Femení",
-        "achievements": "Bronze al Campionat d'Espanya Aire Lliure 2024 • Integrant de la Selecció Catalana",
-        "personalBest": "645 pts (70m)",
-        "badge": "Selecció Catalana",
-        "bio": "Jove promesa formada a La Cova del Drac des de les sessions d'iniciació técnica."
-      },
-      {
-        "name": "Pau Guitart Costa",
-        "discipline": "Compound",
-        "disciplineLabel": "Arc de Politges",
-        "category": "Sènior Masculí",
-        "achievements": "Campió de la Lliga Catalana de Sala 2023 • Top 8 Campionat d'Espanya 2024",
-        "personalBest": "704 pts (50m)",
-        "badge": "Top 8 Nacional",
-        "bio": "Enginyer de professió i perfeccionista de l'afinació mecànica de disparadors de pressió."
-      },
-      {
-        "name": "Clara Valls Vidal",
-        "discipline": "Barebow",
-        "disciplineLabel": "Arc Nu",
-        "category": "Sènior Femení",
-        "achievements": "Campiona de la Copa Catalana d'Arc Nu 2024 • 4a posició al rànquing estatal",
-        "personalBest": "518 pts (18m)",
-        "badge": "Copa Catalana",
-        "bio": "Trajectòria exemplar combinant esport d'alta intensitat amb una tècnica d'ancoratge exemplar."
-      },
-      {
-        "name": "Ferran Martí i Solà",
-        "discipline": "Longbow",
-        "disciplineLabel": "Arc Longbow",
-        "category": "Sènior Masculí",
-        "achievements": "Campió de Catalunya de Tir de Bosc 3D 2024 • Subcampió Estatal Longbow",
-        "personalBest": "486 pts (3D)",
-        "badge": "Campió de Catalunya 3D",
-        "bio": "Especialista en la puresa del tir instintiu amb arcs de fusta noble i afinació artesanal de sagetes a La Cova."
-      }
-    ],
-    "gdprNoticeBrief": "Dades esportives i imatges publicades amb el consentiment exprés dels esportistes o els seus tutors legals segons la normativa vigent (RGPD / LOPDGDD)."
+    "closingBadge": "Major de Sant Pere 51 • Terrassa",
+    "closingQuote": "Les meves instal·lacions es troben al carrer Major de Sant Pere de Terrassa i allà serà on trobareu una nova manera de relacionar-vos amb l'esport i el tir amb arc basada en la passió, l'experiència i l'amor per aquest esport.",
+    "closingAuthor": "Sergi Cebrián",
+    "ctaButton": "Comença un projecte amb mi"
   },
   "contact": {
     "badge": "Vine a Tirar Fletxes",
     "title": "Contacte & Escola",
-    "subtitle": "Si vols descobrir el tir amb arc des de la teva primera fletxa, reprendre'l o treballar la tecnificació i compartir aquest meravellós esport amb mi a Terrassa, escriu-me.",
+    "subtitle": "Si vols començar un projecte esportiu amb mi, descobrir l'arc des de zero o conèixer les instal·lacions del carrer Major de Sant Pere de Terrassa, escriu-me a través del formulari.",
     "infoTitle": "On Som",
     "addressTitle": "Ubicació",
     "addressText": "Major de Sant Pere 51\n08222 Terrassa",
     "websiteTitle": "Web",
     "websiteText": "covadeldrac.com",
-    "emailTitle": "Correu electrònic",
-    "emailText": "info@covadeldrac.com",
-    "phoneTitle": "Telèfon & WhatsApp",
-    "phoneText": "+34 654 98 73 21",
-    "hoursTitle": "Horaris d'escola i tecnificació",
-    "hoursText": "Dilluns a Divendres: 10:00 - 13:30 i 16:30 - 21:00\nDissabtes: 09:00 - 14:00 (Competició o sessions intensives)",
+    "hoursTitle": "Atenció i entrenaments",
+    "hoursText": "Hores convingudes amb cita prèvia.\nEscriu-me pel formulari per concretar dia i hora.",
+    "hoursShort": "Amb cita prèvia (hores convingudes)",
     "form": {
       "title": "Escriu-me",
       "nameLabel": "Nom i Cognoms *",
       "namePlaceholder": "ex. Jordi Martínez",
-      "emailLabel": "Correu Electrònic *",
+      "emailLabel": "El teu correu de contacte *",
       "emailPlaceholder": "jordi@exemple.com",
-      "phoneLabel": "Telèfon de Contacte",
+      "phoneLabel": "Telèfon de Contacte (opcional)",
       "phonePlaceholder": "+34 600 000 000",
       "disciplineLabel": "Modalitat d'interès *",
       "disciplines": {
@@ -368,36 +275,34 @@
         "beginner": "Iniciació (Cap o poca experiència)",
         "intermediate": "Arquer federat amb equip propi",
         "advanced": "Competició autonòmica, estatal o internacional",
-        "equipment": "Consulta de material / ajust d'arc"
+        "equipment": "Consulta de material / preparació física"
       },
       "messageLabel": "Explica'm què busques *",
-      "messagePlaceholder": "Explica'm si vols començar des de zero, quin arc fas servir o quins objectius tens...",
+      "messagePlaceholder": "Explica'm si vols començar des de zero, quin arc fas servir o quin projecte esportiu tens al cap...",
       "consentLabel": "He llegit i accepto la política de privadesa i el tractament de les meves dades personals segons el RGPD. En cas de menors d'edat, confirmo que disposo de la representació legal del menor.",
       "submitButton": "Enviar Missatge",
       "submittingButton": "Enviant missatge...",
       "sendAnother": "Enviar una altra consulta",
       "successMessage": "Moltes gràcies per escriure'm! He rebut el teu missatge i et respondré ben aviat perquè puguem parlar-ne.",
-      "errorMessage": "S'ha produït un error en enviar el formulari. Si us plau, revisa els camps obligatoris o contacta directament per WhatsApp."
+      "errorMessage": "No s'ha pogut enviar el missatge. Revisa que hagis omplert tots els camps obligatoris i acceptat la política de privadesa, o torna-ho a provar en uns minuts."
     },
     "gdpr": {
       "title": "Avís Legal & Protecció de Dades Personals (RGPD)",
-      "legalTextP1": "En compliment del Reglament (UE) 2016/679 del Parlament Europeu (RGPD) i la Llei Orgànica 3/2018 (LOPDGDD), us informem que el responsable del tractament de les vostres dades és Sergi Cebrián Pujol (La Cova del Drac — Major de Sant Pere 51, 08222 Terrassa). La finalitat de la recollida de dades a través d'aquest formulari és exclusivament la gestió de consultes, cites d'entrenament esportiu i assessorament tècnic.",
-      "legalTextP2": "Pel que fa a les dades esportives, marques i imatges publicades al web relatives als atletes membres del centre, totes elles compten amb el consentiment exprés i escrit dels interessats. En el cas dels esportistes menors de 14 anys, es disposa de l'autorització signada prèviament pels seus pares, mares o tutors legals, d'acord amb la protecció reforçada que estableix la legislació de protecció de la infància i l'esport.",
-      "legalTextP3": "Podeu exercir els vostres drets d'accés, rectificació, supressió, limitació i oposició mitjançant un correu electrònic adreçat a info@covadeldrac.com acompanyat d'una còpia del vostre document d'identitat."
+      "legalTextP1": "En compliment del Reglament (UE) 2016/679 del Parlament Europeu (RGPD) i la Llei Orgànica 3/2018 (LOPDGDD), us informem que el responsable del tractament de les vostres dades és Sergi Cebrián Pujol (La Cova del Drac — Major de Sant Pere 51, 08222 Terrassa). La finalitat de la recollida de dades a través d'aquest formulari és exclusivament la gestió de consultes, cites d'entrenament esportiu i assessorament tècnic. En cas de consultes referents a menors d'edat, la sol·licitud ha de ser remesa pel seu pare, mare o tutor legal.",
+      "legalTextP2": "Les dades es conservaran únicament durant el temps necessari per atendre la vostra sol·licitud i no se cediran a tercers aliens al servei, excepte obligació legal. Podeu exercir els vostres drets d'accés, rectificació, supressió, limitació i oposició a través d'aquest mateix formulari de contacte o per escrit a l'adreça Major de Sant Pere 51, 08222 Terrassa."
     }
   },
   "footer": {
-    "brandDescription": "Escola i centre de tecnificació de tir amb arc a Terrassa, creat per Sergi Cebrián. Passió, mètode propi i experiència internacional per a qui vulgui compartir aquest meravellós esport.",
+    "brandDescription": "Escola i centre de tecnificació de tir amb arc al carrer Major de Sant Pere de Terrassa, creat per Sergi Cebrián. Una nova manera de relacionar-vos amb el tir amb arc basada en la passió, l'experiència i l'amor per aquest esport.",
     "locationCity": "Terrassa • Catalunya",
     "addressInline": "Major de Sant Pere 51, 08222 Terrassa",
+    "formLinkLabel": "Escriu-me pel formulari",
     "navigationTitle": "Navegació",
-    "facilitiesTitle": "Instal·lacions",
     "legalTitle": "Informació Legal",
     "privacyPolicy": "Política de Privadesa",
     "legalNotice": "Avís Legal",
-    "cookiesPolicy": "Política de Cookies",
     "gdprDisclaimer": "Escola i centre de tecnificació de tir amb arc • covadeldrac.com",
-    "minorsNotice": "Protecció de menors i dades esportives regulada per RGPD (UE) 2016/679.",
+    "minorsNotice": "Tractament de dades personals regulat pel RGPD (UE) 2016/679 i LOPDGDD.",
     "allRightsReserved": "Tots els drets reservats.",
     "designedFor": "Sergi Cebrián • La Cova del Drac (covadeldrac.com)"
   }

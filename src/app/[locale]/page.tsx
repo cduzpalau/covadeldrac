@@ -6,8 +6,9 @@ import { HeroSection } from '@/components/sections/HeroSection';
 import { AboutSection } from '@/components/sections/AboutSection';
 import { MethodologySection } from '@/components/sections/MethodologySection';
 import { FacilitiesSection } from '@/components/sections/FacilitiesSection';
-import { AthletesSection } from '@/components/sections/AthletesSection';
 import { ContactSection } from '@/components/sections/ContactSection';
+
+export const dynamicParams = false;
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -38,8 +39,7 @@ export default async function LocalePage({ params }: LocalePageProps) {
         <AboutSection dict={dict} />
         <MethodologySection dict={dict} />
         <FacilitiesSection dict={dict} />
-        <AthletesSection dict={dict} />
-        <ContactSection dict={dict} />
+        <ContactSection dict={dict} locale={locale} />
       </main>
 
       <Footer
@@ -53,8 +53,7 @@ export default async function LocalePage({ params }: LocalePageProps) {
           nav: dict.nav,
           contact: {
             websiteText: dict.contact.websiteText,
-            emailText: dict.contact.emailText,
-            phoneText: dict.contact.phoneText,
+            hoursShort: dict.contact.hoursShort,
           },
           footer: dict.footer,
         }}

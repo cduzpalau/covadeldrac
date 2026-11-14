@@ -22,7 +22,6 @@
     "about": "¿Quién soy?",
     "methodology": "Metodología",
     "facilities": "Instalaciones",
-    "athletes": "Atletas & Logros",
     "contact": "Contacto",
     "cta": "Contactar"
   },
@@ -30,31 +29,31 @@
     "badge": "Escuela y Centro de Tecnificación • Terrassa",
     "titleLine1": "Cabeza, Corazón y Técnica Propia",
     "titleLine2": "En La Cova del Drac",
-    "description": "Una escuela y centro de tecnificación creado por Sergi Cebrián desde la independencia, miles de flechas y la experiencia internacional. Pongo mi pasión y mi camino a disposición de quien quiera compartir este maravilloso deporte conmigo, desde la primera flecha hasta la competición.",
+    "description": "Una escuela y centro de tecnificación creado por Sergi Cebrián en la calle Major de Sant Pere de Terrassa. Pongo mis conocimientos, más de diez años entrenando arqueros y una infraestructura completa a disposición de quien quiera iniciar un proyecto deportivo y compartir este maravilloso deporte conmigo.",
     "ctaPrimary": "Descubre las Instalaciones",
-    "ctaSecondary": "Quién soy y cómo trabajo",
+    "ctaSecondary": "Quién soy y mi metodología",
     "stats": {
       "experience": {
         "value": "2010",
         "label": "Primera flecha en la Vall de Núria"
       },
       "podiums": {
-        "value": "< 6m",
-        "label": "Debut en el Campeonato de España"
+        "value": "10+",
+        "label": "Años entrenando arqueros"
       },
       "athletes": {
         "value": "3",
         "label": "Países vividos por el arco (ESP, EE. UU., Suecia)"
       },
       "lanes": {
-        "value": "18-70m",
-        "label": "Escuela de iniciación y tecnificación"
+        "value": "25m",
+        "label": "Sala con cámaras y gimnasio completo"
       }
     },
     "features": [
-      "Técnica propia y universal para cualquier tipo de arco",
-      "La cabeza, el corazón y las emociones en cada flecha",
-      "Aprendizaje honesto y sin dogmas innecesarios"
+      "Confort, Sistema y Balance: la técnica se adapta a tu cuerpo",
+      "Psicología y etología aplicada al flujo emocional competitivo",
+      "Sala de tiro hasta 25m con cámaras y gimnasio completo en Terrassa"
     ]
   },
   "about": {
@@ -91,8 +90,8 @@
         "issuer": "Estados Unidos y Suecia • Etapa con Elías Cuesta"
       },
       {
-        "title": "Técnica Universal y Metodología Propia",
-        "issuer": "Fundador de la Escuela La Cova del Drac (Terrassa)"
+        "title": "Más de 10 Años de Entrenador & Etología",
+        "issuer": "Técnica adaptada al cuerpo, psicología y flujo emocional"
       }
     ],
     "timelineTitle": "Mi Camino con el Arco",
@@ -127,233 +126,141 @@
     "quoteAuthor": "Sergi Cebrián"
   },
   "methodology": {
-    "badge": "Cómo Entiendo el Arco",
-    "title": "Filosofía y Metodología",
-    "subtitle": "Sin escuelas cerradas ni dogmas rígidos: una base técnica universal para cualquier arco, donde la cabeza, el corazón y las emociones marcan la diferencia.",
-    "pillarsTitle": "Los 4 Pilares de Mi Trabajo",
-    "pillarsLabel": "Fundamentos",
-    "pillars": [
+    "badge": "Más de 10 Años Entrenando Arqueros",
+    "title": "Metodología",
+    "subtitle": "El tiro con arco es un deporte indudablemente técnico, pero en ningún caso complicado: es la técnica la que debe adaptarse a nuestro cuerpo.",
+    "introText": "Existe el aspecto «balístico», que es básico, y después una serie de conceptos técnicos que deben cumplirse, pero en ningún caso considero que la técnica o ningún aspecto técnico relacionado con cualquier escuela —ya sea KSL, Tiro continuo, etc.— deba supeditar al arquero a disparar de una manera concreta.",
+    "rulesTitle": "Las 3 Normas del Tiro con Arco",
+    "rulesLabel": "Pilares de Trabajo",
+    "rules": [
       {
-        "id": "consistency",
-        "title": "Consistencia",
-        "subtitle": "Una Técnica Propia y Universal",
-        "description": "Construimos una forma de disparar natural y coherente que sirve para cualquier tipo de arco, sin gestos artificiales y sabiendo de qué cosas hay que prescindir."
+        "id": "confort",
+        "ruleNumber": "Norma número 1",
+        "title": "CONFORT",
+        "subtitle": "La técnica se adapta a nuestro cuerpo",
+        "description": "En mi experiencia y la de mis compañeros a lo largo de los años, nos ha quedado claro que es la técnica la que tiene que adaptarse a nuestro cuerpo, sin que ninguna escuela rígida supedite la forma natural de disparar de cada arquero."
       },
       {
-        "id": "focus",
-        "title": "Enfoque",
-        "subtitle": "Mente, Ritmo y Serenidad",
-        "description": "Cada tiro refleja cómo está tu mente. Trabajamos la calma interior, el ritmo propio en la línea de tiro y la capacidad de estar presente flecha a flecha."
+        "id": "sistema",
+        "ruleNumber": "Norma número 2",
+        "title": "SISTEMA",
+        "subtitle": "De la rutina al placer tirando",
+        "description": "La metodología de entrenamiento es lo que acabará marcando la diferencia entre la rutina y el placer tirando, y de ello dependen nuestros resultados. Existen ejercicios para asimilar conceptos, otros para subir el rendimiento y otros para alcanzar niveles de cargas de trabajo; cada objetivo marcado debe estar en consonancia con el trabajo realizado."
       },
       {
-        "id": "respect",
-        "title": "Respeto",
-        "subtitle": "Cultura Deportiva y Pasión Compartida",
-        "description": "Entendemos el tiro con arco como un deporte de verdad pero también como un lugar para disfrutar y crecer juntos, con respeto absoluto por la seguridad, los compañeros y el oficio."
-      },
-      {
-        "id": "selfAwareness",
-        "title": "Autoconocimiento",
-        "subtitle": "Cabeza, Corazón y Emociones",
-        "description": "En lo que de verdad importa no existen secretos: aprendemos a escuchar lo que sientes al abrir el arco y a gestionar las emociones con las que vives cada entrenamiento y competición."
+        "id": "balanc",
+        "ruleNumber": "Norma número 3",
+        "title": "BALANCE",
+        "subtitle": "Traducir el concepto a sensaciones",
+        "description": "Durante los más de diez años que llevo entrenando arqueros me he dado cuenta de que lo más difícil para todo el mundo es entender realmente el concepto básico del tiro y, lo que es más difícil aún, traducir ese concepto a sensaciones. Este es mi pilar de trabajo para conducir a cualquier arquero a nivel avanzado. No es fácil, aunque lo parezca."
       }
     ],
-    "blocksTitle": "Bloques de Evolución Técnica",
-    "blocksLabel": "Progreso Estructurado",
-    "blocks": [
-      {
-        "step": "01",
-        "title": "Base Técnica Sin Dogmas",
-        "description": "Estructuración del tiro adaptada a cada persona y modalidad —desde la iniciación hasta la tecnificación— quedándonos con lo esencial y quitando complicaciones innecesarias."
-      },
-      {
-        "step": "02",
-        "title": "Competición & Lectura de Campo",
-        "description": "Experiencia real acumulada en miles de flechas en sala, aire libre y recorridos de campo: ritmo de tiro, adaptación al entorno y oficio competitivo."
-      },
-      {
-        "step": "03",
-        "title": "Gestión Emocional bajo Presión",
-        "description": "Trabajo sincero sobre la cabeza y el corazón cuando toca competir, empezar de cero ante un nuevo reto o responder con serenidad en los momentos decisivos."
-      },
-      {
-        "step": "04",
-        "title": "Criterio y Sintonía con el Material",
-        "description": "Ajuste práctico y comprensión del equipo —arco desnudo, recurvo, poleas o tradicional— para que el arco acompañe tu tiro con total confianza."
-      }
-    ]
+    "psychology": {
+      "bridgeText": "Partiendo de la base de estos puntos y utilizándolos como pilares de trabajo podemos encarar la parte fundamental de este deporte, donde deposito todo mi esfuerzo y donde mis atletas destacan por encima del resto:",
+      "badge": "Etología Aplicada al Alto Rendimiento",
+      "title": "La Psicología y la Parte Emocional",
+      "description": "He estudiado etología y utilizo mis conocimientos en esta ciencia para preparar a mis atletas a nivel emocional, que es lo que realmente marca la diferencia.",
+      "pillars": [
+        {
+          "title": "Fuera de la zona de confort",
+          "description": "Una vez consolidada la base técnica, los saco de la zona de confort creada para que aprendan a responder ante cualquier escenario."
+        },
+        {
+          "title": "Preparación psicológica real",
+          "description": "Los preparo psicológicamente para la exigencia del deporte y la tensión real de la competición."
+        },
+        {
+          "title": "Gestión de la frustración",
+          "description": "Les enseño a gestionar la frustración para que el fallo forme parte del crecimiento y no condicione la siguiente flecha."
+        },
+        {
+          "title": "Flujo emocional óptimo",
+          "description": "Y lo más importante: les doy herramientas para generar y mantener un flujo emocional óptimo para cada momento."
+        }
+      ],
+      "quote": "Yo no me considero un gran arquero, pero sí he tenido la capacidad de rendir por encima de mi nivel cuando ha hecho falta, y eso también se puede transmitir.",
+      "quoteAuthor": "Sergi Cebrián"
+    }
   },
   "facilities": {
-    "badge": "Espacios de Entrenamiento",
-    "title": "Instalaciones de Alto Rendimiento",
-    "subtitle": "Diseñadas específicamente para la máxima precisión deportiva, confort técnico y seguridad a cualquier distancia.",
-    "lanesTitle": "Líneas de Tiro Homologadas",
-    "lanesLabel": "Distancias Reglamentarias",
-    "specsTitle": "Especificaciones Técnicas",
-    "lanes": [
+    "badge": "Infraestructura & Proyecto Deportivo",
+    "title": "Instalaciones",
+    "subtitle": "Los espacios ideales en la calle Major de Sant Pere de Terrassa para cubrir íntegramente las necesidades de cualquier atleta, desde amateur hasta profesional.",
+    "introLead": "Mi voluntad de compartir mis conocimientos y mi experiencia como deportista no se limita a dar cuatro leccioncitas anacrónicas.",
+    "introParagraphs": [
+      "Cuando empecé a tirar con arco, mis entrenamientos se resumían en disparar flechas indiscriminadamente, un poquito igual que hace todo el mundo, pero rápido pude observar que esa falta de sistema y metodología no comportaba un crecimiento proporcional al trabajo realizado.",
+      "El tiro con arco es un deporte y, como todos los demás, para poder progresar se necesita un sistema de trabajo y una preparación física adecuada a la actividad que se desarrolla. Mi dedicación exclusiva me ha permitido adquirir los conocimientos necesarios para llegar a ser internacional, pero también he podido crear los espacios ideales para cubrir íntegramente las necesidades de cualquier atleta, desde amateur hasta profesional.",
+      "Quien quiere empezar un proyecto deportivo conmigo no solo dispone de mis conocimientos, sino también de mi infraestructura para facilitar y maximizar su crecimiento. El tiempo me ha enseñado que el ejemplo y el trabajo de campo conjunto con mis atletas son la mejor manera de acompañarlos hasta donde quieren llegar."
+    ],
+    "spacesTitle": "Qué Encontraréis en La Cova del Drac",
+    "spacesLabel": "Infraestructura Integral",
+    "specsTitle": "Equipamiento y enfoque",
+    "spaces": [
       {
-        "distance": "18 metros",
-        "title": "Galería Indoor de Alta Precisión",
-        "description": "Línea homologada para campeonatos de sala. Iluminación LED de índice CRI 95 uniforme sin reflejos, aislamiento térmico y cortina posterior de seguridad de alta densidad.",
-        "specs": ["Climatización constante 21ºC", "6 parapetos Danage & Foam de alta densidad", "Cámaras de repetición a pie de tiro"]
+        "tag": "Hasta 25 metros",
+        "title": "Sala de Tiro con Cámaras y Monitores",
+        "description": "Sala de tiro interior de hasta 25 metros equipada con cámaras y monitores para trabajar con sistema, analizar cada tiro al instante y dejar atrás el disparar flechas indiscriminadamente.",
+        "specs": [
+          "Distancia de tiro interior de hasta 25 metros",
+          "Cámaras y monitores para análisis visual en directo",
+          "Pensada tanto para deportistas amateurs como profesionales"
+        ]
       },
       {
-        "distance": "30 metros",
-        "title": "Línea Técnica Intermedia",
-        "description": "Ideal para la transición de sala a aire libre, regulación de visores, calibración de vuelo de flecha y entrenamiento de arqueros en formación.",
-        "specs": ["Ideal para iniciación al aire libre", "Dianas multicampo", "Espejos de corrección postural en la línea"]
+        "tag": "Gimnasio Completo",
+        "title": "Preparación Física, Recuperación y Prevención",
+        "description": "Un gimnasio completo diseñado para una óptima preparación física adaptada al tiro con arco, la recuperación de lesiones y molestias o la realización de compensaciones corporales preventivas.",
+        "specs": [
+          "Pesas, cables y poleas de entrenamiento específico",
+          "Máquinas multifunción y estaciones de calistenia",
+          "Recuperación de lesiones, molestias y compensaciones preventivas"
+        ]
       },
       {
-        "distance": "50 metros",
-        "title": "Línea de Poleas y Arco Desnudo",
-        "description": "Línea oficial para la distancia internacional del arco de poleas (Compound) y campeonatos de aire libre de Arco Desnudo (Barebow).",
-        "specs": ["Banderas indicadoras de viento", "Dianas reducidas de 80cm y 122cm", "Parapetos reforzados para altas velocidades (fps)"]
+        "tag": "Material Exclusivo",
+        "title": "Equipamiento de Tiro con Arco para los Atletas",
+        "description": "Un abanico muy extenso de material exclusivo de tiro con arco puesto directamente a disposición de mis atletas para facilitar el trabajo técnico y maximizar su evolución.",
+        "specs": [
+          "Amplio abanico de material exclusivo de tiro con arco",
+          "A disposición directa de los atletas del proyecto",
+          "Recursos para cubrir todas las etapas de crecimiento"
+        ]
       },
       {
-        "distance": "70 metros",
-        "title": "Campo Olímpico Recurvo",
-        "description": "Distancia olímpica oficial World Archery para el arco recurvo. Entrenamiento en condiciones reales de viento, luz natural y competición.",
-        "specs": ["Marcaje oficial WA", "Dianas de 122cm homologadas", "Plataforma elevada para análisis de tiro"]
+        "tag": "Trabajo Conjunto",
+        "title": "Acompañamiento y Trabajo de Campo",
+        "description": "Más allá de la sala y el gimnasio, el crecimiento se construye desde el ejemplo y el trabajo de campo conjunto con mis atletas para acompañarlos hasta donde quieren llegar.",
+        "specs": [
+          "Proyecto deportivo con sistema y metodología propia",
+          "Trabajo de campo conjunto codo con codo con los atletas",
+          "Acompañamiento cercano desde el ejemplo como deportista"
+        ]
       }
     ],
-    "zonesTitle": "Áreas Técnicas Complementarias",
-    "zonesLabel": "Equipamiento Avanzado",
-    "zones": [
-      {
-        "title": "Taller Profesional de Cuerdas & Bow Tuning",
-        "description": "Banco de estiramiento de cuerdas personalizadas, máquina de medición de flexión de astiles (spine tester), prensa de arco de poleas y paper tuning bay para ajuste milimétrico.",
-        "tag": "Material & Afinación"
-      },
-      {
-        "title": "Laboratorio de Vídeo Biomecánico a 240 fps",
-        "description": "Captura multifocal con cámaras de alta velocidad para estudiar la apertura, la limpieza de la suelta, la acción del clicker y la oscilación de las palas.",
-        "tag": "Tecnología & Datos"
-      },
-      {
-        "title": "Zona de Calentamiento & Activación Escapular",
-        "description": "Espacio equipado con bandas elásticas de diversas resistencias, arcos simuladores de tiro, bancos de estiramiento y material para la prevención de lesiones.",
-        "tag": "Salud & Condición Física"
-      }
-    ],
-    "accessInfoTitle": "Acceso y Horarios de Entrenamiento",
-    "accessInfoText": "Entrenamientos concertados individuales o en grupos reducidos de máximo 4 arqueros para garantizar atención 100% personalizada. Acceso con llave inteligente para arqueros federados acreditados.",
-    "ctaText": "¿Quieres reservar un día de prueba en nuestras líneas?",
-    "ctaButton": "Solicitar visita técnica"
-  },
-  "athletes": {
-    "badge": "El Equipo & Resultados",
-    "title": "Atletas & Logros Deportivos",
-    "subtitle": "El reflejo de la dedicación diaria en la línea de tiro: campeones y arqueros que crecen en La Cova del Drac.",
-    "filters": {
-      "all": "Todas las modalidades",
-      "recurve": "Arco Recurvo (Olímpico)",
-      "compound": "Arco de Poleas (Compound)",
-      "barebow": "Arco Desnudo (Barebow)",
-      "longbow": "Arco Longbow (Long bow)"
-    },
-    "table": {
-      "name": "Arquero/a",
-      "discipline": "Modalidad",
-      "category": "Categoría",
-      "achievements": "Palmarés & Hitos Recientes",
-      "personalBest": "Récord Personal"
-    },
-    "roster": [
-      {
-        "name": "Marc Soler Vila",
-        "discipline": "Recurve",
-        "disciplineLabel": "Recurvo Olímpico",
-        "category": "Sénior Masculino",
-        "achievements": "Subcampeón de Cataluña Sala 2024 • Oro en el Gran Premio de Tiro con Arco 2023",
-        "personalBest": "668 pts (70m)",
-        "badge": "Podio Nacional",
-        "bio": "Miembro del equipo desde 2022. Especializado en solidez de anclaje y tiro bajo presión."
-      },
-      {
-        "name": "Ariadna Puig i Fonts",
-        "discipline": "Compound",
-        "disciplineLabel": "Arco de Poleas",
-        "category": "Júnior Femenino",
-        "achievements": "Campeona de España Júnior 2024 • Récord Catalán de Sala a 18m",
-        "personalBest": "592 pts (18m)",
-        "badge": "Récord Autonómico",
-        "bio": "Puntal juvenil con una precisión quirúrgica y futuro en circuitos internacionales."
-      },
-      {
-        "name": "Joan Carles Rovira",
-        "discipline": "Barebow",
-        "disciplineLabel": "Arco Desnudo",
-        "category": "Veteranos (+50)",
-        "achievements": "Oro en el Campeonato de Cataluña de Bosque 2024 • Bronce Nacional Arco Desnudo",
-        "personalBest": "534 pts (18m)",
-        "badge": "Campeón de Cataluña",
-        "bio": "Maestro de la técnica del 'string walking' y referente de constancia y concentración en el club."
-      },
-      {
-        "name": "Laia Masdeu i Riera",
-        "discipline": "Recurve",
-        "disciplineLabel": "Recurvo Olímpico",
-        "category": "Sub-21 Femenino",
-        "achievements": "Bronce en el Campeonato de España Aire Libre 2024 • Integrante de la Selección Catalana",
-        "personalBest": "645 pts (70m)",
-        "badge": "Selección Catalana",
-        "bio": "Joven promesa formada en La Cova del Drac desde las sesiones de iniciación técnica."
-      },
-      {
-        "name": "Pau Guitart Costa",
-        "discipline": "Compound",
-        "disciplineLabel": "Arco de Poleas",
-        "category": "Sénior Masculino",
-        "achievements": "Campeón de la Liga Catalana de Sala 2023 • Top 8 Campeonato de España 2024",
-        "personalBest": "704 pts (50m)",
-        "badge": "Top 8 Nacional",
-        "bio": "Ingeniero de profesión y perfeccionista de la afinación mecánica de disparadores de tensión."
-      },
-      {
-        "name": "Clara Valls Vidal",
-        "discipline": "Barebow",
-        "disciplineLabel": "Arco Desnudo",
-        "category": "Sénior Femenino",
-        "achievements": "Campeona de la Copa Catalana de Arco Desnudo 2024 • 4ª posición ranking estatal",
-        "personalBest": "518 pts (18m)",
-        "badge": "Copa Catalana",
-        "bio": "Trayectoria ejemplar combinando deporte de alta intensidad con una técnica de anclaje impecable."
-      },
-      {
-        "name": "Ferran Martí i Solà",
-        "discipline": "Longbow",
-        "disciplineLabel": "Arco Longbow",
-        "category": "Sénior Masculino",
-        "achievements": "Campeón de Cataluña de Tiro de Bosque 3D 2024 • Subcampeón Nacional Longbow",
-        "personalBest": "486 pts (3D)",
-        "badge": "Campeón de Cataluña 3D",
-        "bio": "Especialista en la pureza del tiro instintivo con arcos de madera noble y afinación artesanal de flechas en La Cova."
-      }
-    ],
-    "gdprNoticeBrief": "Datos deportivos e imágenes publicadas con el consentimiento expreso de los deportistas o sus tutores legales según la normativa vigente (RGPD / LOPDGDD)."
+    "closingBadge": "Major de Sant Pere 51 • Terrassa",
+    "closingQuote": "Mis instalaciones se encuentran en la calle Major de Sant Pere de Terrassa y allí será donde encontraréis una nueva manera de relacionaros con el deporte y el tiro con arco basada en la pasión, la experiencia y el amor por este deporte.",
+    "closingAuthor": "Sergi Cebrián",
+    "ctaButton": "Empieza un proyecto conmigo"
   },
   "contact": {
     "badge": "Ven a Tirar Flechas",
     "title": "Contacto & Escuela",
-    "subtitle": "Si quieres descubrir el tiro con arco desde tu primera flecha, retomarlo o trabajar la tecnificación y compartir este maravilloso deporte conmigo en Terrassa, escríbeme.",
+    "subtitle": "Si quieres empezar un proyecto deportivo conmigo, descubrir el arco desde cero o conocer las instalaciones de la calle Major de Sant Pere de Terrassa, escríbeme a través del formulario.",
     "infoTitle": "Dónde Estamos",
     "addressTitle": "Ubicación",
     "addressText": "Major de Sant Pere 51\n08222 Terrassa",
     "websiteTitle": "Web",
     "websiteText": "covadeldrac.com",
-    "emailTitle": "Correo electrónico",
-    "emailText": "info@covadeldrac.com",
-    "phoneTitle": "Teléfono & WhatsApp",
-    "phoneText": "+34 654 98 73 21",
-    "hoursTitle": "Horarios de escuela y tecnificación",
-    "hoursText": "Lunes a Viernes: 10:00 - 13:30 y 16:30 - 21:00\nSábados: 09:00 - 14:00 (Competición o intensivos)",
+    "hoursTitle": "Atención y entrenamientos",
+    "hoursText": "Horas convenidas con cita previa.\nEscríbeme por el formulario para concretar día y hora.",
+    "hoursShort": "Con cita previa (horas convenidas)",
     "form": {
       "title": "Escríbeme",
       "nameLabel": "Nombre y Apellidos *",
       "namePlaceholder": "ej. Jorge Martínez",
-      "emailLabel": "Correo Electrónico *",
+      "emailLabel": "Tu correo de contacto *",
       "emailPlaceholder": "jorge@ejemplo.com",
-      "phoneLabel": "Teléfono de Contacto",
+      "phoneLabel": "Teléfono de Contacto (opcional)",
       "phonePlaceholder": "+34 600 000 000",
       "disciplineLabel": "Modalidad de interés *",
       "disciplines": {
@@ -368,36 +275,34 @@
         "beginner": "Iniciación (Sin o con poca experiencia)",
         "intermediate": "Arquero federado con equipo propio",
         "advanced": "Competición autonómica, nacional o internacional",
-        "equipment": "Consulta de material / ajuste de arco"
+        "equipment": "Consulta de material / preparación física"
       },
       "messageLabel": "Cuéntame qué buscas *",
-      "messagePlaceholder": "Cuéntame si quieres empezar desde cero, qué arco utilizas o qué objetivos tienes...",
+      "messagePlaceholder": "Cuéntame si quieres empezar desde cero, qué arco utilizas o qué proyecto deportivo tienes en mente...",
       "consentLabel": "He leído y acepto la política de privacidad y el tratamiento de mis datos personales según el RGPD. En caso de menores de edad, confirmo que ostento la representación legal del menor.",
       "submitButton": "Enviar Mensaje",
       "submittingButton": "Enviando mensaje...",
       "sendAnother": "Enviar otra consulta",
       "successMessage": "¡Muchas gracias por escribirme! He recibido tu mensaje y te responderé muy pronto para que podamos hablar.",
-      "errorMessage": "Se ha producido un error al enviar el formulario. Por favor, revisa los campos requeridos o contacta directamente por WhatsApp."
+      "errorMessage": "No se ha podido enviar el mensaje. Revisa que hayas completado los campos obligatorios y aceptado la política de privacidad, o inténtalo de nuevo en unos minutos."
     },
     "gdpr": {
       "title": "Aviso Legal & Protección de Datos Personales (RGPD)",
-      "legalTextP1": "En cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), le informamos de que el responsable del tratamiento de sus datos es Sergi Cebrián Pujol (La Cova del Drac — Major de Sant Pere 51, 08222 Terrassa). La finalidad de la recogida de datos a través de este formulario es exclusivamente la gestión de consultas, reservas de entrenamiento deportivo y asesoramiento técnico.",
-      "legalTextP2": "En relación con los datos deportivos, marcas y fotografías publicadas en la web relativas a los atletas miembros del centro, todas ellas cuentan con el consentimiento expreso y por escrito de los interesados. En el caso de deportistas menores de 14 años, se dispone de la autorización firmada previamente por sus padres, madres o tutores legales, conforme a la protección reforzada prevista en la legislación de protección a la infancia y al deporte.",
-      "legalTextP3": "Puede ejercer sus derechos de acceso, rectificación, supresión, limitación y oposición enviando un correo electrónico a info@covadeldrac.com adjuntando copia de su documento de identidad."
+      "legalTextP1": "En cumplimiento del Reglamento (UE) 2016/679 del Parlamento Europeo (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), le informamos de que el responsable del tratamiento de sus datos es Sergi Cebrián Pujol (La Cova del Drac — Major de Sant Pere 51, 08222 Terrassa). La finalidad de la recogida de datos a través de este formulario es exclusivamente la gestión de consultas, reservas de entrenamiento deportivo y asesoramiento técnico. En caso de consultas referentes a menores de edad, la solicitud debe ser remitida por su padre, madre o tutor legal.",
+      "legalTextP2": "Los datos se conservarán únicamente durante el tiempo necesario para atender su solicitud y no se cederán a terceros ajenos al servicio, salvo obligación legal. Puede ejercer sus derechos de acceso, rectificación, supresión, limitación y oposición a través de este mismo formulario de contacto o por escrito en la dirección Major de Sant Pere 51, 08222 Terrassa."
     }
   },
   "footer": {
-    "brandDescription": "Escuela y centro de tecnificación de tiro con arco en Terrassa, creado por Sergi Cebrián. Pasión, método propio y experiencia internacional para quien quiera compartir este maravilloso deporte.",
+    "brandDescription": "Escuela y centro de tecnificación de tiro con arco en la calle Major de Sant Pere de Terrassa, creado por Sergi Cebrián. Una nueva manera de relacionarse con el tiro con arco basada en la pasión, la experiencia y el amor por este deporte.",
     "locationCity": "Terrassa • Cataluña",
     "addressInline": "Major de Sant Pere 51, 08222 Terrassa",
+    "formLinkLabel": "Escríbeme por el formulario",
     "navigationTitle": "Navegación",
-    "facilitiesTitle": "Instalaciones",
     "legalTitle": "Información Legal",
     "privacyPolicy": "Política de Privacidad",
     "legalNotice": "Aviso Legal",
-    "cookiesPolicy": "Política de Cookies",
     "gdprDisclaimer": "Escuela y centro de tecnificación de tiro con arco • covadeldrac.com",
-    "minorsNotice": "Protección de menores y datos deportivos regulada por RGPD (UE) 2016/679.",
+    "minorsNotice": "Tratamiento de datos personales regulado por RGPD (UE) 2016/679 y LOPDGDD.",
     "allRightsReserved": "Todos los derechos reservados.",
     "designedFor": "Sergi Cebrián • La Cova del Drac (covadeldrac.com)"
   }

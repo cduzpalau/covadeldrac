@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Locale } from '@/lib/i18n';
-import { Target, ArrowUp, Mail, Phone, MapPin, ShieldCheck, Globe } from 'lucide-react';
+import { Target, ArrowUp, MapPin, ShieldCheck, Globe, Clock, Send } from 'lucide-react';
 
 interface FooterProps {
   locale: Locale;
@@ -16,24 +16,21 @@ interface FooterProps {
       about: string;
       methodology: string;
       facilities: string;
-      athletes: string;
       contact: string;
     };
     contact: {
       websiteText: string;
-      emailText: string;
-      phoneText: string;
+      hoursShort: string;
     };
     footer: {
       brandDescription: string;
       locationCity: string;
       addressInline: string;
+      formLinkLabel: string;
       navigationTitle: string;
-      facilitiesTitle: string;
       legalTitle: string;
       privacyPolicy: string;
       legalNotice: string;
-      cookiesPolicy: string;
       gdprDisclaimer: string;
       minorsNotice: string;
       allRightsReserved: string;
@@ -119,11 +116,6 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
                 </a>
               </li>
               <li>
-                <a href="#athletes" className="hover:text-amber-400 transition-colors">
-                  {dict.nav.athletes}
-                </a>
-              </li>
-              <li>
                 <a href="#contact" className="hover:text-amber-400 transition-colors">
                   {dict.nav.contact}
                 </a>
@@ -131,7 +123,7 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
             </ul>
           </div>
 
-          {/* Quick Contact Column */}
+          {/* Quick Location & Form Column */}
           <div className="space-y-4">
             <h3 className="text-sm font-semibold uppercase tracking-wider text-zinc-200">
               {dict.nav.contact}
@@ -155,21 +147,18 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
-                <Mail className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
-                <a
-                  href={`mailto:${dict.contact.emailText}`}
-                  className="hover:text-amber-400 transition-colors text-xs sm:text-sm"
-                >
-                  {dict.contact.emailText}
-                </a>
+                <Clock className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
+                <span className="text-zinc-400 text-xs sm:text-sm">
+                  {dict.contact.hoursShort}
+                </span>
               </li>
               <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />
+                <Send className="w-4 h-4 text-amber-400 shrink-0" aria-hidden="true" />
                 <a
-                  href={`tel:${dict.contact.phoneText.replace(/\s+/g, '')}`}
-                  className="hover:text-amber-400 transition-colors text-xs sm:text-sm"
+                  href="#contact"
+                  className="text-amber-400 hover:text-amber-300 font-medium transition-colors text-xs sm:text-sm"
                 >
-                  {dict.contact.phoneText}
+                  {dict.footer.formLinkLabel}
                 </a>
               </li>
             </ul>
@@ -189,11 +178,6 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
               <li>
                 <a href="#gdpr-notice" className="hover:text-amber-400 transition-colors">
                   {dict.footer.legalNotice}
-                </a>
-              </li>
-              <li>
-                <a href="#gdpr-notice" className="hover:text-amber-400 transition-colors">
-                  {dict.footer.cookiesPolicy}
                 </a>
               </li>
             </ul>
