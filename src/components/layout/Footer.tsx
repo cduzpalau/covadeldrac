@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Locale } from '@/lib/i18n';
-import { Target, ArrowUp, MapPin, ShieldCheck, Globe, Clock, Send } from 'lucide-react';
+import { Target, ArrowUp, MapPin, ShieldCheck, Globe, Clock, Send, ExternalLink } from 'lucide-react';
 
 interface FooterProps {
   locale: Locale;
@@ -19,6 +19,8 @@ interface FooterProps {
       contact: string;
     };
     contact: {
+      mapsUrl: string;
+      mapsLinkLabel: string;
       websiteText: string;
       hoursShort: string;
     };
@@ -131,9 +133,20 @@ export const Footer: React.FC<FooterProps> = ({ dict }) => {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-emerald-400 mt-0.5 shrink-0" aria-hidden="true" />
-                <span className="text-zinc-400 text-xs sm:text-sm">
-                  {dict.footer.addressInline}
-                </span>
+                <div className="space-y-1">
+                  <span className="block text-zinc-400 text-xs sm:text-sm">
+                    {dict.footer.addressInline}
+                  </span>
+                  <a
+                    href={dict.contact.mapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-1 text-emerald-400 hover:text-amber-300 font-medium transition-colors text-xs focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded"
+                  >
+                    <span>{dict.contact.mapsLinkLabel}</span>
+                    <ExternalLink className="w-3 h-3 shrink-0" aria-hidden="true" />
+                  </a>
+                </div>
               </li>
               <li className="flex items-center gap-2.5">
                 <Globe className="w-4 h-4 text-emerald-400 shrink-0" aria-hidden="true" />

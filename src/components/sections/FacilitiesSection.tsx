@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Dictionary } from '@/lib/i18n';
-import { Warehouse, Target, Video, Dumbbell, Compass, MapPin, ArrowRight, Check, Quote } from 'lucide-react';
+import { Warehouse, Target, Video, Dumbbell, Compass, MapPin, ArrowRight, Check, Quote, ExternalLink } from 'lucide-react';
 
 interface FacilitiesSectionProps {
   dict: Dictionary;
@@ -131,7 +131,17 @@ export const FacilitiesSection: React.FC<FacilitiesSectionProps> = ({ dict }) =>
               — {dict.facilities.closingAuthor}
             </figcaption>
           </figure>
-          <div className="shrink-0 w-full sm:w-auto">
+          <div className="shrink-0 w-full sm:w-auto flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+            <a
+              href={dict.contact.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-zinc-950/80 hover:bg-zinc-900 text-emerald-300 hover:text-amber-300 border border-emerald-700/50 font-semibold text-sm transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"
+            >
+              <MapPin className="w-4 h-4 shrink-0" aria-hidden="true" />
+              <span>{dict.contact.mapsLinkLabel}</span>
+              <ExternalLink className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+            </a>
             <a
               href="#contact"
               className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 font-bold text-sm shadow-lg shadow-amber-500/20 transition-all hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-500"

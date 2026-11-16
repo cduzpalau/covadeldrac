@@ -52,6 +52,8 @@ export default async function LocalePage({ params }: LocalePageProps) {
           backToTop: dict.common.backToTop,
           nav: dict.nav,
           contact: {
+            mapsUrl: dict.contact.mapsUrl,
+            mapsLinkLabel: dict.contact.mapsLinkLabel,
             websiteText: dict.contact.websiteText,
             hoursShort: dict.contact.hoursShort,
           },

@@ -249,6 +249,8 @@
     "infoTitle": "On Som",
     "addressTitle": "Ubicació",
     "addressText": "Major de Sant Pere 51\n08222 Terrassa",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Carrer+Major+de+Sant+Pere+51%2C+08222+Terrassa%2C+Barcelona",
+    "mapsLinkLabel": "Obrir a Google Maps",
     "websiteTitle": "Web",
     "websiteText": "covadeldrac.com",
     "hoursTitle": "Atenció i entrenaments",
