@@ -24,7 +24,7 @@ export async function generateMetadata({
   const dict = await getDictionary(locale);
 
   return {
-    metadataBase: new URL('https://covadeldrac.com'),
+    metadataBase: new URL('https://lacovadeldrac.com'),
     title: `${dict.common.siteName} — ${dict.common.siteTagline}`,
     description: dict.hero.description,
     keywords: [

@@ -252,7 +252,7 @@
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Carrer+Major+de+Sant+Pere+51%2C+08222+Terrassa%2C+Barcelona",
     "mapsLinkLabel": "Abrir en Google Maps",
     "websiteTitle": "Web",
-    "websiteText": "covadeldrac.com",
+    "websiteText": "lacovadeldrac.com",
     "hoursTitle": "Atención y entrenamientos",
     "hoursText": "Horas convenidas con cita previa.\nEscríbeme por el formulario para concretar día y hora.",
     "hoursShort": "Con cita previa (horas convenidas)",
@@ -303,9 +303,9 @@
     "legalTitle": "Información Legal",
     "privacyPolicy": "Política de Privacidad",
     "legalNotice": "Aviso Legal",
-    "gdprDisclaimer": "Escuela y centro de tecnificación de tiro con arco • covadeldrac.com",
+    "gdprDisclaimer": "Escuela y centro de tecnificación de tiro con arco • lacovadeldrac.com",
     "minorsNotice": "Tratamiento de datos personales regulado por RGPD (UE) 2016/679 y LOPDGDD.",
     "allRightsReserved": "Todos los derechos reservados.",
-    "designedFor": "Sergi Cebrián • La Cova del Drac (covadeldrac.com)"
+    "designedFor": "Sergi Cebrián • La Cova del Drac (lacovadeldrac.com)"
   }
 }

@@ -12,7 +12,7 @@ This project exports pure static HTML (`out/`) via Next.js (`output: "export"`) 
 4. Generate a random secret string (for example: `openssl rand -hex 24`).
 5. In Apps Script, open **Project Settings (⚙️) → Script Properties → Add script property**:
    - `CONTACT_WEBHOOK_SECRET`: `<your-random-secret>`
-   - *(Optional)* `CONTACT_RECIPIENT_EMAIL`: `<destination-email@covadeldrac.com>` (you can also set or override this directly from Cloudflare environment variables whenever the final Workspace inbox or group alias is created).
+   - *(Optional)* `CONTACT_RECIPIENT_EMAIL`: `<destination-email@lacovadeldrac.com>` (you can also set or override this directly from Cloudflare environment variables whenever the final Workspace inbox or group alias is created).
 6. Click **Deploy → New deployment**:
    - Select type: **Web app**
    - **Execute as**: `Me` (your Google Workspace account)
@@ -31,7 +31,7 @@ This project exports pure static HTML (`out/`) via Next.js (`output: "export"`) 
 3. Under **Settings → Environment variables** (Production & Preview), add:
    - `GOOGLE_SCRIPT_WEBHOOK_URL` = `<Web app URL from Step 1>`
    - `CONTACT_WEBHOOK_SECRET` = `<same secret from Step 1>` (save as **Secret**)
-   - `CONTACT_RECIPIENT_EMAIL` = `<target@covadeldrac.com>` *(optional until you decide the exact email; if left empty, emails go to the Google Workspace user who deployed the Apps Script—and you can change `CONTACT_RECIPIENT_EMAIL` here anytime without redeploying the Apps Script).*
+   - `CONTACT_RECIPIENT_EMAIL` = `<target@lacovadeldrac.com>` *(optional until you decide the exact email; if left empty, emails go to the Google Workspace user who deployed the Apps Script—and you can change `CONTACT_RECIPIENT_EMAIL` here anytime without redeploying the Apps Script).*
 
 Cloudflare Pages automatically deploys both the static `out/` site (including `public/_redirects` for `/ → /ca`) and `functions/api/contact.ts` as `POST /api/contact`.
 

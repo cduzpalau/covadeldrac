@@ -64,7 +64,7 @@ function doPost(e) {
     // 2. Send email notification to the Google Workspace inbox with Reply-To set to visitor
     var subject = '[La Cova del Drac] Nova consulta de ' + (data.name || 'Web');
     var plainBody = [
-      'Nova consulta rebuda des del formulari de covadeldrac.com',
+      'Nova consulta rebuda des del formulari de lacovadeldrac.com',
       '--------------------------------------------------------',
       'Nom: ' + (data.name || '-'),
       'Email: ' + (data.email || '-'),
