@@ -3,15 +3,51 @@
  *
  * Attach this script to a Google Sheet inside your Google Workspace account
  * (Extensions -> Apps Script), set `CONTACT_WEBHOOK_SECRET` in Project Settings ->
- * Script Properties, and deploy as a Web App:
+ * Script Properties, run `authorizePermissions()` once in the editor to grant Sheet + Mail
+ * permissions, and deploy as a Web App:
  *   - Execute as: Me (your Google Workspace account)
  *   - Who has access: Anyone
  *
  * Recipient email resolution order:
  *   1. `recipientEmail` passed by Cloudflare's `CONTACT_RECIPIENT_EMAIL` env var
  *   2. `CONTACT_RECIPIENT_EMAIL` in Apps Script Properties (if set)
- *   3. The Google Workspace account that deployed this script (`Session.getEffectiveUser()`)
+ *   3. Effective Google Workspace user or active Google Sheet owner
  */
+
+function cleanProp(val) {
+  if (!val) return '';
+  return String(val).trim().replace(/^['"]+|['"]+$/g, '').trim();
+}
+
+function resolveDefaultWorkspaceEmail(ss) {
+  try {
+    var effective = Session.getEffectiveUser().getEmail();
+    if (effective) return effective.trim();
+  } catch {
+    // Ignore if userinfo.email scope is restricted
+  }
+  try {
+    if (ss && ss.getOwner()) {
+      var ownerEmail = ss.getOwner().getEmail();
+      if (ownerEmail) return ownerEmail.trim();
+    }
+  } catch {
+    // Ignore if owner lookup is unavailable
+  }
+  return '';
+}
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function authorizePermissions() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var quota = MailApp.getRemainingDailyQuota();
+  Logger.log(
+    'Permissions verified! Sheet: ' +
+      (ss ? ss.getName() : 'none') +
+      ', remaining daily email quota: ' +
+      quota
+  );
+}
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 function doPost(e) {
@@ -22,18 +58,17 @@ function doPost(e) {
 
     var data = JSON.parse(e.postData.contents);
     var props = PropertiesService.getScriptProperties();
-    var expectedSecret = props.getProperty('CONTACT_WEBHOOK_SECRET') || '';
+    var expectedSecret = cleanProp(props.getProperty('CONTACT_WEBHOOK_SECRET'));
+    var providedSecret = cleanProp(data.secret);
 
-    if (expectedSecret && data.secret !== expectedSecret) {
-      return jsonOut({ ok: false, error: 'Unauthorized' });
+    if (expectedSecret && providedSecret !== expectedSecret) {
+      return jsonOut({
+        ok: false,
+        error: 'Unauthorized: CONTACT_WEBHOOK_SECRET mismatch between Cloudflare and Apps Script Properties',
+      });
     }
 
-    var recipientEmail =
-      (data.recipientEmail && String(data.recipientEmail).trim()) ||
-      (props.getProperty('CONTACT_RECIPIENT_EMAIL') || '').trim() ||
-      Session.getEffectiveUser().getEmail();
-
-    // 1. Append inquiry to the active Google Sheet (creates header row on first run)
+    // 1. Append inquiry to the active Google Sheet first so no submission is ever lost
     var ss = SpreadsheetApp.getActiveSpreadsheet();
     if (ss) {
       var sheet = ss.getSheets()[0];
@@ -59,6 +94,19 @@ function doPost(e) {
         data.levelLabel || data.level || '',
         data.message || '',
       ]);
+    }
+
+    var recipientEmail =
+      cleanProp(data.recipientEmail) ||
+      cleanProp(props.getProperty('CONTACT_RECIPIENT_EMAIL')) ||
+      resolveDefaultWorkspaceEmail(ss);
+
+    if (!recipientEmail) {
+      return jsonOut({
+        ok: false,
+        error:
+          'No recipient email resolved. Set CONTACT_RECIPIENT_EMAIL in Cloudflare Pages or Apps Script Properties.',
+      });
     }
 
     // 2. Send email notification to the Google Workspace inbox with Reply-To set to visitor
@@ -99,4 +147,3 @@ function jsonOut(obj) {
     ContentService.MimeType.JSON
   );
 }
-
