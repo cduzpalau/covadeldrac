@@ -16,6 +16,7 @@
 # next.js
 /.next/
 /out/
+/photos-inbox/
 
 # production
 /build
