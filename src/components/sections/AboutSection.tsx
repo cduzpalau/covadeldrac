@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element -- Static export (`output: "export"`) uses pre-generated responsive WebP srcSet */
 'use client';
 
 import React from 'react';
@@ -28,30 +29,39 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ dict }) => {
 
         {/* Bio & Sporting Profile Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-20">
-          {/* Left Column: Visual Profile & Quote (5 cols, sticky on desktop) */}
+          {/* Left Column: Visual Profile Card with World Archery Photo & Quote (5 cols, sticky on desktop) */}
           <div className="lg:col-span-5 space-y-6 lg:sticky lg:top-28">
-            {/* Visual Profile Card */}
-            <div className="rounded-2xl bg-zinc-900 border border-zinc-800 p-6 sm:p-8 relative overflow-hidden shadow-xl shadow-black/40">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-700/10 rounded-full blur-2xl pointer-events-none" />
-
-              <div className="flex items-center gap-4 mb-6">
+            <div className="rounded-2xl bg-zinc-900 border border-zinc-800 relative overflow-hidden shadow-xl shadow-black/40">
+              {/* Top Action Portrait */}
+              <div className="relative aspect-[800/534] bg-zinc-950 overflow-hidden">
+                <img
+                  src="/images/about-world-archery-800.webp"
+                  width={800}
+                  height={534}
+                  loading="lazy"
+                  decoding="async"
+                  alt={dict.about.photos.profileAlt}
+                  className="w-full h-full object-cover object-left"
+                />
                 <div
-                  className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-emerald-800 to-amber-600 p-0.5 shadow-lg shrink-0"
+                  className="absolute inset-0 bg-gradient-to-t from-zinc-900 via-zinc-950/20 to-transparent pointer-events-none"
                   aria-hidden="true"
-                >
-                  <div className="w-full h-full bg-zinc-950 rounded-[14px] flex items-center justify-center">
-                    <span className="text-2xl font-black text-amber-400">SC</span>
-                  </div>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-white text-balance">{dict.about.title}</h3>
-                  <p className="text-xs font-semibold text-emerald-400 uppercase tracking-wider mt-0.5">
+                />
+                <span className="absolute top-3.5 left-3.5 px-2.5 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-zinc-950/85 text-amber-300 border border-amber-500/30 backdrop-blur-sm">
+                  {dict.about.photos.profileBadge}
+                </span>
+                <div className="absolute bottom-3.5 left-5 right-5">
+                  <h3 className="text-xl font-bold text-white text-balance drop-shadow">
+                    {dict.common.founderName}
+                  </h3>
+                  <p className="text-xs font-semibold text-emerald-300 uppercase tracking-wider mt-0.5 drop-shadow">
                     {dict.common.founderTitle}
                   </p>
                 </div>
               </div>
 
-              <div className="space-y-3 border-t border-zinc-800/80 pt-4">
+              {/* Sporting Credentials */}
+              <div className="p-6 sm:p-7 space-y-3 border-t border-zinc-800/80">
                 <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-400 mb-3 flex items-center gap-1.5">
                   <ShieldCheck className="w-4 h-4 text-emerald-400" aria-hidden="true" />
                   <span>{dict.about.credentialsTitle}</span>
@@ -87,7 +97,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ dict }) => {
             </figure>
           </div>
 
-          {/* Right Column: First-Person Narrative ("Qui sóc?") (7 cols) */}
+          {/* Right Column: First-Person Narrative ("Qui sóc?") + Editorial Diptych (7 cols) */}
           <div className="lg:col-span-7 space-y-6">
             <p className="text-lg sm:text-xl font-medium text-emerald-300/95 leading-relaxed border-l-2 border-emerald-500 pl-4 text-pretty">
               {dict.about.bioLead}
@@ -99,6 +109,47 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ dict }) => {
                   {paragraph}
                 </p>
               ))}
+            </div>
+
+            {/* 2-Photo International Journey Diptych */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 py-2">
+              <figure className="group rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800 shadow-lg shadow-black/30 flex flex-col">
+                <div className="aspect-[4/5] bg-zinc-950 overflow-hidden">
+                  <img
+                    src="/images/about-espana-target-899.webp"
+                    srcSet="/images/about-espana-target-600.webp 600w, /images/about-espana-target-899.webp 899w"
+                    sizes="(max-width: 640px) 92vw, (max-width: 1024px) 45vw, 26vw"
+                    width={899}
+                    height={1124}
+                    loading="lazy"
+                    decoding="async"
+                    alt={dict.about.photos.espanaAlt}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
+                </div>
+                <figcaption className="px-4 py-3 text-xs text-zinc-300 font-medium border-t border-zinc-800/80 text-pretty">
+                  {dict.about.photos.espanaCaption}
+                </figcaption>
+              </figure>
+
+              <figure className="group rounded-2xl overflow-hidden bg-zinc-900 border border-zinc-800 shadow-lg shadow-black/30 flex flex-col">
+                <div className="aspect-[4/5] bg-zinc-950 overflow-hidden">
+                  <img
+                    src="/images/about-champions-976.webp"
+                    srcSet="/images/about-champions-600.webp 600w, /images/about-champions-976.webp 976w"
+                    sizes="(max-width: 640px) 92vw, (max-width: 1024px) 45vw, 26vw"
+                    width={976}
+                    height={1220}
+                    loading="lazy"
+                    decoding="async"
+                    alt={dict.about.photos.peersAlt}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
+                </div>
+                <figcaption className="px-4 py-3 text-xs text-zinc-300 font-medium border-t border-zinc-800/80 text-pretty">
+                  {dict.about.photos.peersCaption}
+                </figcaption>
+              </figure>
             </div>
 
             {/* Core Epiphany Callout ("El cap, el cor i les emocions") */}

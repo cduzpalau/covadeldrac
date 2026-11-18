@@ -64,6 +64,14 @@ export async function generateMetadata({
       description: dict.hero.description,
       locale: locale === 'ca' ? 'ca_ES' : locale === 'es' ? 'es_ES' : 'en_US',
       type: 'website',
+      images: [
+        {
+          url: '/images/hero-release-1400.webp',
+          width: 1400,
+          height: 927,
+          alt: dict.hero.photo.imageAlt,
+        },
+      ],
     },
   };
 }

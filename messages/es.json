@@ -54,7 +54,12 @@
       "Confort, Sistema y Balance: la técnica se adapta a tu cuerpo",
       "Psicología y etología aplicada al flujo emocional competitivo",
       "Sala de tiro hasta 25m con cámaras y gimnasio completo en Terrassa"
-    ]
+    ],
+    "photo": {
+      "imageAlt": "Sergi Cebrián en el instante exacto de soltar la flecha con arco desnudo",
+      "captionTitle": "Técnica universal e instinto competitivo",
+      "captionSubtitle": "Sergi Cebrián • Desde la primera flecha en 2010 hasta la alta competición"
+    }
   },
   "about": {
     "badge": "¿Quién soy?",
@@ -123,7 +128,15 @@
       }
     ],
     "quote": "La flecha nunca miente. Cada tiro es un espejo de tu mente, ritmo y tu serenidad interior.",
-    "quoteAuthor": "Sergi Cebrián"
+    "quoteAuthor": "Sergi Cebrián",
+    "photos": {
+      "profileAlt": "Sergi Cebrián en apertura completa compitiendo en un campeonato internacional de tiro de campo de World Archery",
+      "profileBadge": "World Archery • Tiro de Campo",
+      "espanaAlt": "Sergi Cebrián de espaldas con la equipación de la selección española frente a la diana de campo",
+      "espanaCaption": "Internacional representando a España en modalidad de tiro de campo",
+      "peersAlt": "Sergi Cebrián sonriendo con la equipación nacional junto a un arquero del equipo de Estados Unidos",
+      "peersCaption": "Compartiendo línea de tiro con la élite internacional"
+    }
   },
   "methodology": {
     "badge": "Más de 10 Años Entrenando Arqueros",
@@ -180,6 +193,13 @@
       ],
       "quote": "Yo no me considero un gran arquero, pero sí he tenido la capacidad de rendir por encima de mi nivel cuando ha hecho falta, y eso también se puede transmitir.",
       "quoteAuthor": "Sergi Cebrián"
+    },
+    "photos": {
+      "targetsAlt": "Cuatro dianas de tiro de campo en el bosque con agrupaciones de tres flechas en el centro",
+      "targetsBadge": "Confort • Sistema • Balance",
+      "targetsCaption": "Cuando la técnica se adapta al cuerpo y el trabajo tiene sistema, la flecha es la consecuencia.",
+      "coachingAlt": "Sergi Cebrián acompañando y asesorando a un arquero de La Cova del Drac durante una competición",
+      "coachingCaption": "Trabajo de campo conjunto y gestión emocional real en competición con los atletas de La Cova del Drac"
     }
   },
   "facilities": {

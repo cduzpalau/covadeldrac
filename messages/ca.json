@@ -54,7 +54,12 @@
       "Confort, Sistema i Balanç: la tècnica s'adapta al teu cos",
       "Psicologia i etologia aplicada al flux emocional competitiu",
       "Sala de tir fins a 25m amb càmeres i gimnàs complet a Terrassa"
-    ]
+    ],
+    "photo": {
+      "imageAlt": "Sergi Cebrián en el moment exacte de deixar anar la fletxa amb arc nu",
+      "captionTitle": "Tècnica universal i instint competitiu",
+      "captionSubtitle": "Sergi Cebrián • Des de la primera fletxa el 2010 fins a l'alta competició"
+    }
   },
   "about": {
     "badge": "Qui sóc?",
@@ -123,7 +128,15 @@
       }
     ],
     "quote": "La fletxa mai menteix. Cada tir és un mirall de la teva ment, ritme i la teva serenor interior.",
-    "quoteAuthor": "Sergi Cebrián"
+    "quoteAuthor": "Sergi Cebrián",
+    "photos": {
+      "profileAlt": "Sergi Cebrián a màxima obertura competint en un campionat internacional de tir de camp de World Archery",
+      "profileBadge": "World Archery • Tir de Camp",
+      "espanaAlt": "Sergi Cebrián d'esquena amb l'equipació de la selecció espanyola davant la diana de camp",
+      "espanaCaption": "Internacional representant Espanya en modalitat de tir de camp",
+      "peersAlt": "Sergi Cebrián somrient amb l'equipació estatal al costat d'un arquer de l'equip dels Estats Units",
+      "peersCaption": "Compartint línia de tir amb l'elit internacional"
+    }
   },
   "methodology": {
     "badge": "Més de 10 Anys Entrenant Arquers",
@@ -180,6 +193,13 @@
       ],
       "quote": "Jo no em considero un gran arquer, però sí que he tingut la capacitat de rendir per sobre del meu nivell quan ha fet falta, i això també es pot transmetre.",
       "quoteAuthor": "Sergi Cebrián"
+    },
+    "photos": {
+      "targetsAlt": "Quatre dianes de tir de camp al bosc amb agrupacions de tres fletxes clavades al centre",
+      "targetsBadge": "Confort • Sistema • Balanç",
+      "targetsCaption": "Quan la tècnica s'adapta al cos i el treball té sistema, la fletxa n'és la conseqüència.",
+      "coachingAlt": "Sergi Cebrián acompanyant i assessorant un arquer de La Cova del Drac durant una competició",
+      "coachingCaption": "Treball de camp conjunt i gestió emocional real en competició amb els atletes de La Cova del Drac"
     }
   },
   "facilities": {

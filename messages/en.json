@@ -54,7 +54,12 @@
       "Comfort, System & Balance: technique adapts to your body",
       "Psychology & ethology applied to competitive emotional flow",
       "Up-to-25m camera range & complete gym in Terrassa"
-    ]
+    ],
+    "photo": {
+      "imageAlt": "Sergi Cebrián at the exact millisecond of arrow release shooting barebow",
+      "captionTitle": "Universal technique & competitive instinct",
+      "captionSubtitle": "Sergi Cebrián • From first arrow in 2010 to international competition"
+    }
   },
   "about": {
     "badge": "Who I Am",
@@ -123,7 +128,15 @@
       }
     ],
     "quote": "The arrow never lies. Every shot is a mirror of your mind, rhythm, and your inner calm.",
-    "quoteAuthor": "Sergi Cebrián"
+    "quoteAuthor": "Sergi Cebrián",
+    "photos": {
+      "profileAlt": "Sergi Cebrián at full draw competing at an international World Archery field championship",
+      "profileBadge": "World Archery • Field Archery",
+      "espanaAlt": "Sergi Cebrián wearing his Spain national team jersey walking up to a field archery target",
+      "espanaCaption": "Representing Spain internationally in Field Archery",
+      "peersAlt": "Sergi Cebrián smiling in his Spain national team jacket alongside a Team USA archer",
+      "peersCaption": "Competing alongside international peers on the world stage"
+    }
   },
   "methodology": {
     "badge": "Over 10 Years Coaching Archers",
@@ -180,6 +193,13 @@
       ],
       "quote": "I don't consider myself a great archer, yet I have always had the ability to perform above my level when it mattered—and that can be passed on too.",
       "quoteAuthor": "Sergi Cebrián"
+    },
+    "photos": {
+      "targetsAlt": "Four woodland field archery targets each pierced in the center bullseye by tight three-arrow groups",
+      "targetsBadge": "Comfort • System • Balance",
+      "targetsCaption": "When technique adapts to the body and training follows a clear system, grouping is the natural result.",
+      "coachingAlt": "Sergi Cebrián walking alongside and coaching a La Cova del Drac archer between ends at a tournament",
+      "coachingCaption": "Side-by-side field mentorship and real-time emotional management with La Cova del Drac athletes"
     }
   },
   "facilities": {
